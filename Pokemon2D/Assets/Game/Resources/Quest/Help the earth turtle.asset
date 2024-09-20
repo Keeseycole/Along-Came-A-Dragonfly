@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57634b27e32e67240b94a92dd473b0b3, type: 3}
+  m_Name: Help the earth turtle
+  m_EditorClassIdentifier: 
+  name: Help the Earth Turtle
+  desctription: 
+  startDialogue:
+    lines:
+    - Greetings child, I have been expecting you.
+    - I am the Earth Turtle, Gaurdian of this forest and all plant life.
+    - Can you sense it? An omonous aura permeates throughout this forest...
+    - An invader has made his way into the temple.
+    - He is after our forest emrald surely.
+    - I can sense somthing within you, somthing different.
+    - If you and that animal of yours wish to make your way through the temple, you
+      have this turtles blessing.
+    - But be warned, there are traps and heavy winds throughout.
+    - Take this key to open the way to the temple.
+    - Good luck child, I am counting on you two.
+  inProgressDialogue:
+    lines:
+    - I admire your bravery child.
+    - May fortune be with you.
+  completedDialogue:
+    lines:
+    - You did it, exellent job.
+    - Now, Return to me my emrald...
+    - ......................
+    - This is not the real emrald.
+    - Oh thats right, Damn my old man memmory, I had the emrald this whole time.
+    - You may have this. Perhaps you may find it useful.
+  requiredItem: {fileID: 11400000, guid: d54651eb3acf6c14dad5bc68c9d70be9, type: 2}
+  rewardItem: {fileID: 11400000, guid: d54651eb3acf6c14dad5bc68c9d70be9, type: 2}

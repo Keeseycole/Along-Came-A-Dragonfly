@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
+  m_Name: Eyeball
+  m_EditorClassIdentifier: 
+  name: Eyeball
+  ID: 0
+  description: 
+  leftSprite: {fileID: -49222884, guid: dc49482a027894848a605ab2ba761923, type: 3}
+  rightSprite: {fileID: 15428881, guid: dc49482a027894848a605ab2ba761923, type: 3}
+  type1: 0
+  type2: 0
+  creatureHabitates: 0
+  attack: 30
+  defense: 25
+  maxhp: 500
+  speed: 0
+  maxMp: 400
+  currentmp: 50
+  expGain: 200
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
+    level: 1
+  - moveBase: {fileID: 0}
+    level: 3
+  learnableByItems: []
+  evolutions: []
+  instance: {fileID: 11400000}
+  creatureSize: {x: 1.5, y: 1.5}
+  isDefeted: 0
+  isEarth: 0
+  isFire: 0
+  isWater: 0
+  isIce: 0
+  isDarkness: 0
+  isEthareal: 0

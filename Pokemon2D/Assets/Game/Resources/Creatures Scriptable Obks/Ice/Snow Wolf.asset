@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
+  m_Name: Snow Wolf
+  m_EditorClassIdentifier: 
+  name: snow wolf
+  ID: 2
+  description: 
+  leftSprite: {fileID: 198449982, guid: ad78d81ff285f20439efae9705736e3d, type: 3}
+  rightSprite: {fileID: 1799739934, guid: ad78d81ff285f20439efae9705736e3d, type: 3}
+  type1: 0
+  creatureHabitates: 3
+  attack: 25
+  defense: 20
+  maxhp: 530
+  speed: 0
+  maxMp: 300
+  currentmp: 300
+  expGain: 50
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: efdd0564eeb26bd4788e22408a42e9a4, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 97b45d98e4f716846abc2f8cd602a259, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []
+  instance: {fileID: 11400000}
+  creatureSize: {x: 2, y: 2}
+  mouthPos: {x: 0, y: 0}
+  isDefeted: 0
+  isEarth: 0
+  isFire: 0
+  isWater: 0
+  isIce: 1
+  isDarkness: 0
+  isEthareal: 0

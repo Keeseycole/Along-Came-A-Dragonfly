@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
+  m_Name: Sphenfree
+  m_EditorClassIdentifier: 
+  name: Sphenfree
+  ID: 12
+  description: 
+  leftSprite: {fileID: 1310202136, guid: eed9df8621436d74b9e2752ee9fe886d, type: 3}
+  rightSprite: {fileID: 682638838, guid: eed9df8621436d74b9e2752ee9fe886d, type: 3}
+  type1: 4
+  type2: 0
+  creatureHabitates: 3
+  attack: 30
+  defense: 23
+  maxhp: 500
+  speed: 0
+  maxMp: 500
+  currentmp: 56
+  expGain: 48
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: c993cbadbde2e3748a24f9cb6ec73fbb, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 93896c5c6c05b874e9855be3b69c7839, type: 2}
+    level: 5
+  learnableByItems: []
+  evolutions: []
+  instance: {fileID: 11400000}
+  creatureSize: {x: 2, y: 2}
+  isDefeted: 0
+  isEarth: 0
+  isFire: 0
+  isWater: 0
+  isIce: 1
+  isDarkness: 0
+  isEthareal: 0

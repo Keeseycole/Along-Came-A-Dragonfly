@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
+  m_Name: iCEfROG
+  m_EditorClassIdentifier: 
+  name: Freezoad
+  ID: 19
+  description: 
+  leftSprite: {fileID: -1170621644, guid: 812082385877dc0409f9a991168b6037, type: 3}
+  rightSprite: {fileID: -382325822, guid: 812082385877dc0409f9a991168b6037, type: 3}
+  type1: 4
+  creatureHabitates: 3
+  attack: 20
+  defense: 25
+  maxhp: 600
+  speed: 0
+  maxMp: 200
+  currentmp: 47
+  expGain: 60
+  growthRate: 1
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
+    level: 0
+  learnableByItems:
+  - {fileID: 11400000, guid: 97b45d98e4f716846abc2f8cd602a259, type: 2}
+  evolutions: []
+  instance: {fileID: 11400000}
+  creatureSize: {x: 2, y: 2}
+  mouthPos: {x: 0, y: 0}
+  isDefeted: 0
+  isEarth: 0
+  isFire: 0
+  isWater: 0
+  isIce: 1
+  isDarkness: 0
+  isEthareal: 0

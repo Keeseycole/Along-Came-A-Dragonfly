@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
+  m_Name: Tigfree
+  m_EditorClassIdentifier: 
+  name: Tigfree
+  ID: 9
+  description: 
+  leftSprite: {fileID: -2071263729, guid: 8ebc11c328291ff4f98b1ecb566fa2a3, type: 3}
+  rightSprite: {fileID: 2075132368, guid: 8ebc11c328291ff4f98b1ecb566fa2a3, type: 3}
+  type1: 4
+  creatureHabitates: 3
+  attack: 40
+  defense: 35
+  maxhp: 500
+  speed: 0
+  maxMp: 300
+  currentmp: 18
+  expGain: 57
+  growthRate: 1
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: efdd0564eeb26bd4788e22408a42e9a4, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []
+  instance: {fileID: 11400000}
+  creatureSize: {x: 2, y: 2}
+  mouthPos: {x: 0, y: 0}
+  isDefeted: 0
+  isEarth: 0
+  isFire: 0
+  isWater: 0
+  isIce: 1
+  isDarkness: 0
+  isEthareal: 0

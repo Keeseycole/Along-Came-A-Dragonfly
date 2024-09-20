@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32f7c1acf39961b4c87ed5306a63ca8f, type: 3}
+  m_Name: Claw
+  m_EditorClassIdentifier: 
+  moveName: Claw
+  description: 
+  type: 0
+  power: 20
+  mpCost: 7
+  accuracy: 0
+  speed: 0
+  alwaysHits: 1
+  isSpecial: 0
+  isMultiHit: 0
+  catagory: 0
+  effects:
+    boosts: []
+    status: 0
+    volitileStatus: 0
+  attackVisualEffect: {fileID: 4335454506736627471, guid: 92723ae58dc2b9f4690dc720c98d83ef, type: 3}
+  sound: {fileID: 0}
+  secondaries: []
+  target: 0

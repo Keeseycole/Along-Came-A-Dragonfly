@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
+  m_Name: Dipterra
+  m_EditorClassIdentifier: 
+  name: Dipterra
+  ID: 2
+  description: 
+  leftSprite: {fileID: -1229844876, guid: 7657fb817bff57142ad9f85da61cec0d, type: 3}
+  rightSprite: {fileID: -561649990, guid: 7657fb817bff57142ad9f85da61cec0d, type: 3}
+  type1: 0
+  type2: 0
+  creatureHabitates: 0
+  attack: 2
+  defense: 0
+  maxhp: 380
+  speed: 0
+  maxMp: 30
+  currentmp: 30
+  expGain: 47
+  growthRate: 1
+  catchRate: 200
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 9f554fef45c23ec44a4ed12eec7ff467, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []
+  instance: {fileID: 11400000}
+  creatureSize: {x: 1.2, y: 1.2}
+  isDefeted: 0
+  isEarth: 1
+  isFire: 0
+  isWater: 0
+  isIce: 0
+  isDarkness: 0
+  isEthareal: 0

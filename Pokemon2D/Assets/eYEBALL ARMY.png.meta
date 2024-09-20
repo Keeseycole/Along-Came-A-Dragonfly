@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: 1b52b527602d03046b351782caa35c21
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eYEBALL ARMY_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 207
+        width: 144
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0120ff41d60a97a42871b46788042795
+      internalID: 361228503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eYEBALL ARMY_16
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 206
+        width: 127
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93f182dde5aedc4e80c2138bd6d1ab9
+      internalID: -620371949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eYEBALL ARMY_33
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 157
+        width: 128
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ae0b4762f83f149ad2ff49488ff32c
+      internalID: -105006351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eYEBALL ARMY_42
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 156
+        width: 144
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ebdd83da6b77047b7013ef4d2f8ff9
+      internalID: 506784481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eYEBALL ARMY_51
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 112
+        width: 144
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d741359ddfc2b74fa8b008fd28e29e3
+      internalID: 341688816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eYEBALL ARMY_59
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 108
+        width: 127
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae70ec3473ca6543826ac96e4cf32e8
+      internalID: -751739742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      eYEBALL ARMY_27: -698042742
+      eYEBALL ARMY_30: 372338291
+      eYEBALL ARMY_64: -2019930169
+      eYEBALL ARMY_22: -1858853919
+      eYEBALL ARMY_68: 1170398170
+      eYEBALL ARMY_2: 613925031
+      eYEBALL ARMY_12: 2023178661
+      eYEBALL ARMY_58: 1635378993
+      eYEBALL ARMY_18: 1474860530
+      eYEBALL ARMY_28: -1696473465
+      eYEBALL ARMY_6: -1949892229
+      eYEBALL ARMY_36: -634048528
+      eYEBALL ARMY_52: 1625118984
+      eYEBALL ARMY_61: 471597841
+      eYEBALL ARMY_16: -620371949
+      eYEBALL ARMY_57: 1583232993
+      eYEBALL ARMY_62: -1138836891
+      eYEBALL ARMY_8: 1865960193
+      eYEBALL ARMY_63: 803803982
+      eYEBALL ARMY_19: -519846684
+      eYEBALL ARMY_9: 12616645
+      eYEBALL ARMY_54: 826304896
+      eYEBALL ARMY_38: -376145552
+      eYEBALL ARMY_44: -2021718525
+      eYEBALL ARMY_4: -1624413167
+      eYEBALL ARMY_41: 1504960350
+      eYEBALL ARMY_10: 1976075066
+      eYEBALL ARMY_33: -105006351
+      eYEBALL ARMY_47: -1403158677
+      eYEBALL ARMY_51: 341688816
+      eYEBALL ARMY_56: 642933553
+      eYEBALL ARMY_26: 2086312063
+      eYEBALL ARMY_32: -1214459028
+      eYEBALL ARMY_20: -288531665
+      eYEBALL ARMY_15: -875464973
+      eYEBALL ARMY_24: 1241043171
+      eYEBALL ARMY_7: 921779826
+      eYEBALL ARMY_23: 785979028
+      eYEBALL ARMY_14: 225217850
+      eYEBALL ARMY_60: 1419751591
+      eYEBALL ARMY_11: 970591347
+      eYEBALL ARMY_67: 1607255297
+      eYEBALL ARMY_1: -356691305
+      eYEBALL ARMY_13: 1608899165
+      eYEBALL ARMY_50: -1724043414
+      eYEBALL ARMY_43: -1848395140
+      eYEBALL ARMY_21: -809095080
+      eYEBALL ARMY_53: -826483040
+      eYEBALL ARMY_3: 1802008325
+      eYEBALL ARMY_17: 39654328
+      eYEBALL ARMY_0: 361228503
+      eYEBALL ARMY_29: 1634247720
+      eYEBALL ARMY_42: 506784481
+      eYEBALL ARMY_37: -1563871112
+      eYEBALL ARMY_5: 647425718
+      eYEBALL ARMY_35: 1719669519
+      eYEBALL ARMY_49: 1429984837
+      eYEBALL ARMY_48: -2028435275
+      eYEBALL ARMY_66: 213583392
+      eYEBALL ARMY_40: 1216730933
+      eYEBALL ARMY_59: -751739742
+      eYEBALL ARMY_65: 1931688361
+      eYEBALL ARMY_34: 1786779305
+      eYEBALL ARMY_31: 944628745
+      eYEBALL ARMY_25: 478834838
+      eYEBALL ARMY_39: 619365449
+      eYEBALL ARMY_55: 1148700125
+      eYEBALL ARMY_46: -466281926
+      eYEBALL ARMY_45: 650693156
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

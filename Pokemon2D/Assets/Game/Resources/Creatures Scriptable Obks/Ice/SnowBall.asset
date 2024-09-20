@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
+  m_Name: SnowBall
+  m_EditorClassIdentifier: 
+  name: Snowball
+  ID: 1
+  description: 
+  leftSprite: {fileID: -1992714760, guid: 475eb0250a08ee648b25c699702dcb2a, type: 3}
+  rightSprite: {fileID: -1824299670, guid: 475eb0250a08ee648b25c699702dcb2a, type: 3}
+  type1: 4
+  type2: 0
+  creatureHabitates: 3
+  attack: 8
+  defense: 8
+  maxhp: 150
+  speed: 2
+  maxMp: 5
+  currentmp: 2
+  expGain: 25
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: a304455944ba12e4f87a6df4e5caf13b, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []
+  instance: {fileID: 11400000}
+  creatureSize: {x: 1.5, y: 1.5}
+  isDefeted: 0
+  isEarth: 0
+  isFire: 0
+  isWater: 0
+  isIce: 1
+  isDarkness: 0
+  isEthareal: 0

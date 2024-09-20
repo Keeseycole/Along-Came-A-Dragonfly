@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6fad7397e3f62140a39cedb075df987, type: 3}
+  m_Name: ElricHouse
+  m_EditorClassIdentifier: 
+  connectedScenes:
+  - {fileID: 11400000, guid: d2450197a9706244ca08aa47ea384c66, type: 2}
+  - {fileID: 11400000, guid: 980df154073e1774baa9e6e1e66d05f5, type: 2}
+  - {fileID: 11400000, guid: 01858067ad4a7e148bd82ae42cec59f4, type: 2}
+  - {fileID: 11400000, guid: 99086c4849ecfc84d8efba9b2b5458a1, type: 2}
+  - {fileID: 11400000, guid: ec4e301a891498b4bb814969edf449cf, type: 2}
+  - {fileID: 11400000, guid: fb2a7201f36813b459da397dfb36bbfb, type: 2}
+  - {fileID: 11400000, guid: 22590ba57b38fee459d9505653785694, type: 2}
+  - {fileID: 11400000, guid: 6389ef86a73a9a949a8177b7efdd7c47, type: 2}
+  - {fileID: 11400000, guid: 4a93824f6d03a3f4a9e0a3e3c0b52a05, type: 2}
+  - {fileID: 11400000, guid: 7d56e4899ba9d964faa6ccc41f44ee0e, type: 2}
+  - {fileID: 11400000, guid: da0f7764e4318e74eb965f22e713e125, type: 2}
+  - {fileID: 11400000, guid: 403f21030a84c2245927581417a33160, type: 2}
+  - {fileID: 11400000, guid: 5eed688e5d3f34c4e879c03db845def7, type: 2}
+  sceneName: 
+  battleBackround: {fileID: 0}

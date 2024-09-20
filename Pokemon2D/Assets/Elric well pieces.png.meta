@@ -1,0 +1,3302 @@
+fileFormatVersion: 2
+guid: 07f5faa8cea02a84eb8548cd53476c77
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elric well pieces_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 592
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f161f5094810264f93eaa21cb100237
+      internalID: -427280391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 592
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43926487eb9064341bc6d6402465c676
+      internalID: 229465669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 592
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd64f99918b5594ea997bf8bae6fdbc
+      internalID: 281591531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 592
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144fdafed1cfcf847897316720758aaf
+      internalID: -1173757527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 592
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5d10f068d76664a92e329dc2c66e01
+      internalID: 591072065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 592
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e749a6391d386154da637ab0da5c805b
+      internalID: 1566688899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 592
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea51f32ed4538df47b88c7aa1ed89a47
+      internalID: -1621876951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_7
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 592
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca906d8615756449b3b39298606ea24
+      internalID: 1122411484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_8
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 592
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f2c90dbbd6d1841bf93d0dc8b0793f
+      internalID: 695368809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_9
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 592
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7089dfcfd2768aa40b050151cfbcff40
+      internalID: -144687478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_10
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 592
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e451dc765674824f928c694971e1f12
+      internalID: 963611801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_11
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 592
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc51664d888eacf41a2b44f1b03b674d
+      internalID: -1649686358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 560
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439f2fa63c2a8984ea5f8a6a5c1d471b
+      internalID: 453591636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 560
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e776d2982d3e7af4f9e8d820227ab543
+      internalID: -533659427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 560
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae67eb1c1945884ebcb7c1c4f69940b
+      internalID: -173228071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_15
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 560
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc329b02ce2f37a4f801676a5ed10cba
+      internalID: -726540266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 560
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7172239006725ab4a895b037ae637459
+      internalID: 1114623979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_17
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 560
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599c98257aa8b08408105342e10e0980
+      internalID: -834835528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 560
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa48b09cf8b9d44499c088638976ac5a
+      internalID: -1610762616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_19
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 560
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae96c5a8802d8f54990af5c6a1017274
+      internalID: -1554291291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 560
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b996b4b958d138f4c85452e3b55ff57a
+      internalID: -1711288995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_21
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 560
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e41d5e91a4b9742ba53fc0a9539ae0
+      internalID: 375388863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_22
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 560
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d087b60f1474c4d95f47c23dcf4df2
+      internalID: 1211024779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_23
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 560
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8ec8381bee7d342998716f3f1fa8c5
+      internalID: -72667126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 528
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a969240fac421f74fab6bc3dae5beea9
+      internalID: -1436922431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 528
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd41c66b204b2304c988f28ef446e45a
+      internalID: 2040911117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_26
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 528
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72107cad60394594288bbf6b3a9211a0
+      internalID: 1962857916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_27
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 528
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255b2d32669cccd46b18bac7f85be6f6
+      internalID: -1850853651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 528
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4741edd83b920d143908d95574e8564d
+      internalID: 603445343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_29
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 528
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f038213bec7634c989c1194ca5129d
+      internalID: -1304754055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_30
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 528
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fddf4e8a31e284dab36b6d648474b1
+      internalID: 621127159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_31
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 528
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e660345f531c13341834bca25102b8f2
+      internalID: 1723139739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_32
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 528
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f0657d49e7fb843b6dc4bc969e6c64
+      internalID: -1647958250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_33
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 528
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f97e28c4f9c7d4eb1b2bdb5180a862
+      internalID: -260191118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_34
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 528
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3340dd41f45e79b4989f63ed21529bc9
+      internalID: 2087902639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_35
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 528
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38812d2966864f84caf135c315392955
+      internalID: -1768300228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_36
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 496
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87417d2cd3f268648a1f0c3ff51bd1de
+      internalID: -1868708886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_37
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 496
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562d3cb02f6f33a47a31afeba457d98f
+      internalID: 2092952218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_38
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 496
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69e9331a8cbaaf4d941ceae3b0b87d3
+      internalID: -1609485377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_39
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 496
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df373dc832117b34fbc171b5e3101397
+      internalID: 1978580119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 496
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965f1a735639f314e866b0d7d55985aa
+      internalID: 904090683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_41
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 496
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1a0f81cf79efe48a713ba2ca72f038
+      internalID: -343437043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_42
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 496
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90402273c5d970844bdd101a0374d163
+      internalID: -1799431267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_43
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 496
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feea658dbed8d6e45803c506f5c4d699
+      internalID: -1637987946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_44
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 480
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8904251cfdddc64cb6b673c6d3e9142
+      internalID: -921587015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_45
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 480
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11dc480a185dcc4d91ef823450edf10
+      internalID: -1953188653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_46
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 480
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448861bb5809d5c46bfd56f5d61cb1a5
+      internalID: 1942866786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_47
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 480
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bffd260b14f0a94482c785647618469
+      internalID: -1429196596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_48
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 464
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39927cdbc03fb9042b7465e59c5814da
+      internalID: 524620896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_49
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 464
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316cdbff0a1f52e4fbaa593c1a311f5f
+      internalID: 2003249765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_50
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 464
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6306a3b1badf8404d9a1ff0c78a661b4
+      internalID: -337361893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_51
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 464
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867fe0f042353154c8881e814d56f0f8
+      internalID: 1397603300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_52
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 464
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9ff7ef57e80b044bfcac2aa4ae7b69
+      internalID: 320318626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_53
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 464
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4782cdd53ca1fc64697afa8c0a183ab5
+      internalID: 1313399849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_54
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 464
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8627c76e4716bba43a23e8a9f967a7d4
+      internalID: 2107502332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_55
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 464
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7bff66ff2f93d4fa4354303f5ac81f
+      internalID: -1639717670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_56
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 432
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfd9c2eb9703c743bd6880cad9ebcfe
+      internalID: -293114508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_57
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 432
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9917102c8e62c1f45bdb1faa03f77eae
+      internalID: 2021157116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_58
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 432
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895a5b8848f0eab44b2b5ac8adceb2b7
+      internalID: 778565506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_59
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 432
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6a5583e70e12a4f9abf5f20f417123
+      internalID: -1936793803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_60
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 432
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b7b2556cafbab43977e3ba531e45b1
+      internalID: 1718259191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_61
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 432
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1d8567a94e5e74db1d0d38f8081b50
+      internalID: 357544591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_62
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 432
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0054d83f4457a43a04e447435bd19a
+      internalID: 438941185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_63
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 432
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb984f6d16e257143acd24c461f45630
+      internalID: -1890625181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_64
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 400
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e08ae26f46a2042b6abcc861e175a3
+      internalID: -1806498892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_65
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 400
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1316340c09d5794b84b3f7dc9a6223c
+      internalID: -1782519634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_66
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 400
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ac3daaae42ab94c8f778a9d49f5f14
+      internalID: 420120519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_67
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 400
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1b7716557a1b5448e27cd5470f16c3
+      internalID: -1314436987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_68
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 400
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6527036624bf8864fa015cca1cfaad7e
+      internalID: 1613967014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_69
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 400
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888c42609957350429f936a740587b66
+      internalID: 2085035367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_70
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 400
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349b6253bee8de64ca0876b29dca9a02
+      internalID: 767519401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_71
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 400
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b3f803d9316ca47b3f40a1951e97f6
+      internalID: -169669788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_72
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 368
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d98ae798b816d546b63956a224bb373
+      internalID: -1363928432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_73
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 368
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae7bce1b9654914eb545c67d37e7a3e
+      internalID: -257808400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_74
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 368
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0cdee970b33a542af11e92c0c014ba
+      internalID: -822866178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_75
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 368
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d76cd7a8bc23284bb05a908146eb218
+      internalID: -537894957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_76
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 368
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41dbefcc0d0aa5488e1049fad2ab229
+      internalID: -1208086449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_77
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 368
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdb8b33ee3f5c54dace50e9a2e22eee
+      internalID: 1792283950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_78
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 368
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e5b7bb7196ac846869f40e0c5f4b90
+      internalID: -1491554932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_79
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 368
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb6dc208a1f9144588e8f3f77726447
+      internalID: 626228458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_80
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 320
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950efd4b29730af4b846776c65448198
+      internalID: -1694509194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_81
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 320
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b62a547d0539449a6220da25167243
+      internalID: -1140606450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_82
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 320
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4124cb4dd7388864db7fdd67091ea94c
+      internalID: 1531385512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_83
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 320
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7306f96b711b0e4288fab284873d377
+      internalID: 852379622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_84
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 320
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ae20fcb21c66e46a32727d327d469d
+      internalID: 143017974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_85
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 320
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce16411acd5ef24a94e0b55c0ee70a0
+      internalID: -872001428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_86
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd449deeda308140b8396c3e1628a57
+      internalID: 1575301705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_87
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 320
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ec9c2bd85996c4d8d7aed17d8aa1dc
+      internalID: -1132387551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_88
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 288
+        width: 18
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5242909, y: 0.527197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2d6c2d4b2362544b98a6e5125369fe
+      internalID: 1413716148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_89
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 288
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af676ed8709887d49bef0a83fbf643aa
+      internalID: -1293017641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_90
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 288
+        width: 18
+        height: 22
+      alignment: 9
+      pivot: {x: 0.53641427, y: 0.51790136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5bd191bc39b4f45878a2ea98316e80
+      internalID: -1215321519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_91
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 288
+        width: 18
+        height: 22
+      alignment: 9
+      pivot: {x: 0.53345364, y: 0.51790136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a090a165f0beb4cba87d7578d143c9
+      internalID: -1396376589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_92
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 288
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7294fcf994754c748b1649ab795dcfa6
+      internalID: 1480722973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_93
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a560a67c781d01143ac368669f25c04f
+      internalID: 646718323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_94
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 288
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e9277b3d01313438f5b5f1e11480d3
+      internalID: 1547333797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_95
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 288
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fed914f614b7f47a03ba908f08fdab
+      internalID: 1013378175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_96
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 256
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be937f1d0bf11a498cc7396f4706c13
+      internalID: 650007607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_97
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 256
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0743199292c50eb4691efb29268a74bc
+      internalID: -547095979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_98
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b85a47d09b20845ac5c4022563c3fb
+      internalID: 791044370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_99
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bccf1f3ff6fa446829df16b958565e
+      internalID: -859261177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_100
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 256
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1889c286ed5a5e044a39b2306b1283c0
+      internalID: -319012031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_101
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3afb4e2279f1e741a48c65ca68e7921
+      internalID: 1572055068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_102
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 256
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340b695e82afc6f4da1e489dda2e6d44
+      internalID: -1929372037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_103
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 256
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c11105cf2b731d458582a6b408b4007
+      internalID: -134822004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_104
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 224
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31f19053a38e4e4aba9218fb0f5f609
+      internalID: -963056535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_105
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 224
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8c551500e7a57478ee115d14cf1f81
+      internalID: -248568548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_106
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 224
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86eb2c29090693a459625912778718e5
+      internalID: 963785854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_107
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 224
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6077fbf9a605241b6b5dceb7ad556d
+      internalID: 573877686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_108
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 224
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7efeb3b50baf6f4abc6430723f393c1
+      internalID: 84698353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_109
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 224
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9ecd6c429185441a801bba6c075f13
+      internalID: 454676274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_110
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66468e5eb82692f41a245f15761aebb6
+      internalID: -942609113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_111
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3b7e86c931fff46a46f3783274cf1e
+      internalID: -213479727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_112
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 192
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c755010799397448b681955d413c4e1
+      internalID: -617635248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_113
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 192
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f47f59cecc5ee4e8bd04721fbe42ce
+      internalID: 1850881757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_114
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b6800bec51f444cb6d15846e2cc45f
+      internalID: 1083446619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_115
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 192
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4da96158b302641bfd55774b4a7d18
+      internalID: -823632043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_116
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 192
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68037e50ff84dea40908c01ab2c58121
+      internalID: -1381147870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_117
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 192
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fe8316743a5f94994191715fd55d99
+      internalID: 813627702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_118
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 192
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4fd778df2941f48944cfa5aa02acf2
+      internalID: -1972291245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_119
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 192
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbb3fdbd064ab14f937d336fb083313
+      internalID: -798867797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_120
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd756ccb96f11f4fbc5a67d381f9341
+      internalID: 1368121747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_121
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c48df5c1ea52a849a949323a3c016bb
+      internalID: -1124390299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_122
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9d4e01f5b73254489b4a7f82018ade
+      internalID: 1108312720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_123
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a718283df9fff7c42b2669c2b426db78
+      internalID: 1125890676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_124
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 144
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0324c78f784f36478a1fafbff098705
+      internalID: -1194406727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_125
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 144
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d47a70bdbc49f46a0db216cf097c03
+      internalID: 1651844409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_126
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 144
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6247363e9a7ba546a7ad106734c8a30
+      internalID: -1725572779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_127
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 144
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e727dc3a58b9d42af39e15e8f1a2de
+      internalID: -297145432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_128
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84841e7a5437b314eb7618ad448c86f0
+      internalID: 1440227599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_129
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5705482c68ce83744b5f32b8c614cb1b
+      internalID: -1545841569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_130
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530dc22ed57a04d4d9fec7051e2be484
+      internalID: 1773585676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_131
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 128
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fb8bb5b5f69834ea662fc684f2ff17
+      internalID: 2073227771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_132
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 96
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5293563f6a8162b4eb128dda76879e07
+      internalID: 594278406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_133
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df26a48e4eb00e45b483c7667cd98d9
+      internalID: 1440437153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_134
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 96
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f27bb8de5e1f043ab4ddf7a98662da
+      internalID: 1826885935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_135
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 96
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021dec5a20b8b5c4e94a2bdc7151e455
+      internalID: -86580413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_136
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38325c6b973ce7e478e75607f5b13f8f
+      internalID: 1266610066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_137
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ae66e2c82b4ea4fbf23f6df708f864
+      internalID: -2085493626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_138
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b21715bea15ade4c9676fce5436e625
+      internalID: 1587796358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_139
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 96
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9164e811091d54041927de6e5f39f60a
+      internalID: 2077840053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_140
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 48
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecaeab71e2873244974a38164e2f291
+      internalID: -718524792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_141
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 48
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8656dde6ff4a1f04da9a5f9f9b2b09a8
+      internalID: -2127115113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_142
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 48
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54e34c93e1014b4b897569b64f9cb3c
+      internalID: -87728547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elric well pieces_143
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 48
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0cf829c541aee4f819501cff8b683a
+      internalID: -1009995550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Elric well pieces_93: 646718323
+      Elric well pieces_33: -260191118
+      Elric well pieces_109: 454676274
+      Elric well pieces_139: 2077840053
+      Elric well pieces_83: 852379622
+      Elric well pieces_133: 1440437153
+      Elric well pieces_62: 438941185
+      Elric well pieces_2: 281591531
+      Elric well pieces_69: 2085035367
+      Elric well pieces_118: -1972291245
+      Elric well pieces_101: 1572055068
+      Elric well pieces_74: -822866178
+      Elric well pieces_140: -718524792
+      Elric well pieces_68: 1613967014
+      Elric well pieces_19: -1554291291
+      Elric well pieces_43: -1637987946
+      Elric well pieces_39: 1978580119
+      Elric well pieces_32: -1647958250
+      Elric well pieces_46: 1942866786
+      Elric well pieces_25: 2040911117
+      Elric well pieces_22: 1211024779
+      Elric well pieces_10: 963611801
+      Elric well pieces_51: 1397603300
+      Elric well pieces_77: 1792283950
+      Elric well pieces_3: -1173757527
+      Elric well pieces_37: 2092952218
+      Elric well pieces_113: 1850881757
+      Elric well pieces_123: 1125890676
+      Elric well pieces_132: 594278406
+      Elric well pieces_48: 524620896
+      Elric well pieces_20: -1711288995
+      Elric well pieces_6: -1621876951
+      Elric well pieces_104: -963056535
+      Elric well pieces_102: -1929372037
+      Elric well pieces_5: 1566688899
+      Elric well pieces_64: -1806498892
+      Elric well pieces_89: -1293017641
+      Elric well pieces_88: 1413716148
+      Elric well pieces_137: -2085493626
+      Elric well pieces_142: -87728547
+      Elric well pieces_136: 1266610066
+      Elric well pieces_107: 573877686
+      Elric well pieces_82: 1531385512
+      Elric well pieces_73: -257808400
+      Elric well pieces_106: 963785854
+      Elric well pieces_54: 2107502332
+      Elric well pieces_81: -1140606450
+      Elric well pieces_103: -134822004
+      Elric well pieces_24: -1436922431
+      Elric well pieces_85: -872001428
+      Elric well pieces_65: -1782519634
+      Elric well pieces_27: -1850853651
+      Elric well pieces_52: 320318626
+      Elric well pieces_131: 2073227771
+      Elric well pieces_87: -1132387551
+      Elric well pieces_95: 1013378175
+      Elric well pieces_78: -1491554932
+      Elric well pieces_125: 1651844409
+      Elric well pieces_66: 420120519
+      Elric well pieces_47: -1429196596
+      Elric well pieces_129: -1545841569
+      Elric well pieces_112: -617635248
+      Elric well pieces_138: 1587796358
+      Elric well pieces_49: 2003249765
+      Elric well pieces_108: 84698353
+      Elric well pieces_53: 1313399849
+      Elric well pieces_50: -337361893
+      Elric well pieces_98: 791044370
+      Elric well pieces_127: -297145432
+      Elric well pieces_143: -1009995550
+      Elric well pieces_56: -293114508
+      Elric well pieces_58: 778565506
+      Elric well pieces_70: 767519401
+      Elric well pieces_126: -1725572779
+      Elric well pieces_12: 453591636
+      Elric well pieces_41: -343437043
+      Elric well pieces_55: -1639717670
+      Elric well pieces_121: -1124390299
+      Elric well pieces_114: 1083446619
+      Elric well pieces_15: -726540266
+      Elric well pieces_135: -86580413
+      Elric well pieces_134: 1826885935
+      Elric well pieces_17: -834835528
+      Elric well pieces_117: 813627702
+      Elric well pieces_124: -1194406727
+      Elric well pieces_141: -2127115113
+      Elric well pieces_91: -1396376589
+      Elric well pieces_111: -213479727
+      Elric well pieces_29: -1304754055
+      Elric well pieces_18: -1610762616
+      Elric well pieces_28: 603445343
+      Elric well pieces_8: 695368809
+      Elric well pieces_36: -1868708886
+      Elric well pieces_75: -537894957
+      Elric well pieces_60: 1718259191
+      Elric well pieces_119: -798867797
+      Elric well pieces_30: 621127159
+      Elric well pieces_79: 626228458
+      Elric well pieces_130: 1773585676
+      Elric well pieces_115: -823632043
+      Elric well pieces_31: 1723139739
+      Elric well pieces_4: 591072065
+      Elric well pieces_34: 2087902639
+      Elric well pieces_59: -1936793803
+      Elric well pieces_100: -319012031
+      Elric well pieces_40: 904090683
+      Elric well pieces_128: 1440227599
+      Elric well pieces_7: 1122411484
+      Elric well pieces_13: -533659427
+      Elric well pieces_26: 1962857916
+      Elric well pieces_94: 1547333797
+      Elric well pieces_90: -1215321519
+      Elric well pieces_96: 650007607
+      Elric well pieces_110: -942609113
+      Elric well pieces_21: 375388863
+      Elric well pieces_23: -72667126
+      Elric well pieces_67: -1314436987
+      Elric well pieces_1: 229465669
+      Elric well pieces_38: -1609485377
+      Elric well pieces_42: -1799431267
+      Elric well pieces_84: 143017974
+      Elric well pieces_16: 1114623979
+      Elric well pieces_122: 1108312720
+      Elric well pieces_86: 1575301705
+      Elric well pieces_61: 357544591
+      Elric well pieces_72: -1363928432
+      Elric well pieces_63: -1890625181
+      Elric well pieces_14: -173228071
+      Elric well pieces_45: -1953188653
+      Elric well pieces_71: -169669788
+      Elric well pieces_35: -1768300228
+      Elric well pieces_92: 1480722973
+      Elric well pieces_76: -1208086449
+      Elric well pieces_9: -144687478
+      Elric well pieces_57: 2021157116
+      Elric well pieces_80: -1694509194
+      Elric well pieces_99: -859261177
+      Elric well pieces_116: -1381147870
+      Elric well pieces_11: -1649686358
+      Elric well pieces_0: -427280391
+      Elric well pieces_44: -921587015
+      Elric well pieces_120: 1368121747
+      Elric well pieces_97: -547095979
+      Elric well pieces_105: -248568548
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

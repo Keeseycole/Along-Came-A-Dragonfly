@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
+  m_Name: eth Catapia
+  m_EditorClassIdentifier: 
+  name: Catapia
+  ID: 1
+  description: 
+  leftSprite: {fileID: 870517744, guid: a7f5eea3d042ead40bb6157f73fc4ea8, type: 3}
+  rightSprite: {fileID: 818719198, guid: a7f5eea3d042ead40bb6157f73fc4ea8, type: 3}
+  type1: 6
+  type2: 6
+  creatureHabitates: 5
+  attack: 10
+  defense: 10
+  maxhp: 550
+  speed: 0
+  maxMp: 190
+  currentmp: 0
+  expGain: 140
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 9f554fef45c23ec44a4ed12eec7ff467, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []
+  instance: {fileID: 11400000}
+  isEarth: 0
+  isFire: 0
+  isWater: 0
+  isIce: 0
+  isDarkness: 0
+  isEthareal: 1

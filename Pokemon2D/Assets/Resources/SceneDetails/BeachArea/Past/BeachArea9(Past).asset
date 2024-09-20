@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6fad7397e3f62140a39cedb075df987, type: 3}
+  m_Name: BeachArea9(Past)
+  m_EditorClassIdentifier: 
+  connectedScenes:
+  - {fileID: 11400000, guid: 95ab940ccd424874488ba133a0172693, type: 2}
+  - {fileID: 11400000, guid: 0d37288bfbad4ec438d7a77ad986ad99, type: 2}
+  - {fileID: 11400000, guid: af01656b56cf58744a4255c4d190728f, type: 2}
+  - {fileID: 11400000, guid: c673e9ef080eed94e80279e27d0ce9a1, type: 2}
+  - {fileID: 11400000, guid: 793605d32227105418216b727a7ff40a, type: 2}
+  - {fileID: 11400000, guid: bd9343ba7b78dd44ab82cdd121752210, type: 2}
+  - {fileID: 11400000, guid: e634620c7a2e89f4f814f055fd563d16, type: 2}
+  - {fileID: 11400000, guid: f81118f2ad081114d9f28585a996c984, type: 2}
+  - {fileID: 11400000, guid: 1fa413b3b9b5b2e48967bb26e8d49954, type: 2}
+  - {fileID: 11400000, guid: 2819ef893120e3f4abe0708a560a9f34, type: 2}
+  - {fileID: 11400000, guid: 5d892d7cd8c9be64bb4aecfbd2fb5faf, type: 2}
+  - {fileID: 11400000, guid: 2aa44c1711f82bf48abed19aa359bba2, type: 2}
+  - {fileID: 11400000, guid: 3f95ead8eab1f0c44975199591bdc5a3, type: 2}
+  - {fileID: 11400000, guid: fcdcc38cb7e7668418b0cd5a6941359f, type: 2}
+  sceneName: 

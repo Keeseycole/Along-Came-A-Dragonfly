@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
+  m_Name: Snow red panda
+  m_EditorClassIdentifier: 
+  name: Snorepa
+  ID: 6
+  description: 
+  leftSprite: {fileID: -1329133856, guid: 57ac5f0cd26b8d8478bc528e40b51952, type: 3}
+  rightSprite: {fileID: -1572582830, guid: 57ac5f0cd26b8d8478bc528e40b51952, type: 3}
+  type1: 4
+  type2: 0
+  creatureHabitates: 3
+  attack: 27
+  defense: 30
+  maxhp: 800
+  speed: 0
+  maxMp: 450
+  currentmp: 100
+  expGain: 40
+  growthRate: 1
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: bfc6f0e265e9ddb4492a23890153d31b, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: efdd0564eeb26bd4788e22408a42e9a4, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: b36dd519c242a47479d67fc1a109c39e, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 22d6196b7a2f11b4e91f55e8a6ae651d, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []
+  instance: {fileID: 11400000}
+  creatureSize: {x: 2, y: 2}
+  isDefeted: 0
+  isEarth: 0
+  isFire: 0
+  isWater: 0
+  isIce: 1
+  isDarkness: 0
+  isEthareal: 0
