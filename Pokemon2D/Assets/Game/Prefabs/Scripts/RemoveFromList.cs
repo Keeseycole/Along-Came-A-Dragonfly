@@ -141,6 +141,8 @@ public class RemoveFromList : MonoBehaviour
     public PipeactiveSwitch pipeSwitch;
 
     public Island1RescueManager island1Rescue;
+
+    public Island2RescueCutsceneManager island2Rescue;
     private void Start()
     {
         sailCutsceneEnemies = FindObjectOfType<SailCutsceneManager>();
@@ -508,6 +510,13 @@ public class RemoveFromList : MonoBehaviour
         {
             island1Rescue.enemies.Remove(gameObject);
         }
+
+        if (island2Rescue != null)
+        {
+            island2Rescue.enemies.Remove(gameObject);
+        }
+
+
     }
 
 

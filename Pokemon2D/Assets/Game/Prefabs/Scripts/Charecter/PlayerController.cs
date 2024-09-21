@@ -47,6 +47,8 @@ public class PlayerController : MonoBehaviour, ISavable,ISwitchable
 
     public bool hasSnailEggs;
 
+    public bool hasIceWater;
+
 
     private void Awake()
     {
