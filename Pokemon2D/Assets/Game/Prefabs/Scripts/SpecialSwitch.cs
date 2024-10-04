@@ -5,12 +5,29 @@ using UnityEngine;
 public class SpecialSwitch : MonoBehaviour
 {
     [SerializeField]
-    GameObject switchUp;
+    public GameObject switchUp;
     [SerializeField]
-    GameObject switchDown;
+    public GameObject switchDown;
 
     public bool isPressed = false;
 
+
+    public bool isBlock;
+
+    private DoorSetActive theDoor;
+
+
+    [HideInInspector]
+   
+
+    private void Awake()
+    {
+        
+    }
+    private void Update()
+    {
+
+    }
     void Start()
     {
         gameObject.GetComponent<SpriteRenderer>().sprite = switchUp.GetComponent<SpriteRenderer>().sprite;
@@ -18,12 +35,16 @@ public class SpecialSwitch : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Snowball")
+        if (other.tag == "Block")
         {
             gameObject.GetComponent<SpriteRenderer>().sprite = switchDown.GetComponent<SpriteRenderer>().sprite;
             isPressed = true;
         }
 
+    }
 
+    private void OnTriggerExit2D(Collider2D other)
+    {
+     
     }
 }

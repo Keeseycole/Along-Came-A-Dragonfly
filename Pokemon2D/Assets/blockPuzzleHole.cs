@@ -24,7 +24,7 @@ public class blockPuzzleHole : MonoBehaviour
             GameObject obj = GameObject.FindGameObjectWithTag("Block");
             gameObject.GetComponent<SpriteRenderer>().sprite = filledHole.GetComponent<SpriteRenderer>().sprite;
             isFilled = true;
-            Destroy(obj);
+            //Destroy(obj);
         }
     }
     

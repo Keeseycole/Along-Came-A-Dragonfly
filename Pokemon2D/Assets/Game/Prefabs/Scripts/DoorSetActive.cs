@@ -14,7 +14,7 @@ public class DoorSetActive : MonoBehaviour
 
    public bool iscode;
 
-    public bool iskey;
+   
 
     [SerializeField]  public int[] combonation;
 

@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -475,8 +475,8 @@ TextureImporter:
       objects(water Temple)_8: 120346685
       objects(water Temple)_5: 600205907
       objects(water Temple)_1: 32506622
-      objects(water Temple)_0: 1009288210
       objects(water Temple)_12: 1911594807
+      objects(water Temple)_0: 1009288210
       objects(water Temple)_6: 1255106299
   spritePackingTag: 
   pSDRemoveMatte: 0

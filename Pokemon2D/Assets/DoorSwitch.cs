@@ -14,6 +14,10 @@ public class DoorSwitch : MonoBehaviour
 
     public bool ispresuresensative = false;
 
+    public bool isBlock;
+
+    public bool isPlayer;
+
     private DoorSetActive theDoor;
 
 
@@ -34,11 +38,33 @@ public class DoorSwitch : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other)
-    {  
-        gameObject.GetComponent<SpriteRenderer>().sprite = switchDown.GetComponent<SpriteRenderer>().sprite;
-        isPressed = true;
+    {
+       
+            if (isPlayer)
+            {
+                gameObject.GetComponent<SpriteRenderer>().sprite = switchDown.GetComponent<SpriteRenderer>().sprite;
+                isPressed = true;
 
+            }
+            else
+            {
+                isPressed = false;
+            }
         
+        
+            if (isBlock == true)
+            {
+
+                gameObject.GetComponent<SpriteRenderer>().sprite = switchDown.GetComponent<SpriteRenderer>().sprite;
+                isPressed = true;
+
+            } else
+
+            {
+            isPressed = false;
+            }
+
+
     }
 
     private void OnTriggerExit2D(Collider2D other)

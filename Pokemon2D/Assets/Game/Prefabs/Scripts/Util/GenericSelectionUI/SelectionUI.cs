@@ -62,7 +62,7 @@ public class SelectionUI<T> : MonoBehaviour where T : ISelectHandler, IDeselectH
             if (Input.GetButtonDown("Action") ||Input.GetMouseButtonDown(0) )
             {
                 OnSelected?.Invoke(selectedItem);
-                Debug.Log("Selected");
+               // Debug.Log($"Selected {selectedItem}");
             }       
             else if (Input.GetButtonDown("Back") || Input.GetMouseButtonDown(1))
                OnBack?.Invoke();

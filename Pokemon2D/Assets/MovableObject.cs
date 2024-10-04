@@ -13,17 +13,10 @@ public class MovableObject : MonoBehaviour
     private bool IsMoving;
     private bool KeepMoving = true;
 
-    private bool stopBlock;
-    private bool moveBlock;
 
     public float timer;
 
-    private void Update()
-    {
-       
-       
-    }
-
+ 
     public IEnumerator Move(Vector3 direction)
     {
         while (CheckDirection(direction) && KeepMoving)

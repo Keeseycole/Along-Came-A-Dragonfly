@@ -358,10 +358,10 @@ public class BattleSystem : MonoBehaviour
             Debug.Log("item clicked");
             StartCoroutine(GoToInventoryState());
          
-            Action<ItemBase> onItemUsed = (ItemBase usedItem) =>
-            {
-                StartCoroutine(OnItemUsed(usedItem));
-            };
+      //      Action<ItemBase> onItemUsed = (ItemBase usedItem) =>
+         //   {
+          //      StartCoroutine(OnItemUsed(usedItem));
+           // };
         });
 
         battleButtons[3].onClick.AddListener(() => {

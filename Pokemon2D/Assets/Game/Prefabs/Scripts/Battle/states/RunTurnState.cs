@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Utils.StateMachine;
-using static UnityEditor.Progress;
+
 
 public class RunTurnState : State<BattleSystem>
 {

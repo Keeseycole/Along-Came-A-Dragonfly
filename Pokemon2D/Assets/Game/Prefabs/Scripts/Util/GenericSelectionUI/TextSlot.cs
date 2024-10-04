@@ -15,7 +15,7 @@ public class TextSlot : MonoBehaviour,  ISelectHandler, IDeselectHandler
      protected virtual void Start()
     {
 
-        originalColor = text.color;
+       
         if(text == null)
         {
             Debug.LogError("This obj missing text reference", this.gameObject);
@@ -30,12 +30,12 @@ public class TextSlot : MonoBehaviour,  ISelectHandler, IDeselectHandler
     public  void OnSelect(BaseEventData eventData)
     {
       
-        text.color = GlobalSettings.i.HighlighedColor;
+     
     }
 
     public  void OnDeselect(BaseEventData eventData)
     {
-        text.color = originalColor;
+        
     }
 
     

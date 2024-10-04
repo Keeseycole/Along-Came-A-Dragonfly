@@ -166,8 +166,12 @@ public class PlayerController : MonoBehaviour, ISavable,ISwitchable
         collider = Physics2D.OverlapCircle(interactPos, 0.2f, (GameLayers.I.SpawnObject | GameLayers.I.MoveableObjects));
         if (collider != null)
         {
-            IEnumerator co = collider.GetComponent<MovableObject>().Move(facingDir);
-            yield return co;
+            //IEnumerator co = collider.GetComponent<MovableObject>().Move(facingDir);
+            if(collider.TryGetComponent<MovableObject>(out MovableObject co) )
+            {
+                yield return co.Move(facingDir);
+            }
+           
         }
         
     }
