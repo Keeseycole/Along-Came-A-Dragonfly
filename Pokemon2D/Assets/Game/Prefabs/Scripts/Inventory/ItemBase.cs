@@ -5,7 +5,8 @@ using UnityEngine;
 public enum ItemType
 {
     Item,
-    Fish
+    Fish, 
+   
 }
 public class ItemBase : ScriptableObject
 {
@@ -13,15 +14,14 @@ public class ItemBase : ScriptableObject
     [SerializeField] string name;
     [SerializeField] string description;
     [SerializeField] Sprite icon;
-    [SerializeField] ItemType itemType;
+    [SerializeField] protected ItemType itemType;
     [SerializeField] float price;
     [SerializeField] bool canSell;
 
     [SerializeField]  public int dropChance;
 
 
-    //for fish
-   [SerializeField] public static int ID;
+ 
 
     public virtual string Name => name;
 

@@ -38,7 +38,8 @@ public class LocationPortal : MonoBehaviour, IPlayerTriggerable
 
     IEnumerator Teleport()
     {
-        blocker.SetActive(true);
+        Debug.Log("This is location Portal");
+       player.ignoreInput = true;
         yield return fader.FadeIn(1f);
        
         buddy.DeActivateBuddy();
@@ -46,7 +47,7 @@ public class LocationPortal : MonoBehaviour, IPlayerTriggerable
         player.Charecter.SetPositionAndSnapToTile(portal.spawnPoint.position);
         buddy.ActivateBuddy();
         yield return fader.FadeOut(1f);
-        blocker.SetActive(false);
+        player.ignoreInput = false;
 
         // GameController.Instance.PauseGame(false);
     }

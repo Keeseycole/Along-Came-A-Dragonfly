@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Utils.StateMachine;
+using static UnityEngine.Rendering.VolumeComponent;
 
 public class InventoryState : State<GameController> 
 {
@@ -26,6 +27,13 @@ public class InventoryState : State<GameController>
         inventory = Inventory.GetInventory();
     }
 
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            CloseInventory();
+        }
+    }
     public override void Enter(GameController owner)
     {
         gc = owner;
@@ -36,6 +44,8 @@ public class InventoryState : State<GameController>
         inventoryUI.onMenuTimer = 0;
        inventoryUI.OnSelected += OnItemSelected;
        inventoryUI.OnBack += OnBack;
+
+       
     }
 
     public override void Execute()
@@ -49,6 +59,7 @@ public class InventoryState : State<GameController>
         inventoryUI.gameObject.SetActive(false);
         inventoryUI.OnSelected -= OnItemSelected;
         inventoryUI.OnBack -= OnBack;
+        
     }
 
     public void OnItemSelected(int selection)
@@ -68,6 +79,8 @@ public class InventoryState : State<GameController>
        selectedItem = null;
         gc.StateMachine.Pop();
     }
+
+  
 
     IEnumerator SelectandUseItem()
     {
@@ -111,6 +124,12 @@ public class InventoryState : State<GameController>
 
             
         }
+    }
+
+    public void CloseInventory()
+    {
+        inventoryUI.gameObject.SetActive(false);
+        gc.StateMachine.Pop();
     }
 
 }

@@ -11,7 +11,7 @@ public class IDSystem : MonoBehaviour
 
     public List<CreatureBase> IceDefeatedIDs = new List<CreatureBase>();
 
-    public List<ItemBase> FishIDs = new List<ItemBase>();
+    public List<int> FishIDs = new List<int>();
 
     [Header("Bestiery")]
     [SerializeField] Beastiery bestiery;
@@ -34,25 +34,20 @@ public class IDSystem : MonoBehaviour
             creature = idtoAdd;
             bestiery.EnableIceEntryButton(creature.ID);
         }
-        else
-        {
-            return;
-        }
+       
     }
 
 
-    public void addFishID(ItemBase idtoadd)
+    public void addFishID(FishItem idtoAdd)
     {
-        if (!FishIDs.Contains(idtoadd))
+        Debug.Log("addFish");
+        if (!FishIDs.Contains(idtoAdd.ID))
         {
-            FishIDs.Add(idtoadd);
+            FishIDs.Add(idtoAdd.ID);
 
-            bestiery.EnableFishEntryButton(ItemBase.ID);
+            bestiery.EnableFishEntryButton(idtoAdd.ID);
         }
-        else
-        {
-            return;
-        }
+      
     }
     public void addEarthCreatureID(CreatureBase idtoAdd)
     {

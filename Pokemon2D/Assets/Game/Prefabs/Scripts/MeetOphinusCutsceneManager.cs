@@ -69,7 +69,7 @@ public class MeetOphinusCutsceneManager : TRiggerableEvent
     public override IEnumerator PlayCutscene()
     {
         yield return fader.FadeIn(1f);
-        thePlayer.blocker.SetActive(true);
+        thePlayer.ignoreInput = true;
         yield return new WaitForSeconds(.2f);
         playerCam.SetActive(false);
         battlecam.SetActive(false);
@@ -83,7 +83,7 @@ public class MeetOphinusCutsceneManager : TRiggerableEvent
         playerCam.SetActive(true);
         yield return new WaitForSeconds(.1f);
         yield return fader.FadeOut(2f);
-        thePlayer.blocker.SetActive(false);
+        thePlayer.ignoreInput = false;
         this.gameObject.SetActive(false);
     }
 }

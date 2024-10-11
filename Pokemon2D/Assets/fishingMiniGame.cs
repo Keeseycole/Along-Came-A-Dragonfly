@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -50,6 +51,9 @@ public class fishingMiniGame : MonoBehaviour
 
     PlayerController player;
 
+    GameController gc;
+
+    FishingTrigger fishingTrigger;
     // Start is called before the first frame update
     void Start()
     {
@@ -58,6 +62,10 @@ public class fishingMiniGame : MonoBehaviour
         hasLost = false;
         resize();
         player = FindObjectOfType<PlayerController>();
+
+        gc =FindObjectOfType<GameController>(); 
+
+        fishingTrigger= FindObjectOfType<FishingTrigger>();
     }
 
     // Update is called once per frame
@@ -145,7 +153,7 @@ public class fishingMiniGame : MonoBehaviour
 
         if(hookProgress >= 1f)
         {
-           StartCoroutine(Catch());
+          Catch();
             Reset();
         }
         hasWon = false;
@@ -160,32 +168,34 @@ public class fishingMiniGame : MonoBehaviour
         failTimer = 10f;
     }
 
-    public IEnumerator Catch()
+    public void Catch()
     {
-        Debug.Log("has won");
+        
        hasWon= true;
-       fishingUI.gameObject.SetActive(false);
+     
       
-        player.blocker.SetActive(false);
-
+     
         ItemBase currentCatch = SceneSystem.currentLevelManager.ItemfromFishing();
 
         inventory.AddItem(currentCatch);
 
-      // if(itembase.GetItemType == ItemType.Fish)
-     //   {
-      //      IDSystem.i.addFishID(itembase);
-     //   }
-
-        yield return DialogueManager.Instance.ShowDialogText($"You caught {currentCatch.name}");
+       if(currentCatch.GetItemType == ItemType.Fish)
+       {
+           IDSystem.i.addFishID((FishItem)currentCatch);
         }
+
+
+        fishingTrigger.CaughtFish(currentCatch);
+        player.ignoreInput = false;
+        fishingUI.gameObject.SetActive(false);
+    }
 
     public void Lose()
     {
         Debug.Log("has lost");
         hasLost = true;
         fishingUI.gameObject.SetActive(false);
-        player.blocker.SetActive(false);
+        player.ignoreInput = false;
     }
 
 }

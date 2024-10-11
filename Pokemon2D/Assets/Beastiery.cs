@@ -206,7 +206,13 @@ public class Beastiery : MonoBehaviour
 
     public void OpenFishHabitate()
     {
+        Debug.Log("Open Fish");
         fishHab.SetActive(true);
+    }
+
+    public void CloseFishHabitate()
+    {
+        fishHab.SetActive(false);
     }
 
 

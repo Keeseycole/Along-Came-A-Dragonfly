@@ -68,7 +68,7 @@ public class CastleOnFireCutsceneManager : TRiggerableEvent
     public override IEnumerator PlayCutscene()
     {
         yield return fader.FadeIn(1f);
-        thePlayer.blocker.SetActive(true);
+        thePlayer.ignoreInput = true;
         yield return new WaitForSeconds(.2f);
         player.SetActive(false);
 
@@ -79,7 +79,7 @@ public class CastleOnFireCutsceneManager : TRiggerableEvent
         triggerCutscene.SetActive(false);
         player.SetActive(true);
         yield return fader.FadeOut(2f);
-        thePlayer.blocker.SetActive(false);
+        thePlayer.ignoreInput = false;
         theTrigger.SetActive(true);
         this.gameObject.SetActive(false);
     }

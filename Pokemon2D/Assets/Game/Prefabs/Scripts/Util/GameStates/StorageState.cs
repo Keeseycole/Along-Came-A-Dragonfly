@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Utils.StateMachine;
 
-public class StorageState : State<GameController>
+public class StorageState : State<BattleSystem>
 {
     [SerializeField] StorageUI storageui;
     public static StorageState i { get; private set; }
@@ -13,7 +13,7 @@ public class StorageState : State<GameController>
         i= this;
     }
 
-    public override void Enter(GameController owner)
+    public override void Enter(BattleSystem owner)
     {
         storageui.gameObject.SetActive(true);
     }

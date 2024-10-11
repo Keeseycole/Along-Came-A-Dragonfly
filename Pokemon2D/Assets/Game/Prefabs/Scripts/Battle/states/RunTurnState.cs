@@ -32,7 +32,7 @@ public class RunTurnState : State<BattleSystem>
 
     [SerializeField]IDSystem IdSystem;
 
-   [SerializeField] CreatureBase creature;
+   CreatureBase creature;
 
     Beastiery bestiery;
 

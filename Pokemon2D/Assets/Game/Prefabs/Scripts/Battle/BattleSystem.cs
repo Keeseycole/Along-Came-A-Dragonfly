@@ -26,7 +26,8 @@ public enum BattleAction
     Move,
     SwitchCreature,
     UseItem,
-    Flee
+    Flee,
+    Storage
 
 }
 
@@ -375,6 +376,14 @@ public class BattleSystem : MonoBehaviour
         {
            SelectedAction = BattleAction.Flee;
             StateMachine.ChangeState(RunTurnState.i);
+
+        });
+
+
+        battleButtons[5].onClick.AddListener(() =>
+        {
+            SelectedAction = BattleAction.Storage;
+            StateMachine.ChangeState(StorageState.i);
 
         });
 

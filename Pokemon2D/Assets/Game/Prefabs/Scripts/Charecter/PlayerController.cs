@@ -40,19 +40,18 @@ public class PlayerController : MonoBehaviour, ISavable,ISwitchable
 
     public Rigidbody2D theRb;
 
-    public bool canMove;
-
-
     public bool isholding;
 
     public bool hasSnailEggs;
 
     public bool hasIceWater;
 
+    public bool ignoreInput = false;
 
+    
     private void Awake()
     {
-        canMove= true;
+        
         i = this;
 
       theRb = gameObject.GetComponent<Rigidbody2D>();
@@ -73,6 +72,7 @@ public class PlayerController : MonoBehaviour, ISavable,ISwitchable
 
 
         if (!playerActive) return;
+        if (ignoreInput) return;
         if (!charecter.IsMoving)
         {
             input.x = Input.GetAxisRaw("Horizontal");

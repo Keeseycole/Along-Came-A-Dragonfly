@@ -19,4 +19,4 @@ MonoBehaviour:
   price: 150
   canSell: 1
   dropChance: 0
-  catchRateMod: 0
+  catchRateMod: 100

@@ -142,7 +142,7 @@ public class InventoryUI : SelectionUI<TextSlot>
                // Debug.Log("Pressed Space");
                 OpenPartyScreen();
             }
-          //  else if (Input.GetKeyDown(KeyCode.LeftShift))
+          // else if (Input.GetKeyDown(KeyCode.LeftShift))
          //   {
           //      onback.Invoke();
           //  }
@@ -233,6 +233,8 @@ public class InventoryUI : SelectionUI<TextSlot>
             buttons[i].navigation = nav;
         }
     }
+
+   
 
     public ItemBase SelectedItem => inventory.GetItem(selectedItem, selectedCatagory);
 }

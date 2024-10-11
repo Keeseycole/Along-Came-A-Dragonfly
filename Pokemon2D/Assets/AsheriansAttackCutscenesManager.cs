@@ -88,7 +88,7 @@ public class AsheriansAttackCutscenesManager : TRiggerableEvent
     public override IEnumerator PlayCutscene()
     {
         yield return fader.FadeIn(1f);
-        thePlayer.blocker.SetActive(true);
+        thePlayer.ignoreInput = true;
         yield return new WaitForSeconds(.2f);
         player.SetActive(false);
         buddy.SetActive(false);
@@ -114,7 +114,7 @@ public class AsheriansAttackCutscenesManager : TRiggerableEvent
         playerCam.SetActive(true);
         rescueMission.SetActive(true);
         yield return fader.FadeOut(2f);
-        thePlayer.blocker.SetActive(false);
+        thePlayer.ignoreInput = false;
 
 
         this.gameObject.SetActive(false);

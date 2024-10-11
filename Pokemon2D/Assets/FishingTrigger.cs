@@ -39,7 +39,7 @@ public class FishingTrigger : MonoBehaviour, Interactable, IPlayerTriggerable
     
 
         int selectedChoice = 0;
-
+        Debug.Log(" Fishing trigger game Dialogue Manager Instance", DialogueManager.Instance.gameObject);
         yield return DialogueManager.Instance.ShowDialogText($"Do you want to fish?",
             choices: new List<string>() { "Yes", "No" },
             onchoiceSelected: (selection) => selectedChoice = selection);
@@ -55,13 +55,13 @@ public class FishingTrigger : MonoBehaviour, Interactable, IPlayerTriggerable
             gc.StateMachine.Push(FishingState.i);
          
             fishingUI.transform.GetChild(0).gameObject.SetActive(true);
-            player.blocker.SetActive(true);
+            player.ignoreInput = true;
             isfishing = true;
                
                 animator.IsFishing = true;
 
 
-            GameController.Instance.StateMachine.Pop();
+            //GameController.Instance.StateMachine.Pop();
             isfishing = false;
 
         } 
@@ -76,6 +76,17 @@ public class FishingTrigger : MonoBehaviour, Interactable, IPlayerTriggerable
     public void OnPlayerTriggered(PlayerController player)
     {
         throw new System.NotImplementedException();
+    }
+
+     IEnumerator PlayerCatchFish(ItemBase fish)
+    {
+        yield return DialogueManager.Instance.ShowDialogText($"You caught a {fish.name}");
+        gc.StateMachine.Pop();
+    }
+
+    public void CaughtFish (ItemBase fish)
+    {
+        StartCoroutine(PlayerCatchFish(fish));
     }
 }
 

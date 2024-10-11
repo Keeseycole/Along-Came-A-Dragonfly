@@ -37,7 +37,7 @@ public class DialogueManager : MonoBehaviour
     {
         OnShowDialogue?.Invoke();
         IsShowing = true;
-
+        Debug.Log("Dialog called");
         dialogueBox.SetActive(true);
 
        yield return TypeDialogue(text);

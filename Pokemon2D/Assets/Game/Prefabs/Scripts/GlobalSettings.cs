@@ -6,7 +6,12 @@ public class GlobalSettings : MonoBehaviour
 {
     [SerializeField] Color highlightedColor;
 
+    [SerializeField] Color highlightedBgColor;
+
     public Color HighlighedColor => highlightedColor;
+
+    public Color HighlighedBgColor => highlightedBgColor;
+
 
     public static GlobalSettings i { get; private set; }
     public Color HighlightedColor { get; internal set; }

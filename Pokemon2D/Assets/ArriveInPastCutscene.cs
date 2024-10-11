@@ -79,10 +79,9 @@ public class ArriveInPastCutscene : TRiggerableEvent
         yield return fader.FadeIn(2f);
         arriveInPastCutscene.SetActive(false);
         player.SetActive(true);
-        buddy.SetActive(true
-            );
+        buddy.SetActive(true);
         yield return fader.FadeOut(2f);
-        thePlayer.blocker.SetActive(false);
+        
   
         functionCalled = false;
         this.gameObject.SetActive(false);

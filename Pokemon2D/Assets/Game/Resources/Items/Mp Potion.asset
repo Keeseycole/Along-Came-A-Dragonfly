@@ -22,7 +22,7 @@ MonoBehaviour:
   hpAmount: 0
   restoreMaxHP: 0
   mpAmount: 20
-  restoreMaxMP: 1
+  restoreMaxMP: 0
   status: 0
   recoverAllStatus: 0
   revive: 0

@@ -23,8 +23,7 @@ public class ShipMove : MonoBehaviour
     void Update()
     {
         player.transform.position = transform.position;
-        player.canMove = false;
-        StartCoroutine(MoveShip());
+        
     }
 
     public IEnumerator MoveShip()

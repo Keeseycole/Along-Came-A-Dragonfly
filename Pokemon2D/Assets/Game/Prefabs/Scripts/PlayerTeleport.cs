@@ -19,7 +19,14 @@ public class PlayerTeleport : MonoBehaviour
 
     IEnumerator Teleport()
     {
-        GetComponent<PlayerController>().blocker.SetActive(true);
+        PlayerController player = GetComponent<PlayerController>();
+
+        if (player == null) 
+        {
+            Debug.LogWarning("Player cannot be found");
+            yield break;
+        }
+        player.ignoreInput = true;
         yield return fader.FadeIn(1f);
 
         buddy.DeActivateBuddy();
@@ -31,7 +38,7 @@ public class PlayerTeleport : MonoBehaviour
        
         yield return fader.FadeOut(1f);
         buddy.ActivateBuddy();
-        GetComponent<PlayerController>().blocker.SetActive(false);
+        player.ignoreInput = false;
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
