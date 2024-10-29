@@ -12,6 +12,8 @@ public class blockPuzzleHole : MonoBehaviour
 
     public bool isFilled = false;
 
+    
+
     void Start()
     {
         gameObject.GetComponent<SpriteRenderer>().sprite = emptyHole.GetComponent<SpriteRenderer>().sprite;
@@ -19,13 +21,23 @@ public class blockPuzzleHole : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Block"))
+        if (other.tag == "Block")
         {
-            GameObject obj = GameObject.FindGameObjectWithTag("Block");
+            //GameObject obj = GameObject.FindGameObjectWithTag("Block");
             gameObject.GetComponent<SpriteRenderer>().sprite = filledHole.GetComponent<SpriteRenderer>().sprite;
             isFilled = true;
             //Destroy(obj);
         }
+
     }
-    
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.tag == "Block")
+        {
+            //GameObject obj = GameObject.FindGameObjectWithTag("Block");
+            gameObject.GetComponent<SpriteRenderer>().sprite = filledHole.GetComponent<SpriteRenderer>().sprite;
+            isFilled = true;
+            
+        }
+    }
 }

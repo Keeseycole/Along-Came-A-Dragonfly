@@ -21,6 +21,13 @@ TagManager:
   - NpcAlly
   - NpcEnemy
   - Wadadle
+  - SlideBlock1
+  - SlideBlock2
+  - SlideBlock3
+  - SlideBlock4
+  - SlideBlock5
+  - SlideBlock6
+  - SlideBlock7
   layers:
   - Default
   - TransparentFX

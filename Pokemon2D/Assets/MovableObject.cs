@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,7 @@ public class MovableObject : MonoBehaviour
     private bool IsMoving;
     private bool KeepMoving = true;
 
-
+    Side dir;
     public float timer;
 
 
@@ -23,9 +24,9 @@ public class MovableObject : MonoBehaviour
     {
         if (CheckDirection(direction, true))
         {
-            while (KeepMoving && CheckDirection(direction )) 
+            while (KeepMoving && CheckDirection(direction)) 
             {
-                if (!IsMoving)
+                 if (!IsMoving)
                 {
                     Vector3 targetPos = transform.position + direction;
                     IsMoving = true;
@@ -43,17 +44,17 @@ public class MovableObject : MonoBehaviour
                         KeepMoving = false;
                 }
             }
-            if (!isIceBlock)
+            if (isIceBlock)
                 KeepMoving = true;
         }
     }
 
     private bool CheckDirection(Vector2 direction, bool firstTouch = false)
     {
-        
+
         // Coordinates
-        Vector2 currentPos = transform.position;
-        Vector2 targetPos = currentPos + direction;
+   
+      
         if (firstTouch)
         {
 
@@ -66,6 +67,7 @@ public class MovableObject : MonoBehaviour
 
                         return false;
                     }
+                    dir = Side.Top;
                     break;
 
                 case var _ when direction.y < -0.1f: // Moving down
@@ -74,6 +76,7 @@ public class MovableObject : MonoBehaviour
 
                         return false;
                     }
+                    dir = Side.Bottom;
                     break;
 
                 case var _ when direction.x > 0.1f: // Moving right
@@ -82,6 +85,7 @@ public class MovableObject : MonoBehaviour
 
                         return false;
                     }
+                    dir = Side.Right;
                     break;
 
                 case var _ when direction.x < -0.1f: // Moving left
@@ -90,18 +94,47 @@ public class MovableObject : MonoBehaviour
 
                         return false;
                     }
+                    dir = Side.Left;
                     break;
             }
         }
 
-    // Layers
-    var collisionLayer = GameLayers.I.SolidLayer | GameLayers.I.InteractableLayer | GameLayers.I.PlayerLayer | GameLayers.I.MoveableObjects;
+        Vector2 currentPos = getPushDir(dir);
 
-        if (Physics2D.BoxCast(targetPos, new Vector2(0.1f, 0.1f), 0f, direction, direction.magnitude - 1, collisionLayer) == true)
+        // Layers
+        var collisionLayer = GameLayers.I.SolidLayer | GameLayers.I.InteractableLayer | GameLayers.I.PlayerLayer | GameLayers.I.MoveableObjects;
+        var test = Physics2D.BoxCast(currentPos, new Vector2(0.1f, 0.1f), 0f, Vector2.zero, 0, collisionLayer);
+        if (test)
+        {
+            Debug.Log("Obj hit", test.transform.gameObject);
             return false;
+        }              
+       
         return true;
     }
+        private Vector2 getPushDir(Side dir)
+    {
+        switch (dir)
+        {
+            case Side.Top:
+               return colliderUp.transform.position;
+              
+              
+            case Side.Bottom:
+                return colliderDown.transform.position;
 
+            case Side.Left:
+                return colliderLeft.transform.position;
+
+            case Side.Right:
+                return colliderRight.transform.position;
+
+            default:
+                // Optional: Code to handle unexpected values
+                Console.WriteLine("Unknown side");
+                return Vector2.zero;
+        }
+    }
 
    // private void OnTriggerStay2D(Collider2D collision)
    // {

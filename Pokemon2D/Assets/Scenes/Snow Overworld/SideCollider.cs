@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum Side { Top, Bottom, Left, Right }
 public class SideCollider : MonoBehaviour
 {
-    public enum Side { Top, Bottom, Left, Right }
+  
     public Side colliderSide;
     public bool isPlayerTouchingSide = false;
 
