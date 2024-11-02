@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
+using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Utils.StateMachine;
@@ -35,25 +36,27 @@ public class RunTurnState : State<BattleSystem>
    CreatureBase creature;
 
     Beastiery bestiery;
+    [SerializeField] DamageNumber dmgnumPrefab;
 
+    ObjectPool<DamageNumber> damagePool;
    
    
     private void Awake()
     {
-        
+       
         gc = GetComponent<GameController>();
         i = this;
         bestiery = FindObjectOfType<Beastiery>();
 
         creature= FindObjectOfType<CreatureBase>();
+        damagePool = new ObjectPool<DamageNumber>(dmgnumPrefab, this.transform);
 
-       
     }
 
     public override void Enter(BattleSystem owner)
     {
         bs = owner;
-
+       
         playerUnit = bs.PlayerUnit;
         enemyUnit = bs.EnemyUnit;
         dialoguebox = bs.battleDialogueBox;
@@ -188,8 +191,11 @@ public class RunTurnState : State<BattleSystem>
                 hitCount++;
                
                 var damageDetails = tarUnit.Creature.TakeDamage(move, sourceUnit.Creature);
-                StartCoroutine(ShowDamageNumber(tarUnit.GetComponent<RectTransform>().localPosition, damageDetails));
-                Instantiate(bs.theDamageNumber, tarUnit.transform.position, tarUnit.transform.rotation).SetDamage(damageDetails, tarUnit.transform.position);
+
+                StartCoroutine(ShowDamageNumber(tarUnit.transform.position, damageDetails));
+                //Instantiate(bs.theDamageNumber, tarUnit.transform.position, tarUnit.transform.rotation).SetDamage(damageDetails, tarUnit.transform.position);
+
+
                 yield return tarUnit.Hud.WaitForHpUpdate();
 
                 if (tarUnit.Creature.HP <= 0)
@@ -445,14 +451,19 @@ public class RunTurnState : State<BattleSystem>
         }
     }
 
-   public  IEnumerator ShowDamageNumber(Vector3 pos, int damage) { 
-    
-    bs.theDamageNumber.gameObject.SetActive(true);
+   public  IEnumerator ShowDamageNumber(Vector3 pos, int damage) {
 
-    bs.theDamageNumber.SetDamage(damage, pos);
+        DamageNumber damageNumber = damagePool.GetObject();
+
+        Debug.Log("This is Obj", damageNumber);
+   
+
+        damageNumber.SetDamage(damage, pos);
     yield return new WaitForSeconds(1f);
 
-    bs.theDamageNumber.gameObject.SetActive(false);
+      
+
+        damagePool.ReturnObject(damageNumber);
 
     }
 

@@ -18,7 +18,6 @@ MonoBehaviour:
   leftSprite: {fileID: 1440102994, guid: a150b321f96e5814cb34067c6c6e2cd9, type: 3}
   rightSprite: {fileID: 905100139, guid: a150b321f96e5814cb34067c6c6e2cd9, type: 3}
   type1: 2
-  type2: 3
   creatureHabitates: 0
   attack: 200
   defense: 100
@@ -30,14 +29,15 @@ MonoBehaviour:
   growthRate: 0
   catchRate: 255
   learnableMoves:
-  - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
+  - moveBase: {fileID: 11400000, guid: 22d6196b7a2f11b4e91f55e8a6ae651d, type: 2}
     level: 0
-  - moveBase: {fileID: 11400000, guid: 05f397515f6313a4d88c48d8b2bb7d1d, type: 2}
+  - moveBase: {fileID: 11400000, guid: edc6a3b7634cf98478a69dff6b5f850e, type: 2}
     level: 0
   learnableByItems: []
   evolutions: []
   instance: {fileID: 11400000}
   creatureSize: {x: 1.4, y: 1.4}
+  mouthPos: {x: 0, y: 0}
   isDefeted: 0
   isEarth: 0
   isFire: 1

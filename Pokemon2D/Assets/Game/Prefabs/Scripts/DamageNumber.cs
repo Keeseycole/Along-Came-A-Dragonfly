@@ -12,23 +12,25 @@ public class DamageNumber : MonoBehaviour
     public float placmentJitter = .5f;
 
     RectTransform rectTrans;
-    private void Start()
+    private void Awake()
     {
         rectTrans = GetComponent<RectTransform>();
-        damageText.gameObject.SetActive(false);  
+      
 
     }
     // Update is called once per frame
     void Update()
     {
         //rectTrans.localPosition = new Vector2(Random.Range(-placmentJitter, placmentJitter) + pos.x, Random.Range(-placmentJitter, placmentJitter) + pos.y);
-        rectTrans.localPosition = new Vector2 (0f, moveSpeed * Time.deltaTime) ;
+        //rectTrans.localPosition = new Vector2 (0f, moveSpeed * Time.deltaTime) ;
+
+        rectTrans.localPosition = new Vector2(0f, (moveSpeed * Time.deltaTime) + rectTrans.localPosition.y);
     }
 
     public void SetDamage(int damageAmount, Vector2 pos)
     {
        
         damageText.text = damageAmount.ToString();
-        //rectTrans.localPosition = new Vector2(Random.Range(-placmentJitter, placmentJitter) + pos.x, Random.Range(-placmentJitter, placmentJitter) + pos.y);
+        rectTrans.localPosition = pos;
     }
 }
