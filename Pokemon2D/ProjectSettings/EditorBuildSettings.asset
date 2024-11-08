@@ -24,9 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Snow Overworld/SnowIndoors3.unity
     guid: e568f03f5e8241c4894f1a5234e4e53b
   - enabled: 1
-    path: Assets/Scenes/Otherworld.unity
-    guid: 89dca998772656c40b88bb71f6ab6c9c
-  - enabled: 1
     path: Assets/Scenes/Snow Overworld/SnowIndoors4.unity
     guid: 9f8c2febe03d3ac42971b08d9f08ed67
   - enabled: 1
@@ -50,18 +47,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Snow Overworld/Snow9.unity
     guid: ec95e136b8453ec4e8667a46caa7c117
-  - enabled: 1
-    path: Assets/Scenes/Grasslands/GrasslandsCave.unity
-    guid: 68439a7c8f86e6444b08ca697ed59bc0
-  - enabled: 1
-    path: Assets/Grasslands.unity
-    guid: e63b84a2808a72d49886fef6df3242f1
-  - enabled: 1
-    path: Assets/Scenes/Grasslands(past).unity
-    guid: fd4bfe9e49935864c91a46ed766b4652
-  - enabled: 1
-    path: Assets/Scenes/Grasslands(Future).unity
-    guid: 542a5ef4f9bc13341b261ea797243c85
   - enabled: 1
     path: Assets/Scenes/Snow Overworld/Cave.unity
     guid: 140c973ae2694024b9917f026254489a
@@ -98,73 +83,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dungeons/Ice Dungeon/IceDungeon10.unity
     guid: 9e4fe7b656fd2024dafd09f0e017464a
-  - enabled: 1
-    path: Assets/Scenes/LostForest.unity
-    guid: c4715d26f92cd654aaf7c716de1e6457
-  - enabled: 1
-    path: Assets/Scenes/Dungeons/ForestDungeon.unity
-    guid: 4c7fdea9829165549ace2991b9aa329b
-  - enabled: 1
-    path: Assets/Scenes/Beach Area/BeachArea.unity
-    guid: d48097757fdb89d4f9e04a07f4c31f1b
-  - enabled: 1
-    path: Assets/Scenes/Beach Area/IceHouse.unity
-    guid: be223ceb686520045a137c23b7e72d42
-  - enabled: 1
-    path: Assets/BeachArea(future).unity
-    guid: 46439bb1c5656184eac7a6ca6c3e8f02
-  - enabled: 1
-    path: Assets/Scenes/Beach Area/Past/BeachArea(Past).unity
-    guid: 80ccc730e123dd64d94fd92b8146f2ed
-  - enabled: 1
-    path: Assets/Scenes/Dungeons/Water Dungeon/WaterTemple1.unity
-    guid: 2e72869203a72d2409f94d4e60b885ec
-  - enabled: 1
-    path: Assets/Scenes/Dungeons/Water Dungeon/WaterTemple2.unity
-    guid: 38ac19101aec86b46a0aa15023afa6f9
-  - enabled: 1
-    path: Assets/Scenes/Dungeons/Lava Dundeom/LavaDungeon1.unity
-    guid: feff452883cd4ce489939a9b3ae8f65d
-  - enabled: 1
-    path: Assets/Scenes/Dungeons/Lava Dundeom/LavaDungeon2.unity
-    guid: 9849c26bf316ad144bb33bdb5942800a
-  - enabled: 1
-    path: Assets/Scenes/Lava Area/LavaArea.unity
-    guid: 8aec5db9d6142d54bb7d9131f349de12
-  - enabled: 1
-    path: Assets/Scenes/Lava Area/LavaArea(Past).unity
-    guid: 323c8e18d05cd294d87aaac0a6fa4d22
-  - enabled: 1
-    path: Assets/Scenes/Lava Area/LavaArea(Future).unity
-    guid: dda7d6aa380bb3649beb4281086d8895
-  - enabled: 1
-    path: Assets/Scenes/Grasslands/Indoors/OphinusHouse.unity
-    guid: a1b671a4ce8dc304dac5850d215a9a89
-  - enabled: 1
-    path: Assets/Scenes/Havensgaurd Castle.unity
-    guid: 6ff2a2ba8234a3d498b6a020284aba59
-  - enabled: 1
-    path: Assets/Scenes/Snow Overworld/Future/HomeTown(Future).unity
-    guid: 733ea0321264f454a8e1c56f44d02877
-  - enabled: 1
-    path: Assets/Scenes/Snow Overworld/Future/Snow2(Future).unity
-    guid: 1bd4844d5b66f794eacd13b8d25de74d
-  - enabled: 1
-    path: Assets/Scenes/Snow Overworld/Future/Snow3(Future).unity
-    guid: 3706713127604ce40a081576ef33c74c
-  - enabled: 1
-    path: Assets/Scenes/Snow Overworld/Future/Snow5(Future).unity
-    guid: ce88958c6f7ff3a478a52445b67662df
-  - enabled: 1
-    path: Assets/Scenes/Snow Overworld/Future/Snow6(Future).unity
-    guid: 1b9c3872ef5403a458ea07fe1b8196e5
-  - enabled: 1
-    path: Assets/Scenes/Snow Overworld/Future/Snow9(Future).unity
-    guid: ace4427f6b3b7614bb45af8aad79d14c
-  - enabled: 1
-    path: Assets/Scenes/Beach Area/Future/Prison.unity
-    guid: 9fb1c7c2b6600154e91c543cc9e3821d
-  - enabled: 1
-    path: Assets/Scenes/void dungeon.unity
-    guid: f082183aeba7de2418b435e68e3c1b00
   m_configObjects: {}

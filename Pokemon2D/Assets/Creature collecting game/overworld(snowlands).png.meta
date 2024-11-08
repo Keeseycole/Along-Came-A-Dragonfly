@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 15
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -3708,12 +3708,12 @@ TextureImporter:
       overworld(snowlands)_122: 1483554149
       overworld(snowlands)_169: 1351577516
       overworld(snowlands)_114: 1380799243
-      overworld(snowlands)_13: -1152956751
-      overworld(snowlands)_31: 1450735985
       overworld(snowlands)_95: -77082022
+      overworld(snowlands)_142: 82952495
+      overworld(snowlands)_13: -1152956751
       overworld(snowlands)_137: -1646607373
       overworld(snowlands)_103: -1911035158
-      overworld(snowlands)_142: 82952495
+      overworld(snowlands)_31: 1450735985
       overworld(snowlands)_32: -2009680597
       overworld(snowlands)_80: -633263103
       overworld(snowlands)_17: -297359584

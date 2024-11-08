@@ -58,6 +58,7 @@ public class IceSnailRescuedCutsceneManager : TRiggerableEvent
 
     public override IEnumerator PlayCutscene()
     {
+        thePlayer.blocker.SetActive(true);
         yield return fader.FadeIn(1f);
       
         thePlayer.gameObject.SetActive(false);
@@ -66,11 +67,12 @@ public class IceSnailRescuedCutsceneManager : TRiggerableEvent
         IceSnailRescueCutscene.SetActive(true);
         yield return fader.FadeOut(4f);
        
-        yield return new WaitForSeconds(23f);
+        yield return new WaitForSeconds(24f);
       
         yield return fader.FadeIn(2f);
         IceSnailRescueCutscene.SetActive(false);
         thePlayer.gameObject.SetActive(true);
+        thePlayer.blocker.SetActive(false);
         theBuddy.gameObject.SetActive(true);
         iceSnaill1.SetActive(false);
         iceSnaill2.SetActive(true);

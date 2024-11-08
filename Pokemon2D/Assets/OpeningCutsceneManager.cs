@@ -98,6 +98,7 @@ public class OpeningCutsceneManager : TRiggerableEvent
         Debug.Log("Mute");
       AudioManager.i.MuteMusic();
 
+        thePlayer.blocker.SetActive(true);
         yield return fader.FadeIn(2f);
         player.SetActive(false);
         buddy.SetActive(false);
@@ -114,6 +115,7 @@ public class OpeningCutsceneManager : TRiggerableEvent
         yield return new WaitForSeconds(22f);
         objToSpawn[1].SetActive(false);
         player.SetActive(true);
+        thePlayer.blocker.SetActive(false);
         buddy.SetActive(true);
         player.transform.position = spawnPoint.position;
         buddy.transform.position = spawnPoint.position;

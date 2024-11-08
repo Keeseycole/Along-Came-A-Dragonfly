@@ -79,6 +79,11 @@ public class CharecterAnimator : MonoBehaviour
     [SerializeField] List<Sprite> well9RightSprites;
     [SerializeField] List<Sprite> well9LeftSprites;
 
+    [SerializeField] List<Sprite> FishDownSprites;
+    [SerializeField] List<Sprite> FishUpSprites;
+    [SerializeField] List<Sprite> FishRightSprites;
+    [SerializeField] List<Sprite> FishLeftSprites;
+
 
     [SerializeField] List<Sprite> surfSprites;
     [SerializeField] FacingDirection defaultDir = FacingDirection.Down;
@@ -232,6 +237,13 @@ public class CharecterAnimator : MonoBehaviour
     SpriteAnimator well9RightAnim;
     SpriteAnimator well9LeftAnim;
 
+    [Header("Fishing")]
+    SpriteAnimator fishDownAnim;
+    SpriteAnimator fishUpAnim;
+    SpriteAnimator fishRightAnim;
+    SpriteAnimator fishLeftAnim;
+
+
     protected SpriteAnimator currentAnim;
    protected bool wasPreviouslyMoving;
 
@@ -313,6 +325,11 @@ public class CharecterAnimator : MonoBehaviour
         well9DownAnim = new SpriteAnimator(well9DownSprites, spriteRenderer);
         well9LeftAnim = new SpriteAnimator(well9LeftSprites, spriteRenderer);
         well9RightAnim = new SpriteAnimator(well9RightSprites, spriteRenderer);
+
+        fishUpAnim = new SpriteAnimator(FishUpSprites, spriteRenderer);
+        fishDownAnim = new SpriteAnimator(FishDownSprites, spriteRenderer);
+        fishLeftAnim = new SpriteAnimator(FishLeftSprites, spriteRenderer);
+        fishRightAnim = new SpriteAnimator(FishRightSprites, spriteRenderer);
 
 
         SetFacingDir(defaultDir);
@@ -479,6 +496,18 @@ public class CharecterAnimator : MonoBehaviour
                     currentAnim = torchUpAnim;
                 else if (MoveY == -1)
                     currentAnim = torchDownAnim;
+            }
+
+            if (IsFishing == true)
+            {
+                if (MoveX == 1)
+                    currentAnim = fishRightAnim;
+                else if (MoveX == -1)
+                    currentAnim = fishLeftAnim;
+                else if (MoveY == 1)
+                    currentAnim = fishUpAnim;
+                else if (MoveY == -1)
+                    currentAnim = fishDownAnim;
             }
 
             if (currentAnim != prevAnim || IsMoving != wasPreviouslyMoving)

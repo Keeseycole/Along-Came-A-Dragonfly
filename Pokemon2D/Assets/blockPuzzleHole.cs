@@ -12,6 +12,7 @@ public class blockPuzzleHole : MonoBehaviour
 
     public bool isFilled = false;
 
+ 
     
 
     void Start()
@@ -21,7 +22,7 @@ public class blockPuzzleHole : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Block")
+        if (other.tag == "Block" )
         {
             //GameObject obj = GameObject.FindGameObjectWithTag("Block");
             gameObject.GetComponent<SpriteRenderer>().sprite = filledHole.GetComponent<SpriteRenderer>().sprite;

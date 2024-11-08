@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
   m_Name: Fire Slug
   m_EditorClassIdentifier: 
-  name: 
+  name: Burluma
   ID: 0
   description: 
   leftSprite: {fileID: -1603286662, guid: 9d415fc1d341cc14582a96f97ceaf22f, type: 3}
   rightSprite: {fileID: 981573835, guid: c4e337dfb3b5ff44e9629c312321ace1, type: 3}
   type1: 0
-  type2: 0
   creatureHabitates: 0
   attack: 16
   defense: 18
@@ -36,6 +35,7 @@ MonoBehaviour:
   evolutions: []
   instance: {fileID: 11400000}
   creatureSize: {x: 1.2, y: 1.2}
+  mouthPos: {x: 0, y: 0}
   isDefeted: 0
   isEarth: 0
   isFire: 1

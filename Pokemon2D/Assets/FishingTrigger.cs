@@ -19,6 +19,8 @@ public class FishingTrigger : MonoBehaviour, Interactable, IPlayerTriggerable
 
     PlayerController player;
 
+    CharecterAnimator charecterAnim;
+
     private void Start()
     {
         gc = FindObjectOfType<GameController>();
@@ -26,6 +28,8 @@ public class FishingTrigger : MonoBehaviour, Interactable, IPlayerTriggerable
         fishingUI = GameObject.Find("Fishing Parent").gameObject;
 
       player = FindObjectOfType<PlayerController>();
+
+        charecterAnim = FindObjectOfType<CharecterAnimator>();
     }
     public IEnumerator Interact(Transform initer)
     {
@@ -56,13 +60,12 @@ public class FishingTrigger : MonoBehaviour, Interactable, IPlayerTriggerable
          
             fishingUI.transform.GetChild(0).gameObject.SetActive(true);
             player.ignoreInput = true;
-            isfishing = true;
-               
-                animator.IsFishing = true;
+
+            animator.IsFishing = true;
 
 
             //GameController.Instance.StateMachine.Pop();
-            isfishing = false;
+           // isfishing = false;
 
         } 
 
@@ -78,15 +81,18 @@ public class FishingTrigger : MonoBehaviour, Interactable, IPlayerTriggerable
         throw new System.NotImplementedException();
     }
 
-     IEnumerator PlayerCatchFish(ItemBase fish)
+     IEnumerator PlayerCatchFish(ItemBase fish, Transform initer)
     {
+        var animator = initer.GetComponent<CharecterAnimator>();
+
         yield return DialogueManager.Instance.ShowDialogText($"You caught a {fish.name}");
+        animator.IsFishing = false;
         gc.StateMachine.Pop();
     }
 
-    public void CaughtFish (ItemBase fish)
+    public void CaughtFish (ItemBase fish, Transform initer)
     {
-        StartCoroutine(PlayerCatchFish(fish));
+        StartCoroutine(PlayerCatchFish(fish, initer));
     }
 }
 

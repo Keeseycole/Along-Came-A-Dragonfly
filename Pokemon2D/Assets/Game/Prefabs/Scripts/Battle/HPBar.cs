@@ -11,7 +11,7 @@ public class HPBar : MonoBehaviour
 
     public void SetHP(float hpnormalized)
     {
-        health.transform.localScale = new Vector3(hpnormalized, .5f);
+        health.transform.localScale = new Vector3(hpnormalized, .45f);
     }
 
     public IEnumerator SetHPSmooth(float newHP)
@@ -27,7 +27,7 @@ public class HPBar : MonoBehaviour
             yield return null;
         }
 
-        health.transform.localScale = new Vector3(newHP, .5f);
+        health.transform.localScale = new Vector3(newHP, .54f);
 
         IsUpdating = false;
     }

@@ -76,6 +76,7 @@ public class IceSnailAttackCutsceneManager : TRiggerableEvent
 
     public override IEnumerator PlayCutscene()
     {
+        thePlayer.blocker.SetActive(true);
         yield return fader.FadeIn(1f);
 
         yield return new WaitForSeconds(.2f);
@@ -90,6 +91,7 @@ public class IceSnailAttackCutsceneManager : TRiggerableEvent
 
         IceSnailAttackedCutscene.SetActive(false);
         player.SetActive(true);
+        thePlayer.blocker.SetActive(false);
         buddy.SetActive(true);
         enemies.SetActive(true);
         iceSnail.SetActive(true);

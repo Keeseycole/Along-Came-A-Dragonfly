@@ -15,10 +15,9 @@ MonoBehaviour:
   name: Jagchar
   ID: 0
   description: 
-  leftSprite: {fileID: 21300000, guid: ea415a9a4a93e3e4598fd7c4156b9ad9, type: 3}
-  rightSprite: {fileID: 2093644945, guid: df1c719d422793545bab49c8b845b980, type: 3}
+  leftSprite: {fileID: 1303166309, guid: ea415a9a4a93e3e4598fd7c4156b9ad9, type: 3}
+  rightSprite: {fileID: -1472403961, guid: ea415a9a4a93e3e4598fd7c4156b9ad9, type: 3}
   type1: 0
-  type2: 0
   creatureHabitates: 0
   attack: 20
   defense: 10
@@ -34,10 +33,13 @@ MonoBehaviour:
     level: 0
   - moveBase: {fileID: 11400000, guid: b36dd519c242a47479d67fc1a109c39e, type: 2}
     level: 0
+  - moveBase: {fileID: 11400000, guid: 05f397515f6313a4d88c48d8b2bb7d1d, type: 2}
+    level: 0
   learnableByItems: []
   evolutions: []
   instance: {fileID: 11400000}
   creatureSize: {x: 2, y: 2}
+  mouthPos: {x: 0, y: 0}
   isDefeted: 0
   isEarth: 0
   isFire: 1

@@ -70,9 +70,9 @@ public class DragonflyCutsceneManager : TRiggerableEvent
 
     public override IEnumerator PlayCutscene()
     {
-
+        thePlayer.blocker.SetActive(true);
         yield return fader.FadeIn(1f);
-
+        
         player.SetActive(false);
         buddy.SetActive(false);
         yield return new WaitForSeconds(.2f);
@@ -86,6 +86,7 @@ public class DragonflyCutsceneManager : TRiggerableEvent
         
     
         player.SetActive(true);
+        thePlayer.blocker.SetActive(false);
         buddy.SetActive(true);
         yield return fader.FadeOut(1f);
         dragonfly.SetActive(true);

@@ -54,9 +54,9 @@ public class ReptileIceDungCutsceneManager : TRiggerableEvent
 
     public override IEnumerator PlayCutscene()
     {
-      
+        thePlayer.blocker.SetActive(true);
         yield return fader.FadeIn(1f);
-
+        
 
         yield return new WaitForSeconds(.2f);
         thePlayer.gameObject.SetActive(false);
@@ -68,6 +68,7 @@ public class ReptileIceDungCutsceneManager : TRiggerableEvent
         yield return new WaitForSeconds(1f);
         triggerCutscene.SetActive(false);
         thePlayer.gameObject.SetActive(true);
+        thePlayer.blocker.SetActive(false);
         theBuddy.gameObject.SetActive(true);
         yield return fader.FadeOut(2f);
 

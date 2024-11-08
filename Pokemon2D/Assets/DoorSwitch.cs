@@ -40,29 +40,21 @@ public class DoorSwitch : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
        
-            if (isPlayer)
+          
+            if ((other.tag == "Player" && isPlayer == true))
             {
-                gameObject.GetComponent<SpriteRenderer>().sprite = switchDown.GetComponent<SpriteRenderer>().sprite;
-                isPressed = true;
-
+              gameObject.GetComponent<SpriteRenderer>().sprite = switchDown.GetComponent<SpriteRenderer>().sprite;
+              isPressed = true;
             }
-            else
-            {
-                isPressed = false;
-            }
+       
         
-        
-            if (isBlock == true)
+          else if (isBlock == true)
             {
 
                 gameObject.GetComponent<SpriteRenderer>().sprite = switchDown.GetComponent<SpriteRenderer>().sprite;
                 isPressed = true;
 
-            } else
-
-            {
-            isPressed = false;
-            }
+            } 
 
 
     }

@@ -19,8 +19,8 @@ MonoBehaviour:
   rightSprite: {fileID: -510626094, guid: 32e43fa339e8eec4dbb52a0ee871fb42, type: 3}
   type1: 0
   creatureHabitates: 0
-  attack: 35
-  defense: 23
+  attack: 120
+  defense: 115
   maxhp: 500
   speed: 0
   maxMp: 150
@@ -33,7 +33,7 @@ MonoBehaviour:
     level: 0
   - moveBase: {fileID: 11400000, guid: efdd0564eeb26bd4788e22408a42e9a4, type: 2}
     level: 0
-  - moveBase: {fileID: 11400000, guid: b9a772822d172ca4bad76ff8852e25e9, type: 2}
+  - moveBase: {fileID: 11400000, guid: 97b45d98e4f716846abc2f8cd602a259, type: 2}
     level: 0
   learnableByItems: []
   evolutions: []

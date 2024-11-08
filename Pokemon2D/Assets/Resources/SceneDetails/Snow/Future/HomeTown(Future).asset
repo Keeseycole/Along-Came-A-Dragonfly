@@ -15,9 +15,9 @@ MonoBehaviour:
   connectedScenes:
   - {fileID: 11400000, guid: 4b6a09e037fc9bf4291bc978ac50f299, type: 2}
   - {fileID: 11400000, guid: ea5484884d836f64088fbb68f1b711a3, type: 2}
+  - {fileID: 11400000, guid: f61c8bafd68559e47955734a6720124d, type: 2}
   - {fileID: 11400000, guid: bf043988824021443853b2bb58db0185, type: 2}
   - {fileID: 11400000, guid: 9e26b06b8994afc40b2b1dd14b3af320, type: 2}
-  - {fileID: 11400000, guid: f61c8bafd68559e47955734a6720124d, type: 2}
   - {fileID: 11400000, guid: 3f7ae45707bc7c04d82b4abe2540b109, type: 2}
   sceneName: 
   battleBackround: {fileID: 0}

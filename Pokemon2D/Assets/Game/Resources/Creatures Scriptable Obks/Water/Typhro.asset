@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
+  m_Name: Typhro
+  m_EditorClassIdentifier: 
+  name: Typhro
+  ID: 0
+  description: 
+  leftSprite: {fileID: 1392981579, guid: 1ab2eb7f2e89e42459c0adf7ba42d93a, type: 3}
+  rightSprite: {fileID: -1723779253, guid: 1ab2eb7f2e89e42459c0adf7ba42d93a, type: 3}
+  type1: 0
+  creatureHabitates: 0
+  attack: 0
+  defense: 0
+  maxhp: 0
+  speed: 0
+  maxMp: 0
+  currentmp: 0
+  expGain: 0
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 2e2a142b379ac9c4fbb1982aef24587f, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []
+  instance: {fileID: 11400000}
+  creatureSize: {x: 1.3, y: 1.3}
+  mouthPos: {x: 0, y: 0}
+  isDefeted: 0
+  isEarth: 0
+  isFire: 0
+  isWater: 1
+  isIce: 0
+  isDarkness: 0
+  isEthareal: 0

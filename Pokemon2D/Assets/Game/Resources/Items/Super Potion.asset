@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Super Potion
   description: Restor 100  HP
-  icon: {fileID: 21300000, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
+  icon: {fileID: 1689729824, guid: 29242e2a96caf9f4899a94f54bcb68c0, type: 3}
   itemType: 0
   price: 200
   canSell: 1

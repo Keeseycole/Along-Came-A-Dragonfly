@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using UnityEngine;
 
 public class fishingMiniGame : MonoBehaviour
@@ -54,6 +55,8 @@ public class fishingMiniGame : MonoBehaviour
     GameController gc;
 
     FishingTrigger fishingTrigger;
+
+    CharecterAnimator CharecterAnimator;
     // Start is called before the first frame update
     void Start()
     {
@@ -66,6 +69,8 @@ public class fishingMiniGame : MonoBehaviour
         gc =FindObjectOfType<GameController>(); 
 
         fishingTrigger= FindObjectOfType<FishingTrigger>();
+
+        CharecterAnimator = FindObjectOfType<CharecterAnimator>();
     }
 
     // Update is called once per frame
@@ -144,7 +149,7 @@ public class fishingMiniGame : MonoBehaviour
             failTimer -= Time.deltaTime;
             if(failTimer <= 0f) 
             {
-                Lose();
+                Lose(player.transform);
                 Reset();
                
             }
@@ -158,6 +163,7 @@ public class fishingMiniGame : MonoBehaviour
         }
         hasWon = false;
         hookProgress = Mathf.Clamp(hookProgress, 0f, 1f);
+   
     }
 
   
@@ -172,9 +178,9 @@ public class fishingMiniGame : MonoBehaviour
     {
         
        hasWon= true;
-     
-      
-     
+   
+
+
         ItemBase currentCatch = SceneSystem.currentLevelManager.ItemfromFishing();
 
         inventory.AddItem(currentCatch);
@@ -185,17 +191,24 @@ public class fishingMiniGame : MonoBehaviour
         }
 
 
-        fishingTrigger.CaughtFish(currentCatch);
+        fishingTrigger.CaughtFish(currentCatch, player.transform);
         player.ignoreInput = false;
+         
         fishingUI.gameObject.SetActive(false);
+    
     }
 
-    public void Lose()
+    public void Lose( Transform initer)
     {
+        var animator = initer.GetComponent<CharecterAnimator>();
         Debug.Log("has lost");
+        animator.IsFishing = false;
         hasLost = true;
         fishingUI.gameObject.SetActive(false);
         player.ignoreInput = false;
+        gc.StateMachine.Pop();
+
+
     }
 
 }

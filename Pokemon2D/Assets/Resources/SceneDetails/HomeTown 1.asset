@@ -15,14 +15,13 @@ MonoBehaviour:
   connectedScenes:
   - {fileID: 11400000, guid: 980df154073e1774baa9e6e1e66d05f5, type: 2}
   - {fileID: 11400000, guid: da0f7764e4318e74eb965f22e713e125, type: 2}
-  - {fileID: 11400000, guid: 64fed9076d9404940a0d4bc1c9a0bb4b, type: 2}
   - {fileID: 11400000, guid: 01858067ad4a7e148bd82ae42cec59f4, type: 2}
   - {fileID: 11400000, guid: 6f884e79ee57950498e3dd1849f581a6, type: 2}
-  - {fileID: 11400000, guid: 98e7f7a21889dc64f9455091f1cd42d0, type: 2}
-  - {fileID: 11400000, guid: 2a824fd9e99b7bf48aeb6801d70ca1f0, type: 2}
+  - {fileID: 11400000, guid: 7d56e4899ba9d964faa6ccc41f44ee0e, type: 2}
   - {fileID: 11400000, guid: 99086c4849ecfc84d8efba9b2b5458a1, type: 2}
   - {fileID: 11400000, guid: ec4e301a891498b4bb814969edf449cf, type: 2}
   - {fileID: 11400000, guid: fb2a7201f36813b459da397dfb36bbfb, type: 2}
   - {fileID: 11400000, guid: 22590ba57b38fee459d9505653785694, type: 2}
   - {fileID: 11400000, guid: 6389ef86a73a9a949a8177b7efdd7c47, type: 2}
   sceneName: HomeTown
+  battleBackround: {fileID: 0}
