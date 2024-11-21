@@ -39,7 +39,7 @@ public class CreatureBase : ScriptableObject
    // [SerializeField] int spDefense;
     [SerializeField] int speed;
     [SerializeField] int maxMp;
-    [SerializeField] int currentmp;
+    
 
     [SerializeField] int expGain;
     [SerializeField] GrowthRate growthRate;
@@ -132,11 +132,7 @@ public class CreatureBase : ScriptableObject
         get { return maxMp; }
     }
 
-    public int CurrentMP
-    {
-        get { return currentmp; }
-    }
-
+   
     public List<LearnableMoves> LearnableMoves
     {
         get { return learnableMoves; }

@@ -93,8 +93,8 @@ public class RunTurnState : State<BattleSystem>
 
             if (CheckMoveMP(firstUnit, firstUnit.Creature.CurrentMove))
             {
-               firstUnit.Creature.MP -= firstUnit.Creature.CurrentMove.MPCost;
-                Debug.Log($"current unit MP{playerUnit.Creature.MP}");
+               //firstUnit.Creature.MP -= firstUnit.Creature.CurrentMove.MPCost;
+               
              
                 
             }

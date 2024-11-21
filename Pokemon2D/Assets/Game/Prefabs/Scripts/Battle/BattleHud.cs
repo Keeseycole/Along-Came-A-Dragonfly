@@ -86,7 +86,7 @@ public class BattleHud : MonoBehaviour
         if (expBar == null) return;
 
       float normalizedExp =  GetNormalizedEXP();
-        expBar.transform.localScale = new Vector3(normalizedExp, 1, 1);
+        expBar.transform.localScale = new Vector3(normalizedExp, .2f, .2f);
        
     }
 
@@ -95,11 +95,11 @@ public class BattleHud : MonoBehaviour
         if (expBar == null) yield break;
 
         if(reset)
-         expBar.transform.localScale = new Vector3(0, 1, 1);
+         expBar.transform.localScale = new Vector3(0, .2f, .2f);
 
 
         float normalizedExp = GetNormalizedEXP();
-        yield return expBar.transform.DOScaleX(normalizedExp, 1.5f).WaitForCompletion();
+        yield return expBar.transform.DOScaleX(normalizedExp, .5f).WaitForCompletion();
 
     }
 

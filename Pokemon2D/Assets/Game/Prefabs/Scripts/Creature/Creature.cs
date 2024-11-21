@@ -287,6 +287,7 @@ public class Creature
         {
             ++level;
             CalculateStats();
+            IncreaseHP(MaxHP);
             return true;
         }
 

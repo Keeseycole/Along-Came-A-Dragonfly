@@ -16,13 +16,13 @@ MonoBehaviour:
   description: 
   type: 0
   power: 0
-  mpCost: 0
-  accuracy: 0
+  mpCost: 3
+  accuracy: 100
   speed: 0
   alwaysHits: 0
   isSpecial: 0
   isBeam: 0
-  isMultiHit: 1
+  isMultiHit: 2
   catagory: 0
   effects:
     boosts: []

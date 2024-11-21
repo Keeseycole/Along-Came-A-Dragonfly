@@ -23,17 +23,14 @@ MonoBehaviour:
   defense: 115
   maxhp: 999
   speed: 0
-  maxMp: 999
-  currentmp: 999
+  maxMp: 15
   expGain: 100
   growthRate: 1
   catchRate: 255
   learnableMoves:
   - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
     level: 0
-  - moveBase: {fileID: 11400000, guid: edc6a3b7634cf98478a69dff6b5f850e, type: 2}
-    level: 0
-  - moveBase: {fileID: 11400000, guid: 07b61ab46102b644992b8a025dcd9bd7, type: 2}
+  - moveBase: {fileID: 11400000, guid: 9e59c5d1327b1f544825422f412991e2, type: 2}
     level: 0
   learnableByItems:
   - {fileID: 0}

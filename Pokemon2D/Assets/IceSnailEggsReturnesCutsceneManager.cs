@@ -60,7 +60,7 @@ public class IceSnailEggsReturnesCutsceneManager : TRiggerableEvent
     public override IEnumerator PlayCutscene()
     {
         yield return fader.FadeIn(1f);
-
+        iceSnaill1.SetActive(false);
         thePlayer.gameObject.SetActive(false);
         theBuddy.gameObject.SetActive(false);
 
@@ -68,13 +68,13 @@ public class IceSnailEggsReturnesCutsceneManager : TRiggerableEvent
         yield return fader.FadeOut(3f);
 
         
-        iceSnaileggHole.SetActive(false);
+        iceSnaileggHole.SetActive(true);
         yield return new WaitForSeconds(22f);
         yield return fader.FadeIn(2f);
         IceSnailRescueCutscene.SetActive(false);
         thePlayer.gameObject.SetActive(true);
         theBuddy.gameObject.SetActive(true);
-        iceSnaill1.SetActive(false);
+      
         iceSnaill2.SetActive(true);
         freezeItem.SetActive(true);
         yield return fader.FadeOut(2f);

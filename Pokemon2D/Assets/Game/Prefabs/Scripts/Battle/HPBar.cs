@@ -23,11 +23,11 @@ public class HPBar : MonoBehaviour
         while (curHP - newHP > Mathf.Epsilon)
         {
             curHP -= changeAmt * Time.deltaTime;
-            health.transform.localScale = new Vector3(curHP, .5f);
+            health.transform.localScale = new Vector3(curHP, .45f);
             yield return null;
         }
 
-        health.transform.localScale = new Vector3(newHP, .54f);
+        health.transform.localScale = new Vector3(newHP, .45f);
 
         IsUpdating = false;
     }

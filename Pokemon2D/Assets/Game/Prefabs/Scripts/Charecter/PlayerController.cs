@@ -44,6 +44,8 @@ public class PlayerController : MonoBehaviour, ISavable,ISwitchable
 
     public bool hasSnailEggs;
 
+    public bool  hasFishBones1, hasFishBones2, hasFishBones3, hasFishBones4,hasFishBomes5, hasFishBomes6;
+
     public bool hasIceWater;
 
     public bool ignoreInput = false;

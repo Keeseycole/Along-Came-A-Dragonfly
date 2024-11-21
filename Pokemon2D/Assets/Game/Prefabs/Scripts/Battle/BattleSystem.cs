@@ -240,8 +240,23 @@ public class BattleSystem : MonoBehaviour
         }
     }
 
-         
-   
+    public bool CheckMoveMP(Move moveToCheck)
+    {
+
+        if (playerUnit.Creature.MP >= moveToCheck.MPCost)
+        {
+            playerUnit.Creature.MP -= moveToCheck.MPCost;
+            return true;
+        }
+
+        else
+        {
+            return false;
+        }
+    }
+
+
+
     IEnumerator SendNextTrainerCreature(Creature nextCreature)
     {
         state = BattleState.Busy;
@@ -348,7 +363,8 @@ public class BattleSystem : MonoBehaviour
         });
 
         battleButtons[1].onClick.AddListener(() => {
-            Debug.Log("Magic clicked");
+            dialogueBox.UpdateMP(playerUnit.Creature);
+
             SelectedAction = BattleAction.Move;
             StateMachine.ChangeState(MoveSelectionState.i);
             dialogueBox.Enter();

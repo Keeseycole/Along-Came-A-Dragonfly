@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -69,7 +70,9 @@ public class ShopUI : MonoBehaviour
         selectedItem = Mathf.Clamp(selectedItem, 0, avalibleItems.Count - 1);
 
         if (selectedItem != prevSelection)
+        {
             UpdateItemSelection();
+        }
 
         if (Input.GetKeyDown(KeyCode.Space))
             onItemSelected?.Invoke(avalibleItems[selectedItem]);
@@ -115,27 +118,72 @@ public class ShopUI : MonoBehaviour
             itemIcon.sprite = item.Icon;
             itemdesc.text = item.Description;
         }
-        HandleScrolling();
+
+        UpdateButtonNav();
+        EventSystem.current.SetSelectedGameObject(slotUIList[0].gameObject);
     }
-    void HandleScrolling()
-    {
-        if (slotUIList.Count <= itemsInViewport) return;
 
-        float scrollPos = Mathf.Clamp(selectedItem - itemsInViewport / 2, 0, selectedItem) * slotUIList[0].Hight;
-        itemListRect.localPosition = new Vector2(itemListRect.localPosition.x, scrollPos);
-
-        bool showUpArrow = selectedItem > itemsInViewport / 2;
-        upArrow.gameObject.SetActive(showUpArrow);
-
-
-        bool showDownArrow = selectedItem + itemsInViewport / 2 < slotUIList.Count;
-        downarrow.gameObject.SetActive(showDownArrow);
-    }
 
     public void Enter(int currentButton = 0)
     {
 
         EventSystem.current.SetSelectedGameObject(slotUIList[currentButton].gameObject);
     }
+    void UpdateButtonNav()
+    {
+        List<Button> buttons = new List<Button>();
 
-}
+        foreach (ItemSlotUI Uibutton in slotUIList.Where(b => b.gameObject.activeInHierarchy))
+        {
+            buttons.Add(Uibutton.GetComponent<Button>());
+
+        }
+
+        int k = 0;
+
+        for (int i = 0; i < buttons.Count; i++)
+        {
+            k = i;
+            buttons[i].onClick.RemoveAllListeners();
+            buttons[i].onClick.AddListener(() =>
+            {
+                Debug.Log("Button Pressed");
+                
+            });
+
+        }
+
+        if (buttons.Count <= 1)
+        {
+            for (int i = 0; i < buttons.Count; i++)
+            {
+                Navigation nav = buttons[i].navigation;
+                nav.selectOnUp = null;
+                nav.selectOnDown = null;
+                buttons[i].navigation = nav;
+            }
+        }
+
+        for (int i = 0; i < buttons.Count; i++)
+        {
+            Navigation nav = buttons[i].navigation;
+            if (i == 0)
+            {
+                nav.selectOnUp = buttons[buttons.Count - 1];
+                nav.selectOnDown = buttons[i + 1];
+            }
+            else if (i == buttons.Count - 1)
+            {
+                nav.selectOnUp = buttons[i - 1];
+                nav.selectOnDown = buttons[0];
+            }
+            else
+            {
+                nav.selectOnUp = buttons[i - 1];
+                nav.selectOnDown = buttons[i + 1];
+            }
+            buttons[i].navigation = nav;
+        }
+    }
+
+    }

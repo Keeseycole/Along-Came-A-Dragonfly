@@ -10,7 +10,7 @@ public class MoveTextSlot : TextSlot, ISelectHandler, IDeselectHandler
 
     public Action<Move> updateMPcost;
 
-    private Move currentMove;
+    public Move currentMove;
 
     [SerializeField] Button button;
 
@@ -27,5 +27,12 @@ public class MoveTextSlot : TextSlot, ISelectHandler, IDeselectHandler
     {
         get { return button; }
     }
+
+    public new void OnSelect(BaseEventData eventData)
+    {
+        updateMPcost?.Invoke(currentMove);
+
+    }
+
 
 }

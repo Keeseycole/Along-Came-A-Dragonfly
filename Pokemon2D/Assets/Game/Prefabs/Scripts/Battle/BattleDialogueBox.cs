@@ -22,8 +22,18 @@ public class BattleDialogueBox : MonoBehaviour
 
     [SerializeField] List<MoveTextSlot> theButtons = new List<MoveTextSlot>();
 
+    BattleSystem battleSystem;
 
+    
 
+    Creature creature;
+
+    private void Awake()
+    {
+        battleSystem= FindObjectOfType<BattleSystem>();
+
+       
+    }
     public void EnableActionSelector(bool enabled)
     {
         BattledialogueBox.SetActive(enabled);
@@ -36,7 +46,8 @@ public class BattleDialogueBox : MonoBehaviour
 
     
     public void UpdateMoveSelection( Move move)
-    {           
+    {
+       
         mpCostText.text = $"Cost: {move.MPCost} MP";
     }
 
@@ -48,7 +59,7 @@ public class BattleDialogueBox : MonoBehaviour
 
     public void UpdateMoveList(List<Move> newMoveList)
     {
-        Debug.Log("Update Move");
+        Debug.Log("Update Move", gameObject);
         for (int i = 0; i < theButtons.Count; i++)
         {
             int k;
@@ -57,16 +68,19 @@ public class BattleDialogueBox : MonoBehaviour
             {
                 theButtons[i].GetButtonComponent.onClick.RemoveAllListeners();
                 theButtons[i].gameObject.SetActive(true);
-                theButtons[i].SetCurrentMove(newMoveList[i + 1]);
+                theButtons[i].SetCurrentMove(newMoveList[k]);
                 theButtons[i].GetButtonComponent.onClick.AddListener(() =>
+
                 {
+                //battleSystem.CheckMoveMP(newMoveList[k]);
+                  
                  StartCoroutine(RunTurnState.i.RunTurns(BattleAction.Move, k));
                     moveSelector.SetActive(false);
-                    
-                    
+                    Debug.Log($"using move");
 
                 });
                 theButtons[i].updateMPcost += UpdateMoveSelection;
+
             }
             else
             {

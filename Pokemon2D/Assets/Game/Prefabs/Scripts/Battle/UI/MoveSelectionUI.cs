@@ -31,6 +31,7 @@ public class MoveSelectionUI : SelectionUI<TextSlot>
 
    public void UpdateMP(Creature creatureMp)
     {
+        Debug.Log("Current mp", mpText.gameObject);
         mpText.text = $"MP: {creatureMp.MP}/{creatureMp.MaxMP}";
     }
 }
