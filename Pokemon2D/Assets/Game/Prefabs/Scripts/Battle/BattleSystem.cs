@@ -220,6 +220,7 @@ public class BattleSystem : MonoBehaviour
   public void ActionSelection()
     {
         dialogueBox.EnableActionSelector(true);
+        dialogueBox.DisableMoveSelector(); 
         EventSystem.current.SetSelectedGameObject(battleButtons[0].gameObject);
        
     }

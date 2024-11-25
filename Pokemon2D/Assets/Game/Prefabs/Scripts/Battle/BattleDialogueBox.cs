@@ -24,14 +24,14 @@ public class BattleDialogueBox : MonoBehaviour
 
     BattleSystem battleSystem;
 
-    
+    public BattleDialogueBox i;
 
     Creature creature;
 
     private void Awake()
     {
         battleSystem= FindObjectOfType<BattleSystem>();
-
+        i = this;
        
     }
     public void EnableActionSelector(bool enabled)
@@ -44,7 +44,11 @@ public class BattleDialogueBox : MonoBehaviour
         moveSelector.SetActive(enabled);
     }
 
-    
+    public void DisableMoveSelector()
+    {
+        moveSelector.SetActive(false);
+    }
+
     public void UpdateMoveSelection( Move move)
     {
        

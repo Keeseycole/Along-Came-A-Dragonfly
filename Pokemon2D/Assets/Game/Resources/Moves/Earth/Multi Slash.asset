@@ -15,14 +15,14 @@ MonoBehaviour:
   moveName: Multi Slash
   description: 
   type: 0
-  power: 70
+  power: 60
   mpCost: 6
   accuracy: 0
   speed: 0
   alwaysHits: 1
   isSpecial: 0
   isBeam: 0
-  isMultiHit: 3
+  isMultiHit: 2
   catagory: 0
   effects:
     boosts: []

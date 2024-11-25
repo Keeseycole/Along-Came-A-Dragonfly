@@ -288,6 +288,8 @@ public class Creature
             ++level;
             CalculateStats();
             IncreaseHP(MaxHP);
+            HP = MaxHP;
+            MP= MaxMP;
             return true;
         }
 

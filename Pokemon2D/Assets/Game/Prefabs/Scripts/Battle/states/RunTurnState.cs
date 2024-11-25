@@ -10,6 +10,8 @@ using Utils.StateMachine;
 
 public class RunTurnState : State<BattleSystem>
 {
+    [SerializeField] GameObject moveSelector;
+
     public static RunTurnState i { get; private set; }
 
     BattleSystem bs;
@@ -50,7 +52,8 @@ public class RunTurnState : State<BattleSystem>
 
         creature= FindObjectOfType<CreatureBase>();
         damagePool = new ObjectPool<DamageNumber>(dmgnumPrefab, this.transform);
-
+        dialoguebox = GetComponent<BattleDialogueBox>();
+        
     }
 
     public override void Enter(BattleSystem owner)
@@ -105,7 +108,7 @@ public class RunTurnState : State<BattleSystem>
               
                    dialoguebox.Enter(SelectedMove - 1);
                 bs.ActionSelection();
-
+                
               yield break;
 
             } 
@@ -279,8 +282,8 @@ public class RunTurnState : State<BattleSystem>
     {
          
         yield return DialogueManager.Instance.ShowDialogText($"Not enough MP!");
-       
-
+        dialoguebox.DisableMoveSelector();
+        
     }
 
     bool CheckIfMoveHits(Move move, Creature source, Creature target)

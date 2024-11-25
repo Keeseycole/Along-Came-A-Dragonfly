@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
+  m_Name: Great Catfish Skeleton
+  m_EditorClassIdentifier: 
+  name: Great Catfish Skeleton
+  ID: 0
+  description: 
+  leftSprite: {fileID: -262266744, guid: c6c8232033d81304a8f85904cb68cf79, type: 3}
+  rightSprite: {fileID: -43907430, guid: c6c8232033d81304a8f85904cb68cf79, type: 3}
+  type1: 0
+  creatureHabitates: 1
+  attack: 100
+  defense: 60
+  maxhp: 480
+  speed: 0
+  maxMp: 99
+  expGain: 250
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 2e2a142b379ac9c4fbb1982aef24587f, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 8ee47df529a17574cbe728d219a6d2bf, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []
+  instance: {fileID: 11400000}
+  creatureSize: {x: 3, y: 3}
+  mouthPos: {x: -1, y: -1}
+  isDefeted: 0
+  isEarth: 0
+  isFire: 0
+  isWater: 1
+  isIce: 0
+  isDarkness: 0
+  isEthareal: 0
