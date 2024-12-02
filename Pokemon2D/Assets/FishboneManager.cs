@@ -20,6 +20,7 @@ public class FishboneManager : TRiggerableEvent
 
     public GameObject buddy;
 
+    public GameObject CatfishSkeleton;
     
     
 
@@ -99,7 +100,7 @@ public class FishboneManager : TRiggerableEvent
         triggerCutscene.SetActive(false);
         player.SetActive(true);
         buddy.SetActive(true);
-        //npc.SetActive(true);
+        CatfishSkeleton.SetActive(true);
 
         yield return fader.FadeOut(2f);
 

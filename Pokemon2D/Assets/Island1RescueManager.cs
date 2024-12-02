@@ -8,7 +8,7 @@ public class Island1RescueManager : TRiggerableEvent
 
     public Fader fader;
 
-    [SerializeField] public GameObject IceSnailRescueCutscene;
+    [SerializeField] public GameObject island1RescueCutscene;
 
     public List<GameObject> enemies;
 
@@ -29,7 +29,7 @@ public class Island1RescueManager : TRiggerableEvent
     {
         cutscenes = FindObjectOfType<cutsceneManagerr>();
 
-        IceSnailRescueCutscene = cutscenes.cutscenes[67].gameObject;
+        island1RescueCutscene = cutscenes.cutscenes[67].gameObject;
 
 
         thePlayer = FindObjectOfType<PlayerController>();
@@ -63,14 +63,14 @@ public class Island1RescueManager : TRiggerableEvent
         thePlayer.gameObject.SetActive(false);
         theBuddy.gameObject.SetActive(false);
 
-        IceSnailRescueCutscene.SetActive(true);
+        island1RescueCutscene.SetActive(true);
         npc1.SetActive(false);
         yield return fader.FadeOut(4f);
 
         yield return new WaitForSeconds(10f);
 
         yield return fader.FadeIn(2f);
-        IceSnailRescueCutscene.SetActive(false);
+        island1RescueCutscene.SetActive(false);
         thePlayer.gameObject.SetActive(true);
         theBuddy.gameObject.SetActive(true);
         waterKey.SetActive(true);
