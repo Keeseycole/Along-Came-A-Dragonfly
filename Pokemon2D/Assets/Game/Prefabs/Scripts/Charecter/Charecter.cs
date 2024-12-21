@@ -51,8 +51,7 @@ public class Charecter : MonoBehaviour
         if (!IsPathClear(targetPos) && !force)
             yield break;
 
-        if (animator.IsSurfing && Physics2D.OverlapCircle(targetPos, 0.3f, GameLayers.I.WaterLayer) == null)
-            animator.IsSurfing = false;
+      
 
         IsMoving = true;
 
@@ -83,8 +82,7 @@ public class Charecter : MonoBehaviour
         var dir = diff.normalized;
 
         var collisionLayer = GameLayers.I.SolidLayer | GameLayers.I.InteractableLayer | GameLayers.I.PlayerLayer | GameLayers.I.MoveableObjects;
-        if (!animator.IsSurfing)
-            collisionLayer = collisionLayer | GameLayers.I.WaterLayer;
+        
 
         if (Physics2D.BoxCast(transform.position + dir, new Vector2(0.2f, 0.2f), 0f, dir, diff.magnitude - 1, collisionLayer) == true)
             return false;
@@ -118,8 +116,8 @@ public class Charecter : MonoBehaviour
             animator.MoveX = Mathf.Clamp(xdiff, -1f, 1f);
             animator.MoveY = Mathf.Clamp(ydiff, -1f, 1f);
         }
-        else
-            Debug.LogError("Error in Look Towards: You can't ask the character to look diagonally");
+       
+           
     }
 
     public CharecterAnimator Animator

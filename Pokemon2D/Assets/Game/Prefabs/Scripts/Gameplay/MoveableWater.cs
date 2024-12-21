@@ -4,50 +4,60 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class MoveableWater : MonoBehaviour, Interactable
+public class MoveableWater : MonoBehaviour
 {
-    bool isJumpingWater = false;
 
-    public bool triggerRepeatedly => true;
+    PlayerController player;
+   
 
-    public IEnumerator Interact(Transform initer)
+    MoveableWater instance;
+
+    CharecterAnimator charecterAnim;
+
+    Charecter charecter;
+
+    private void Awake()
     {
-       
+        instance = this;
 
-        var animator = initer.GetComponent<CharecterAnimator>();
-        if (animator.IsSurfing || isJumpingWater)
-            yield break;
+        player = FindObjectOfType<PlayerController>();
 
-        yield return DialogueManager.Instance.ShowDialogText("The water is Deep Blue.");
+        charecterAnim = FindObjectOfType<CharecterAnimator>();
 
-      
-     
-            int selectedChoice = 0;
-
-            yield return DialogueManager.Instance.ShowDialogText($"Jump in?",
-                choices: new List<string>() { "Yes", "No" },
-                onchoiceSelected: (selection) => selectedChoice = selection);
-            
-            //GameController.Instance.StateMachine.Pop();
-
-            if (selectedChoice == 0)
-            {
-                //Yes
-            
-
-               
-               var dir = new Vector3(animator.MoveX, animator.MoveY);
-                var targetPos = initer.position + dir;
-
-                isJumpingWater = true;
-                initer.DOJump(targetPos, 0.3f, 1, 0.5f).WaitForCompletion();
-                isJumpingWater = false;
-
-                animator.IsSurfing = true;
-           // GameController.Instance.StateMachine.Pop();
-
-        }
-       
+        charecter= FindObjectOfType<Charecter>();
     }
 
+    
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            other.GetComponent<CharecterAnimator>().IsSwimming = true;
+        }
+
+        if (other.gameObject.tag == "Buddy")
+        {
+            other.GetComponent<CharecterAnimator>().IsSwimming = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            other.GetComponent<CharecterAnimator>().IsSwimming = false;
+        }
+
+        if (other.gameObject.tag == "Buddy")
+        {
+            other.GetComponent<CharecterAnimator>().IsSwimming = false;
+        }
+    }
+
+
 }
+
+    
+
+

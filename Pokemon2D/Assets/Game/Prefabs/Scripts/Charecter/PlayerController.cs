@@ -50,7 +50,11 @@ public class PlayerController : MonoBehaviour, ISavable,ISwitchable
 
     public bool ignoreInput = false;
 
-    
+    public bool isInTrigger;
+
+    public bool isInWater;
+
+
     private void Awake()
     {
         
@@ -132,7 +136,7 @@ public class PlayerController : MonoBehaviour, ISavable,ISwitchable
 
         //Debug.Log($"{charecter.Animator.MoveX} {charecter.Animator.MoveY}");
 
-        var collider = Physics2D.OverlapCircle(interactPos, 0.2f, GameLayers.I.InteractableLayer | GameLayers.I.WaterLayer);
+        var collider = Physics2D.OverlapCircle(interactPos, 0.2f, GameLayers.I.InteractableLayer);
        // Debug.DrawLine(transform.position, interactPos, Color.green, 0.5f);
         if (collider != null)
         {

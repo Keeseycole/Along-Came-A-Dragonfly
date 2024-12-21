@@ -12,7 +12,7 @@ public class GameLayers : MonoBehaviour
     [SerializeField] LayerMask portalLayer;
     [SerializeField] LayerMask triggersLayer;
     [SerializeField] LayerMask ledgesLayer;
-    [SerializeField] LayerMask waterLayer;
+   // [SerializeField] LayerMask waterLayer;
     [SerializeField] LayerMask digLayer;
     [SerializeField] LayerMask moveableObjects;
     [SerializeField] LayerMask spawnObject;
@@ -71,11 +71,11 @@ public class GameLayers : MonoBehaviour
 
     public LayerMask LedgesLayer => ledgesLayer;
 
-    public LayerMask WaterLayer => waterLayer;
+    //public LayerMask WaterLayer => waterLayer;
 
 
     public LayerMask TriggerableLayers
     {
-        get => battleZoneLayer | fovLayer | portalLayer | triggersLayer | waterLayer; 
+        get => battleZoneLayer | fovLayer | portalLayer | triggersLayer; 
     }
 }

@@ -7,11 +7,16 @@ public class DamageNumber : MonoBehaviour
 {
     public Text damageText;
 
-    public float moveSpeed = 1;
+    public float moveSpeed = 10;
 
-    public float placmentJitter = .5f;
+    public float placmentJitter = 1f;
 
     RectTransform rectTrans;
+
+    public float totalfadeTime = 3f;
+
+    public float fadeTime;
+
     private void Awake()
     {
         rectTrans = GetComponent<RectTransform>();
@@ -24,12 +29,15 @@ public class DamageNumber : MonoBehaviour
         //rectTrans.localPosition = new Vector2(Random.Range(-placmentJitter, placmentJitter) + pos.x, Random.Range(-placmentJitter, placmentJitter) + pos.y);
         //rectTrans.localPosition = new Vector2 (0f, moveSpeed * Time.deltaTime) ;
 
-        rectTrans.localPosition = new Vector2(0f, (moveSpeed * Time.deltaTime) + rectTrans.localPosition.y);
+        fadeTime += Time.deltaTime;
+        damageText.color = new Color(damageText.color.r, damageText.color.g, damageText.color.b, 1 - (fadeTime / totalfadeTime));
+        rectTrans.localPosition = new Vector2(rectTrans.localPosition.x, (moveSpeed * Time.deltaTime) + rectTrans.localPosition.y);
     }
 
     public void SetDamage(int damageAmount, Vector2 pos)
     {
-       
+       fadeTime = 0;
+        damageText.color = new Color(damageText.color.r, damageText.color.g, damageText.color.b, 1);
         damageText.text = damageAmount.ToString();
         rectTrans.localPosition = pos;
     }

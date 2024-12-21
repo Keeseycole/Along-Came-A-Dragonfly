@@ -11,6 +11,12 @@ public class CharecterAnimator : MonoBehaviour
     [SerializeField] List<Sprite> walkLeftSprites;
 
 
+    [SerializeField] List<Sprite> swimDownSprites;
+    [SerializeField] List<Sprite> swimUpSprites;
+    [SerializeField] List<Sprite> swimRightSprites;
+    [SerializeField] List<Sprite> swimLeftSprites;
+
+
     [SerializeField] List<Sprite> torchDownSprites;
     [SerializeField] List<Sprite> torchUpSprites;
     [SerializeField] List<Sprite> torchRightSprites;
@@ -97,7 +103,7 @@ public class CharecterAnimator : MonoBehaviour
     public bool IsMoving { get; set; }
     public bool IsJumping { get; set; }
 
-    public bool IsSurfing { get; set; }
+    public bool IsSwimming { get; set; }
 
     public bool IsFishing { get; set; }
 
@@ -140,7 +146,7 @@ public class CharecterAnimator : MonoBehaviour
 
     public bool IsHoldingWell9Piece { get; set; }
 
-
+    public bool isPlayer;
 
 
     // States
@@ -149,7 +155,13 @@ public class CharecterAnimator : MonoBehaviour
     SpriteAnimator walkUpAnim;
     SpriteAnimator walkRightAnim;
     SpriteAnimator walkLeftAnim;
-   
+
+    [Header("Swim")]
+    SpriteAnimator swimDownAnim;
+    SpriteAnimator swimUpAnim;
+    SpriteAnimator swimRightAnim;
+    SpriteAnimator swimLeftAnim;
+
     [Header("Attack")]
    public SpriteAnimator attackDownAnim;
    public SpriteAnimator attackUpAnim;
@@ -263,6 +275,12 @@ public class CharecterAnimator : MonoBehaviour
         walkRightAnim = new SpriteAnimator(walkRightSprites, spriteRenderer);
         walkLeftAnim = new SpriteAnimator(walkLeftSprites, spriteRenderer);
 
+        swimDownAnim = new SpriteAnimator(swimDownSprites, spriteRenderer);
+        swimUpAnim = new SpriteAnimator(swimUpSprites, spriteRenderer);
+        swimRightAnim = new SpriteAnimator(swimRightSprites, spriteRenderer);
+        swimLeftAnim = new SpriteAnimator(swimLeftSprites, spriteRenderer);
+
+
         torchDownAnim = new SpriteAnimator(torchDownSprites, spriteRenderer);
         torchUpAnim = new SpriteAnimator(torchUpSprites, spriteRenderer);
         torchRightAnim = new SpriteAnimator(torchRightSprites, spriteRenderer);
@@ -342,7 +360,7 @@ public class CharecterAnimator : MonoBehaviour
         
         var prevAnim = currentAnim;
 
-        if(!IsSurfing)
+       
         {
             if (MoveX == 1)
                 currentAnim = walkRightAnim;
@@ -508,7 +526,20 @@ public class CharecterAnimator : MonoBehaviour
                     currentAnim = fishUpAnim;
                 else if (MoveY == -1)
                     currentAnim = fishDownAnim;
+            } 
+            if(IsSwimming == true)
+            {
+                if (MoveX == 1)
+                    currentAnim = swimRightAnim;
+                else if (MoveX == -1)
+                    currentAnim = swimLeftAnim;
+                else if (MoveY == 1)
+                    currentAnim = swimUpAnim;
+                else if (MoveY == -1)
+                    currentAnim = swimDownAnim;
             }
+
+           
 
             if (currentAnim != prevAnim || IsMoving != wasPreviouslyMoving)
                 currentAnim.Start();
@@ -518,17 +549,7 @@ public class CharecterAnimator : MonoBehaviour
             else
                 spriteRenderer.sprite = currentAnim.Frames[0];
 
-        } else
-        {
-            if (MoveX == 1)
-                spriteRenderer.sprite = surfSprites[2];
-            else if (MoveX == -1)
-                spriteRenderer.sprite = surfSprites[3];
-            else if (MoveY == 1)
-                spriteRenderer.sprite = surfSprites[1];
-            else if (MoveY == -1)
-                spriteRenderer.sprite = surfSprites[0];
-        }
+        } 
 
         wasPreviouslyMoving = IsMoving;
     }

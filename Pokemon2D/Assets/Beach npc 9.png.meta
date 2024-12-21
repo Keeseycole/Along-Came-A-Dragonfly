@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fc8c79594d2b9274ca1e60ff12b0a739
+guid: c2ccfc3c1ad329241a558b1318316fed
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mollusk_0
+      name: Beach npc 9_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 81
-        width: 59
-        height: 38
+        x: 0
+        y: 21
+        width: 14
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,8 +130,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d2f3369f8b0dab4c84a8e11cd677944
-      internalID: 555207326
+      spriteID: 0f3b4894df4c1ae46a3d795223f332eb
+      internalID: 500715185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beach npc 9_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 21
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7d297ddb6e12b49a2eb43445bb1e53
+      internalID: -533949209
       vertices: []
       indices: 
       edges: []
@@ -147,7 +168,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mollusk_0: 555207326
+      Beach npc 9_1: -533949209
+      Beach npc 9_0: 500715185
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

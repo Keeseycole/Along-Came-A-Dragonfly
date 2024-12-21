@@ -57,7 +57,7 @@ public class CreatureBase : ScriptableObject
 
     [SerializeField] public Vector2 creatureSize;
 
-    [SerializeField] public Vector2 mouthPos;
+   
 
 
     public bool isDefeted;
@@ -90,10 +90,7 @@ public class CreatureBase : ScriptableObject
         get { return creatureSize; }
     }
 
-    public Vector2 MouthPos
-    {
-        get { return mouthPos; }
-    }
+ 
 
     public string Description { 
         

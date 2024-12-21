@@ -36,7 +36,11 @@ public class ObjectPool<T> where T : MonoBehaviour
 
     public void ReturnObject(T obj)
     {
-        obj.gameObject.SetActive(false);  
+        obj.gameObject.SetActive(false);
+        if (pool.Contains(obj) == false)
+        {
+            pool.Add(obj);
+        }
     }
 }
 

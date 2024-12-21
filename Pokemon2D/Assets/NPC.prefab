@@ -15,8 +15,6 @@ GameObject:
   - component: {fileID: 1139581402800033706}
   - component: {fileID: 1139581402800033708}
   - component: {fileID: 1139581402800033707}
-  - component: {fileID: 8594106901002128694}
-  - component: {fileID: 5042275200832809955}
   m_Layer: 10
   m_Name: NPC
   m_TagString: Untagged
@@ -78,7 +76,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 508338283
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300024, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -88,7 +86,7 @@ SpriteRenderer:
   m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &1139581402800033719
@@ -161,6 +159,8 @@ MonoBehaviour:
   - {x: 0, y: 2}
   - {x: -3, y: 0}
   timeBetweenPattern: 2
+  endquestspawnitem: {fileID: 0}
+  startquestspawnitem: {fileID: 0}
 --- !u!114 &1139581402800033708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,6 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
+  pickUp: {fileID: 0}
 --- !u!114 &1139581402800033707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,36 +207,57 @@ MonoBehaviour:
   - {fileID: 21300038, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
   - {fileID: 21300040, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
   - {fileID: 21300042, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
+  torchDownSprites: []
+  torchUpSprites: []
+  torchRightSprites: []
+  torchLeftSprites: []
+  holdRockDownSprites: []
+  holdRockUpSprites: []
+  holdRockRightSprites: []
+  holdRockLeftSprites: []
+  attackDownSprites: []
+  attackUpSprites: []
+  attackRightSprites: []
+  attackLeftSprites: []
+  well1DownSprites: []
+  well1UpSprites: []
+  well1RightSprites: []
+  well1LeftSprites: []
+  well2DownSprites: []
+  well2UpSprites: []
+  well2RightSprites: []
+  well2LeftSprites: []
+  well3DownSprites: []
+  well3UpSprites: []
+  well3RightSprites: []
+  well3LeftSprites: []
+  well4DownSprites: []
+  well4UpSprites: []
+  well4RightSprites: []
+  well4LeftSprites: []
+  well5DownSprites: []
+  well5UpSprites: []
+  well5RightSprites: []
+  well5LeftSprites: []
+  well6DownSprites: []
+  well6UpSprites: []
+  well6RightSprites: []
+  well6LeftSprites: []
+  well7DownSprites: []
+  well7UpSprites: []
+  well7RightSprites: []
+  well7LeftSprites: []
+  well8DownSprites: []
+  well8UpSprites: []
+  well8RightSprites: []
+  well8LeftSprites: []
+  well9DownSprites: []
+  well9UpSprites: []
+  well9RightSprites: []
+  well9LeftSprites: []
+  FishDownSprites: []
+  FishUpSprites: []
+  FishRightSprites: []
+  FishLeftSprites: []
   surfSprites: []
   defaultDir: 1
---- !u!114 &8594106901002128694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1139581402800033717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12dafe8276eabc1469485431ae4b794a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 3d4a6c483ed4c8d4387866a09dedfb2e, type: 2}
-  count: 3
-  dialogue:
-    lines:
-    - Need capsules?
-    - Here.
---- !u!114 &5042275200832809955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1139581402800033717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4881f89f8b930e34489bbb86116ccd4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uniqueId: 84dcc127-7f2a-4c94-b7b8-c75a6614a20e

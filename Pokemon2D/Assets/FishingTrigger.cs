@@ -36,7 +36,7 @@ public class FishingTrigger : MonoBehaviour, Interactable, IPlayerTriggerable
         //isfishing = true;
 
         var animator = initer.GetComponent<CharecterAnimator>();
-        if (animator.IsSurfing || isfishing)
+        if (animator.IsSwimming || isfishing)
             yield break;
 
         yield return DialogueManager.Instance.ShowDialogText(" It looks like you can fish here.");

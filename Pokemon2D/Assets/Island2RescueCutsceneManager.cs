@@ -41,7 +41,7 @@ public class Island2RescueCutsceneManager : TRiggerableEvent
     // Update is called once per frame
     void Update()
     {
-        if (enemies.Count <= 0 && thePlayer.hasIceWater == true)
+        if (enemies.Count <= 0 && thePlayer.hasIceWater == true && thePlayer.isInTrigger == true)
         {
 
             if (!functionCalled)
@@ -81,4 +81,6 @@ public class Island2RescueCutsceneManager : TRiggerableEvent
 
         this.gameObject.SetActive(false);
     }
+
+  
 }

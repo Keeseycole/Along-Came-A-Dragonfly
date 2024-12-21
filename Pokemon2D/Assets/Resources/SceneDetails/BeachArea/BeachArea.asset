@@ -16,5 +16,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8b3845c89ba00e6438cbd0e5275b02c5, type: 2}
   - {fileID: 11400000, guid: 4b6ec1e341bdcb741a3fd59affae1f91, type: 2}
   - {fileID: 11400000, guid: d0553d4eb6cdf404ba334dd87ed19151, type: 2}
+  - {fileID: 11400000, guid: 608445e8757c365449f353c33985e9f3, type: 2}
+  - {fileID: 11400000, guid: 769194cd79d8c4442a896cb07322d7a8, type: 2}
+  - {fileID: 11400000, guid: 621b3b7bc87c75c41b55bfe806532c35, type: 2}
   sceneName: 
   battleBackround: {fileID: 0}

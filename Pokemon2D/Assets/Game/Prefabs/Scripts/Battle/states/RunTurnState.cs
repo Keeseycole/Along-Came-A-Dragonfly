@@ -53,7 +53,12 @@ public class RunTurnState : State<BattleSystem>
         creature= FindObjectOfType<CreatureBase>();
         damagePool = new ObjectPool<DamageNumber>(dmgnumPrefab, this.transform);
         dialoguebox = GetComponent<BattleDialogueBox>();
-        
+        DamageNumber[] thedmg = GetComponentsInChildren<DamageNumber>();
+
+        foreach (DamageNumber script in thedmg)
+        {
+            damagePool.ReturnObject(script);
+        }
     }
 
     public override void Enter(BattleSystem owner)
@@ -195,7 +200,8 @@ public class RunTurnState : State<BattleSystem>
                
                 var damageDetails = tarUnit.Creature.TakeDamage(move, sourceUnit.Creature);
 
-                StartCoroutine(ShowDamageNumber(tarUnit.transform.position, damageDetails));
+                StartCoroutine(ShowDamageNumber(tarUnit.GetRectTransform().localPosition, damageDetails));
+                
                 //Instantiate(bs.theDamageNumber, tarUnit.transform.position, tarUnit.transform.rotation).SetDamage(damageDetails, tarUnit.transform.position);
 
 
@@ -458,8 +464,8 @@ public class RunTurnState : State<BattleSystem>
 
         DamageNumber damageNumber = damagePool.GetObject();
 
-        Debug.Log("This is Obj", damageNumber);
-   
+        Debug.Log($"This is Obj{damage} ", damageNumber);
+      pos = new Vector3(pos.x, pos.y + 60);
 
         damageNumber.SetDamage(damage, pos);
     yield return new WaitForSeconds(1f);

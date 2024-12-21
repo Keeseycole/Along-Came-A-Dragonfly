@@ -87,6 +87,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Beach Area/BeachArea.unity
     guid: d48097757fdb89d4f9e04a07f4c31f1b
   - enabled: 1
+    path: Assets/Scenes/Beach Area/SandIndoors1.unity
+    guid: 22855652f7f06a144aa5c40d15779665
+  - enabled: 1
+    path: Assets/Scenes/Beach Area/SandIndoors2.unity
+    guid: f1d32594cf7f39241b81ec1ea6945b2c
+  - enabled: 1
+    path: Assets/Scenes/Beach Area/SandIndoors3.unity
+    guid: 9c456d178b7dfc14fa706ca4ca079b3e
+  - enabled: 1
     path: Assets/Scenes/Beach Area/IceHouse.unity
     guid: be223ceb686520045a137c23b7e72d42
   - enabled: 1

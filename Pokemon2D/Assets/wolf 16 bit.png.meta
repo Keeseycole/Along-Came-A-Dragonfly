@@ -535,6 +535,258 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: wolf 16 bit_20
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 74
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fa6f694fa11dd48b85eba5a10e471e
+      internalID: 2121305807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf 16 bit_21
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 74
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349ed2666e388224fa880debaa3cfc09
+      internalID: 304841488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf 16 bit_22
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 74
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479dca6bba80f3b46b766e5871ccc907
+      internalID: -772262106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf 16 bit_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 49
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65f87d070a9b8a4fac9ef30a82a8e89
+      internalID: -1240608960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf 16 bit_24
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 49
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3a45dddc1cc4645a6ecb8d134ef9c9
+      internalID: 932289237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf 16 bit_25
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 49
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812c8d12a1796bf4d9f89ec3720b15fa
+      internalID: 1403167580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf 16 bit_26
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 35
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc7649b75233f144a38df82ffc6176f
+      internalID: -17074785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf 16 bit_27
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 35
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8177d3685c734724a8e4cee0ced40d57
+      internalID: 1680924123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf 16 bit_28
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 35
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9af9f068ea868140a84ee203444a8e7
+      internalID: -1272031033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf 16 bit_29
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 73
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad4a36ff562cca4bbcd167c58458e1d
+      internalID: 387045966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf 16 bit_30
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 53
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8558c01ca155a9940884e09aa5733ca1
+      internalID: 380943208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf 16 bit_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 34
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af500013137973489b4097700d02a6a
+      internalID: 38952743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -546,19 +798,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      wolf 16 bit_31: 38952743
       wolf 16 bit_10: -936374200
       wolf 16 bit_17: 1569923649
       wolf 16 bit_11: 151963144
       wolf 16 bit_16: -335699963
+      wolf 16 bit_25: 932289237
+      wolf 16 bit_26: -17074785
+      wolf 16 bit_29: 387045966
       wolf 16 bit_18: -485581251
+      wolf 16 bit_27: 1680924123
       wolf 16 bit_7: 844438127
+      wolf 16 bit_24: -1240608960
       wolf 16 bit_15: -1238093769
+      wolf 16 bit_22: 304841488
       wolf 16 bit_1: -1688768509
       wolf 16 bit_8: 537243988
       wolf 16 bit_13: 552410458
+      wolf 16 bit_28: -1272031033
       wolf 16 bit_0: -1321641802
+      wolf 16 bit_20: -855415171
       wolf 16 bit_14: -1684927800
+      wolf 16 bit_23: 356397605
       wolf 16 bit_19: -1815054055
+      wolf 16 bit_21: 2121305807
       wolf 16 bit_2: -1634715969
       wolf 16 bit_5: -232782282
       wolf 16 bit_4: -508822471
@@ -566,6 +829,7 @@ TextureImporter:
       wolf 16 bit_6: -768334074
       wolf 16 bit_12: 2142143478
       wolf 16 bit_3: 1925369984
+      wolf 16 bit_30: 380943208
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

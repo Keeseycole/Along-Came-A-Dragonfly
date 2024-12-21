@@ -556,6 +556,90 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: sand indoors_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6598beda83a9ee4ea8ece716d21aa10
+      internalID: 433170700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand indoors_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27eaaa034e6632349b1f976df4640e86
+      internalID: 634754796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand indoors_23
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb79f9f2f48a6344a5fdee2e5b1ae56
+      internalID: 1220519936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand indoors_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 177
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00467c87d3102434ba80406460d01137
+      internalID: 1316455820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -571,17 +655,21 @@ TextureImporter:
       sand indoors_0: 1296800644
       sand indoors_19: 240043177
       sand indoors_13: 843480097
+      sand indoors_23: 1220519936
       sand indoors_2: 2032125723
       sand indoors_6: 40246053
       sand indoors_15: 638892898
       sand indoors_18: -1773421032
       sand indoors_17: -1278018081
+      sand indoors_21: 433170700
       sand indoors_9: -1038923944
       sand indoors_4: 1387170710
       sand indoors_10: -850611484
+      sand indoors_22: 634754796
       sand indoors_7: -1046383692
       sand indoors_20: -2080640803
       sand indoors_12: 1382685826
+      sand indoors_24: 1316455820
       sand indoors_8: -685196492
       sand indoors_14: -810432568
       sand indoors_3: 727217533

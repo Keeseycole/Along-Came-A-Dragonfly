@@ -19,7 +19,9 @@ public class Battleunit : MonoBehaviour
 
     [SerializeField] Creature theCreature;
 
+    [SerializeField] RectTransform rectTransform;
 
+    public RectTransform GetRectTransform() { return rectTransform; }
     private void OnEnable()
     {
         battleUnitAnim.SetBool("IsPlayer", IsPlayerUnit);

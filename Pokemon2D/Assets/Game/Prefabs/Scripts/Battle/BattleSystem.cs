@@ -84,9 +84,6 @@ public class BattleSystem : MonoBehaviour
 
     public StateMachine<BattleSystem> StateMachine { get; private set; }
 
-
-    public DamageNumber theDamageNumber;
-
     Wallet wallet;
 
     float moneyToAdd;

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Island1NpcRescued : MonoBehaviour
 {
-    public GameObject npc1Island, npc1Rescued;
+    public GameObject npc1Island, npc1Rescued, npc2AfterRescue, npc2BeforeRescue;
 
     PlayerController player;
 
@@ -18,6 +18,8 @@ public class Island1NpcRescued : MonoBehaviour
         {
             npc1Island.SetActive(false);
             npc1Rescued.SetActive(true);
+            npc2AfterRescue.SetActive(true);
+            npc2BeforeRescue.SetActive(false);
             this.gameObject.SetActive(false);
         }
     }

@@ -95,8 +95,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageText: {fileID: 3833308351810011031}
-  moveSpeed: 1
-  placmentJitter: 0.5
+  moveSpeed: 25
+  placmentJitter: 5
 --- !u!114 &-8355174246530997307
 MonoBehaviour:
   m_ObjectHideFlags: 0
