@@ -10,34 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
-  m_Name: Great Catfish Skeleton
+  m_Name: Shrimp
   m_EditorClassIdentifier: 
-  name: Great Catfish Skeleton
+  name: 
   ID: 0
   description: 
-  leftSprite: {fileID: -262266744, guid: c6c8232033d81304a8f85904cb68cf79, type: 3}
-  rightSprite: {fileID: -43907430, guid: c6c8232033d81304a8f85904cb68cf79, type: 3}
-  type1: 2
-  creatureHabitates: 1
-  attack: 100
-  defense: 60
-  maxhp: 480
+  leftSprite: {fileID: -965634983, guid: 65b8e365819104845a1fbf4232c5737a, type: 3}
+  rightSprite: {fileID: -1327838334, guid: 65b8e365819104845a1fbf4232c5737a, type: 3}
+  type1: 0
+  creatureHabitates: 0
+  attack: 22
+  defense: 31
+  maxhp: 460
   speed: 0
-  maxMp: 99
-  expGain: 250
+  maxMp: 300
+  expGain: 400
   growthRate: 0
   catchRate: 255
   learnableMoves:
   - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
     level: 0
-  - moveBase: {fileID: 11400000, guid: 2e2a142b379ac9c4fbb1982aef24587f, type: 2}
-    level: 0
-  - moveBase: {fileID: 11400000, guid: 8ee47df529a17574cbe728d219a6d2bf, type: 2}
-    level: 0
   learnableByItems: []
   evolutions: []
   instance: {fileID: 11400000}
-  creatureSize: {x: 3, y: 3}
+  creatureSize: {x: 2, y: 2}
   isDefeted: 0
   isEarth: 0
   isFire: 0

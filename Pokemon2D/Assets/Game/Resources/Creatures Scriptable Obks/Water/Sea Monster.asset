@@ -12,20 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
   m_Name: Sea Monster
   m_EditorClassIdentifier: 
-  name: Sea Monster
-  ID: 0
+  name: Typolion
+  ID: 9
   description: 
   leftSprite: {fileID: -2000220188, guid: 769d8c354ca421a40928c6a76b3a23bc, type: 3}
   rightSprite: {fileID: 1776340308, guid: aabc985d7aac09541af0d2fa53ca0eeb, type: 3}
   type1: 3
-  type2: 2
   creatureHabitates: 0
   attack: 200
   defense: 150
   maxhp: 300
   speed: 0
   maxMp: 72
-  currentmp: 72
   expGain: 300
   growthRate: 1
   catchRate: 150
@@ -41,7 +39,7 @@ MonoBehaviour:
   isDefeted: 0
   isEarth: 0
   isFire: 0
-  isWater: 0
+  isWater: 1
   isIce: 0
   isDarkness: 0
   isEthareal: 0

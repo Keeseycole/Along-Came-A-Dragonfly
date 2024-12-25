@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a1a8104a3f741ca4dbd3abffef09d7ba
+guid: ddd98366c3af1ee48bf787f25326e57d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jelesca 1_0
+      name: tentacle creature_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 218
-        width: 33
-        height: 79
+        x: 1
+        y: 74
+        width: 51
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 995750bc15a78cc4aacaadfba87bf0ab
-      internalID: 1401673564
+      spriteID: 8e8d37adbffa2784abd38d1973e31274
+      internalID: -1992206210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jelesca 1_1
+      name: tentacle creature_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 114
-        width: 33
-        height: 79
+        x: 1
+        y: 0
+        width: 51
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,8 +151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a67c1c57252ddf438a171ff87d022a8
-      internalID: 458004341
+      spriteID: 12acbd078b4fb6447b42055a450b9c89
+      internalID: 2001674554
       vertices: []
       indices: 
       edges: []
@@ -168,8 +168,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jelesca 1_0: 1401673564
-      Jelesca 1_1: 458004341
+      tentacle creature_1: 2001674554
+      tentacle creature_0: -1992206210
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

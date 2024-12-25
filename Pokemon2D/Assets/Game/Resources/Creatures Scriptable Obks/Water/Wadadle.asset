@@ -13,19 +13,17 @@ MonoBehaviour:
   m_Name: Wadadle
   m_EditorClassIdentifier: 
   name: Wadadle
-  ID: 0
+  ID: 1
   description: 
   leftSprite: {fileID: -211898754, guid: 133bdc5dbefefbc4ab135c94af9fa385, type: 3}
   rightSprite: {fileID: -1469429878, guid: d67fbcc6754bf5f4f8b5fc0c220fd520, type: 3}
-  type1: 0
-  type2: 0
-  creatureHabitates: 0
+  type1: 2
+  creatureHabitates: 1
   attack: 25
   defense: 15
   maxhp: 480
   speed: 0
   maxMp: 399
-  currentmp: 300
   expGain: 150
   growthRate: 0
   catchRate: 255

@@ -13,19 +13,17 @@ MonoBehaviour:
   m_Name: Pinnsea
   m_EditorClassIdentifier: 
   name: Pinnsea
-  ID: 0
+  ID: 2
   description: 
   leftSprite: {fileID: -23781906, guid: 53d041405ffc7234faad390d37f18512, type: 3}
   rightSprite: {fileID: 401432159, guid: 43458b47da3c7834f98a8753feb3237f, type: 3}
-  type1: 0
-  type2: 0
-  creatureHabitates: 0
+  type1: 2
+  creatureHabitates: 1
   attack: 30
   defense: 30
   maxhp: 500
   speed: 0
   maxMp: 300
-  currentmp: 300
   expGain: 480
   growthRate: 0
   catchRate: 255
@@ -41,7 +39,7 @@ MonoBehaviour:
   isDefeted: 0
   isEarth: 0
   isFire: 0
-  isWater: 0
+  isWater: 1
   isIce: 0
   isDarkness: 0
   isEthareal: 0

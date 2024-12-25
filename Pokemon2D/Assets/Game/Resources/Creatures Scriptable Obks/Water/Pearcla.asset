@@ -13,19 +13,17 @@ MonoBehaviour:
   m_Name: Pearcla
   m_EditorClassIdentifier: 
   name: Pearcla
-  ID: 0
+  ID: 8
   description: 
   leftSprite: {fileID: 1024979817, guid: 876664349adb6fd4f9af5ec9333da7bb, type: 3}
   rightSprite: {fileID: 21300000, guid: f33b0223097568841b1cbef599191c48, type: 3}
-  type1: 0
-  type2: 0
-  creatureHabitates: 0
+  type1: 2
+  creatureHabitates: 1
   attack: 20
   defense: 20
   maxhp: 400
   speed: 0
   maxMp: 100
-  currentmp: 100
   expGain: 200
   growthRate: 0
   catchRate: 255

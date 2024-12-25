@@ -23,8 +23,13 @@ public class Beastiery : MonoBehaviour
     [Header("Ice Creature Infos")]
     public GameObject[] iceCreatureInfos;
 
-    [Header("Ethereal Creature Infos")]
-    public GameObject[] etherealCreatureInfos;
+
+    [Header("WaterCreature Infos")]
+    public GameObject[] waterCreatureInfos;
+
+
+    // [Header("Ethereal Creature Infos")]
+    // public GameObject[] etherealCreatureInfos;
 
     [Header("Fish Infos")]
     public GameObject[] fishInfos;
@@ -45,6 +50,11 @@ public class Beastiery : MonoBehaviour
     public Button[] Icebuttons;
 
 
+    [Header("Water Creature Buttons")]
+    public Button[] waterbuttons;
+
+
+
     [Header("Fish Buttons")]
     public Button[] FishButtons;
 
@@ -63,6 +73,12 @@ public class Beastiery : MonoBehaviour
     public void EnableIceEntryButton(int id)
     {
         Icebuttons[id - 1].interactable = true;
+
+    }
+
+    public void EnableWaterEntryButton(int id)
+    {
+        waterbuttons[id - 1].interactable = true;
 
     }
 
@@ -103,18 +119,32 @@ public class Beastiery : MonoBehaviour
         iceCreatureInfos[id].SetActive(true);
     }
 
+    public void EnableWaterEntry(int id)
+    {
+
+
+        for (int i = 0; i < waterCreatureInfos.Length; i++)
+        {
+            waterCreatureInfos[i].SetActive(false);
+
+        }
+
+        // only enable coosen creature.
+        waterCreatureInfos[id].SetActive(true);
+    }
+
     public void EnableEtherealEntry(int id)
     {
        
         
-        for (int i = 0; i < etherealCreatureInfos.Length; i++)
-        {
-            etherealCreatureInfos[i].SetActive(false);
+        //for (int i = 0; i < etherealCreatureInfos.Length; i++)
+       // {
+       //     etherealCreatureInfos[i].SetActive(false);
             
-        }
+        //}
 
         // only enable coosen creature.
-        etherealCreatureInfos[id].SetActive(true);
+       // etherealCreatureInfos[id].SetActive(true);
     }
 
     public void EnableFishEntry(int id)

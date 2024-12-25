@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a1a8104a3f741ca4dbd3abffef09d7ba
+guid: 4295613f39e5993489852f070e1892b8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jelesca 1_0
+      name: blob fish_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 218
-        width: 33
-        height: 79
+        x: 29
+        y: 82
+        width: 52
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 995750bc15a78cc4aacaadfba87bf0ab
-      internalID: 1401673564
+      spriteID: 58d45857f0cddf64ca3436deb087713c
+      internalID: -2060277863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jelesca 1_1
+      name: blob fish_1
       rect:
         serializedVersion: 2
         x: 25
-        y: 114
-        width: 33
-        height: 79
+        y: 1
+        width: 52
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,8 +151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a67c1c57252ddf438a171ff87d022a8
-      internalID: 458004341
+      spriteID: d63b16bd70e85de4a82a240dfafda328
+      internalID: -769118813
       vertices: []
       indices: 
       edges: []
@@ -168,8 +168,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jelesca 1_0: 1401673564
-      Jelesca 1_1: 458004341
+      blob fish_0: -2060277863
+      blob fish_1: -769118813
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

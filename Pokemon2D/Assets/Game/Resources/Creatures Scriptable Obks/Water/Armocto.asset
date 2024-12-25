@@ -13,19 +13,17 @@ MonoBehaviour:
   m_Name: Armocto
   m_EditorClassIdentifier: 
   name: Armocto
-  ID: 0
+  ID: 6
   description: 
   leftSprite: {fileID: 553540188, guid: e8e528bb8a8e2454681f27fd86103da8, type: 3}
   rightSprite: {fileID: 1712468167, guid: e8e528bb8a8e2454681f27fd86103da8, type: 3}
-  type1: 0
-  type2: 0
-  creatureHabitates: 0
+  type1: 2
+  creatureHabitates: 1
   attack: 15
   defense: 40
   maxhp: 800
   speed: 0
   maxMp: 350
-  currentmp: 100
   expGain: 290
   growthRate: 0
   catchRate: 255

@@ -7,6 +7,8 @@ public class IDSystem : MonoBehaviour
 {
     public List<CreatureBase> EarthDefeatedIDs = new List<CreatureBase>();
 
+    public List<CreatureBase> WaterDefeatedIDs = new List<CreatureBase>();
+
     public List<CreatureBase> EtherealDefeatedIDs = new List<CreatureBase>();
 
     public List<CreatureBase> IceDefeatedIDs = new List<CreatureBase>();
@@ -78,5 +80,20 @@ public class IDSystem : MonoBehaviour
         }
 
     }
- 
+
+    public void addWaterCreatureID(CreatureBase idtoAdd)
+    {
+        if (!WaterDefeatedIDs.Contains(idtoAdd))
+        {
+            WaterDefeatedIDs.Add(idtoAdd);
+            creature = idtoAdd;
+            bestiery.EnableWaterEntryButton(creature.ID);
+        }
+        else
+        {
+            return;
+        }
+
+    }
+
 }

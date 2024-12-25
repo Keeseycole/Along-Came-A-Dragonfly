@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a1a8104a3f741ca4dbd3abffef09d7ba
+guid: 9cd380b74468b164eb27fae906a3e3bf
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jelesca 1_0
+      name: pistol shrimp_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 218
-        width: 33
-        height: 79
+        x: 0
+        y: 75
+        width: 91
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 995750bc15a78cc4aacaadfba87bf0ab
-      internalID: 1401673564
+      spriteID: 8eb03ee584721e0468f99f511bdb572f
+      internalID: 341600511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jelesca 1_1
+      name: pistol shrimp_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 114
-        width: 33
-        height: 79
+        x: 0
+        y: 0
+        width: 91
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,8 +151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a67c1c57252ddf438a171ff87d022a8
-      internalID: 458004341
+      spriteID: 15cf37c30940b414e928fc9382b99292
+      internalID: -91351581
       vertices: []
       indices: 
       edges: []
@@ -168,8 +168,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jelesca 1_0: 1401673564
-      Jelesca 1_1: 458004341
+      pistol shrimp_0: 341600511
+      pistol shrimp_1: -91351581
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

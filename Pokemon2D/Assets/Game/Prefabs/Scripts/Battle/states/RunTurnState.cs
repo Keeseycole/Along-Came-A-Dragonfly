@@ -243,13 +243,18 @@ public class RunTurnState : State<BattleSystem>
                     
                         if (enemyUnit.Creature.Base.isEarth == true)
                             IDSystem.i.addEarthCreatureID(enemyUnit.Creature.Base);
-                        else
+                    else
                         if (enemyUnit.Creature.Base.isEthareal == true)
                             IDSystem.i.addEatherealCreatureID(enemyUnit.Creature.Base);
 
                     else
                         if (enemyUnit.Creature.Base.isIce == true)
                         IDSystem.i.addIceCreatureID(enemyUnit.Creature.Base);
+
+                    else
+                        if (enemyUnit.Creature.Base.isWater == true)
+                        IDSystem.i.addWaterCreatureID(enemyUnit.Creature.Base);
+
 
 
                 }

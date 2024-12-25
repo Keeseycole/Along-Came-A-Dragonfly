@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a1a8104a3f741ca4dbd3abffef09d7ba
+guid: b80dd0a7bd4561b439cbc80c9cd97ef9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jelesca 1_0
+      name: eel_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 218
-        width: 33
-        height: 79
+        x: 3
+        y: 86
+        width: 62
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 995750bc15a78cc4aacaadfba87bf0ab
-      internalID: 1401673564
+      spriteID: 0a771051512482542ad22e869e03b1a6
+      internalID: 1312873758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jelesca 1_1
+      name: eel_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 114
-        width: 33
-        height: 79
+        x: 12
+        y: 14
+        width: 62
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,8 +151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a67c1c57252ddf438a171ff87d022a8
-      internalID: 458004341
+      spriteID: 2d4b930607353e6418a3a20e53eda0fc
+      internalID: 303667138
       vertices: []
       indices: 
       edges: []
@@ -168,8 +168,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jelesca 1_0: 1401673564
-      Jelesca 1_1: 458004341
+      eel_1: 303667138
+      eel_0: 1312873758
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Sea Sheep
   m_EditorClassIdentifier: 
   name: Tidovia
-  ID: 0
+  ID: 10
   description: 
   leftSprite: {fileID: -1646496218, guid: d8d8af35dd4b3844ea456d82f13c23e7, type: 3}
   rightSprite: {fileID: 1700512780, guid: d8d8af35dd4b3844ea456d82f13c23e7, type: 3}
@@ -37,7 +37,7 @@ MonoBehaviour:
   isDefeted: 0
   isEarth: 0
   isFire: 0
-  isWater: 0
+  isWater: 1
   isIce: 0
   isDarkness: 0
   isEthareal: 0

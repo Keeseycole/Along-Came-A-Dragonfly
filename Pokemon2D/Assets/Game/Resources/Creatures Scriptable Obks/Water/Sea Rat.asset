@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
   m_Name: Sea Rat
   m_EditorClassIdentifier: 
-  name: Sea Rat
-  ID: 0
+  name: Hydromus
+  ID: 11
   description: 
   leftSprite: {fileID: -2108817895, guid: e6e8e08a5a34c6b44a54b84663365c83, type: 3}
   rightSprite: {fileID: -1814923768, guid: e6e8e08a5a34c6b44a54b84663365c83, type: 3}

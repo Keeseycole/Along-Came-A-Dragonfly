@@ -10,34 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
-  m_Name: Typig
+  m_Name: EEal
   m_EditorClassIdentifier: 
-  name: Pigsea
-  ID: 0
+  name: Anguifin
+  ID: 7
   description: 
-  leftSprite: {fileID: -1299397076, guid: 42915a32b01aa7548bc316e7394597c0, type: 3}
-  rightSprite: {fileID: -1575981226, guid: 42915a32b01aa7548bc316e7394597c0, type: 3}
-  type1: 0
-  creatureHabitates: 0
-  attack: 32
-  defense: 30
-  maxhp: 500
-  speed: 300
-  maxMp: 379
-  currentmp: 0
-  expGain: 128
+  leftSprite: {fileID: 303667138, guid: b80dd0a7bd4561b439cbc80c9cd97ef9, type: 3}
+  rightSprite: {fileID: 1312873758, guid: b80dd0a7bd4561b439cbc80c9cd97ef9, type: 3}
+  type1: 2
+  creatureHabitates: 1
+  attack: 20
+  defense: 22
+  maxhp: 15
+  speed: 0
+  maxMp: 470
+  expGain: 400
   growthRate: 0
   catchRate: 255
   learnableMoves:
   - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
     level: 0
-  - moveBase: {fileID: 11400000, guid: 2e2a142b379ac9c4fbb1982aef24587f, type: 2}
-    level: 0
   learnableByItems: []
   evolutions: []
   instance: {fileID: 11400000}
-  creatureSize: {x: 1.2, y: 1.2}
-  mouthPos: {x: 0, y: 0}
+  creatureSize: {x: 1.5, y: 1.5}
   isDefeted: 0
   isEarth: 0
   isFire: 0
