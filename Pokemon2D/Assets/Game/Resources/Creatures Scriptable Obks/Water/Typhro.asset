@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: Typhro
   m_EditorClassIdentifier: 
   name: Typhro
-  ID: 0
+  ID: 14
   description: 
   leftSprite: {fileID: 1392981579, guid: 1ab2eb7f2e89e42459c0adf7ba42d93a, type: 3}
   rightSprite: {fileID: -1723779253, guid: 1ab2eb7f2e89e42459c0adf7ba42d93a, type: 3}
   type1: 2
   creatureHabitates: 1
-  attack: 0
-  defense: 0
-  maxhp: 0
+  attack: 23
+  defense: 15
+  maxhp: 400
   speed: 0
-  maxMp: 0
-  expGain: 0
+  maxMp: 450
+  expGain: 400
   growthRate: 0
   catchRate: 255
   learnableMoves:

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
   m_Name: Pistol Shrimp
   m_EditorClassIdentifier: 
-  name: 
-  ID: 0
+  name: Alphetide
+  ID: 19
   description: 
   leftSprite: {fileID: -91351581, guid: 9cd380b74468b164eb27fae906a3e3bf, type: 3}
   rightSprite: {fileID: 341600511, guid: 9cd380b74468b164eb27fae906a3e3bf, type: 3}

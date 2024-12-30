@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Jellesca
   m_EditorClassIdentifier: 
   name: Jellesca
-  ID: 0
+  ID: 18
   description: 
   leftSprite: {fileID: 458004341, guid: a1a8104a3f741ca4dbd3abffef09d7ba, type: 3}
   rightSprite: {fileID: 1401673564, guid: a1a8104a3f741ca4dbd3abffef09d7ba, type: 3}

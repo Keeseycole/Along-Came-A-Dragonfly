@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
   m_Name: Shrimp
   m_EditorClassIdentifier: 
-  name: 
-  ID: 0
+  name: Krilaris
+  ID: 22
   description: 
   leftSprite: {fileID: -965634983, guid: 65b8e365819104845a1fbf4232c5737a, type: 3}
   rightSprite: {fileID: -1327838334, guid: 65b8e365819104845a1fbf4232c5737a, type: 3}

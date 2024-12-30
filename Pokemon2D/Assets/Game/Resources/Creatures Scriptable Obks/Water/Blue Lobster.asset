@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
   m_Name: Blue Lobster
   m_EditorClassIdentifier: 
-  name: 
-  ID: 0
+  name: Nephrosta
+  ID: 24
   description: 
   leftSprite: {fileID: -7659860, guid: 3ae121c24c212d948a111ad361d7f747, type: 3}
   rightSprite: {fileID: -176665260, guid: 3ae121c24c212d948a111ad361d7f747, type: 3}
@@ -33,11 +33,11 @@ MonoBehaviour:
   learnableByItems: []
   evolutions: []
   instance: {fileID: 11400000}
-  creatureSize: {x: 0, y: 0}
+  creatureSize: {x: 1, y: 1}
   isDefeted: 0
   isEarth: 0
   isFire: 0
-  isWater: 0
+  isWater: 1
   isIce: 0
   isDarkness: 0
   isEthareal: 0

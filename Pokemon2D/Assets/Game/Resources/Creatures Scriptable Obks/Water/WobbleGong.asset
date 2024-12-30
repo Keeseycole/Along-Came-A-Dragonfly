@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WobbleGong
   m_EditorClassIdentifier: 
   name: Sklunko
-  ID: 0
+  ID: 20
   description: 
   leftSprite: {fileID: 44428081, guid: 9ca1f2ac1ae1ef24dbf01fa22cc51f5a, type: 3}
   rightSprite: {fileID: 248389477, guid: 9ca1f2ac1ae1ef24dbf01fa22cc51f5a, type: 3}

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
   m_Name: Tentacle creature
   m_EditorClassIdentifier: 
-  name: Tentasplash
-  ID: 0
+  name: Tentaspla
+  ID: 16
   description: 
   leftSprite: {fileID: 2001674554, guid: ddd98366c3af1ee48bf787f25326e57d, type: 3}
   rightSprite: {fileID: -1992206210, guid: ddd98366c3af1ee48bf787f25326e57d, type: 3}

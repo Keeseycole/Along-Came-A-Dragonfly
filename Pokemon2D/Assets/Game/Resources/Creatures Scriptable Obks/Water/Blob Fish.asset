@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
   m_Name: Blob Fish
   m_EditorClassIdentifier: 
-  name: 
-  ID: 0
+  name: marciphoon
+  ID: 17
   description: 
   leftSprite: {fileID: -769118813, guid: 4295613f39e5993489852f070e1892b8, type: 3}
   rightSprite: {fileID: 701308818, guid: 5c08ebb8fa9f2704f86fc332bdf1ed71, type: 3}

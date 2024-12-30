@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
   m_Name: Great Catfish Skeleton
   m_EditorClassIdentifier: 
-  name: Great Catfish Skeleton
-  ID: 0
+  name: 'Great Catfish '
+  ID: 25
   description: 
   leftSprite: {fileID: -262266744, guid: c6c8232033d81304a8f85904cb68cf79, type: 3}
   rightSprite: {fileID: -43907430, guid: c6c8232033d81304a8f85904cb68cf79, type: 3}

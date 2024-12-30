@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Shellquey
   m_EditorClassIdentifier: 
   name: Shellquey
-  ID: 0
+  ID: 21
   description: 
   leftSprite: {fileID: -1565435260, guid: 701892d1f4f73144db553562bea919ed, type: 3}
   rightSprite: {fileID: 1169970027, guid: 701892d1f4f73144db553562bea919ed, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mollusk
   m_EditorClassIdentifier: 
   name: Moluphoon
-  ID: 0
+  ID: 15
   description: 
   leftSprite: {fileID: -500632962, guid: 4e89c7c14e3aa4c498b4bf6ecafc0b09, type: 3}
   rightSprite: {fileID: 1963117439, guid: 4e89c7c14e3aa4c498b4bf6ecafc0b09, type: 3}
