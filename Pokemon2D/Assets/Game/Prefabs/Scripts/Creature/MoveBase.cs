@@ -17,7 +17,6 @@ public class MoveBase : ScriptableObject
     [SerializeField] int speed;
     [SerializeField] bool alwaysHits;
     [SerializeField] bool isSpecial;
-    [SerializeField] bool isBeam;  
     [SerializeField] public int isMultiHit = 1;
     [SerializeField] MoveCatagory catagory;
     [SerializeField] MoveEffects effects;
@@ -30,6 +29,8 @@ public class MoveBase : ScriptableObject
     {
         get { return moveName; }
     }
+
+
 
     public string Description
     {
@@ -145,4 +146,6 @@ public class SecondaryEffects : MoveEffects
     {
         Foe, Self
     }
+
+
 

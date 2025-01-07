@@ -2,7 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using UnityEngine;
+using static UnityEngine.RuleTile.TilingRuleOutput;
 using Random = UnityEngine.Random;
 
 [System.Serializable]
@@ -10,10 +12,10 @@ public class Creature
 {
     [SerializeField] CreatureBase _base;
     [SerializeField] int level;
-   
 
+    bool canCapture;
 
-    bool isHuman;
+    
     public Creature(CreatureBase pbase, int plevel)
     {
         _base = pbase;
@@ -57,6 +59,8 @@ public class Creature
 
     public event System.Action OnStatusChanged;
     public event System.Action OnHPChanged;
+
+    
     public void Init()
     {
 
@@ -250,6 +254,8 @@ public class Creature
     {
         var movesWithMP = Moves.Where(x => x.MPCost >= 0).ToList();
 
+        
+
         int r = Random.Range(0, movesWithMP.Count);
         //Debug.Log($"enemy moves count {movesWithMP.Count} random int{r}" );
         return movesWithMP[r];
@@ -396,6 +402,11 @@ public class Creature
             moves = Moves.Select(m => m.GetSaveData()).ToList()
         };
         return savedata;
+    }
+
+    public void Flip()
+    {
+        
     }
 
 }

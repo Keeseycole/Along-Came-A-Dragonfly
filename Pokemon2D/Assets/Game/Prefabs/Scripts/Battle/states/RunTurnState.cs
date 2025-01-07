@@ -3,8 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEditor.Rendering;
+using UnityEditor.Tilemaps;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UIElements;
 using Utils.StateMachine;
 
 
@@ -41,6 +43,7 @@ public class RunTurnState : State<BattleSystem>
     [SerializeField] DamageNumber dmgnumPrefab;
 
     ObjectPool<DamageNumber> damagePool;
+   
    
    
     private void Awake()
@@ -193,7 +196,11 @@ public class RunTurnState : State<BattleSystem>
 
                 yield return new WaitForSeconds(.5f);
 
-                Instantiate(move.Base.attackVisualEffect, tarUnit.transform.position, tarUnit.transform.rotation);
+                AttackEffect attackAnim = Instantiate(move.Base.attackVisualEffect, tarUnit.transform.position, tarUnit.transform.rotation);
+                if(sourceUnit.IsPlayerUnit == false)
+                {
+                    attackAnim.transform.localScale = new Vector3(-1, 1, 1);
+                }
                 AudioManager.i.PlaySfx(AudioID.hit);
                 tarUnit.PLayHitAnimation();
                 hitCount++;
@@ -286,7 +293,8 @@ public class RunTurnState : State<BattleSystem>
             sourceUnit.Creature.MP -= moveToCheck.MPCost;
             return true;
         }     
-            return false;     
+
+         return false;     
     }
 
     public IEnumerator NotEnoughMP()
@@ -399,10 +407,7 @@ public class RunTurnState : State<BattleSystem>
                         playerUnit.Creature.LearnMove(newMove.Base);
                         bs.battleDialogueBox.UpdateMoveList(playerUnit.Creature.Moves);
                     }
-                    else
-                    {
-
-                    }
+                    
                 }
 
                 yield return playerUnit.Hud.SetEXPSmooth(true);
@@ -470,15 +475,17 @@ public class RunTurnState : State<BattleSystem>
         DamageNumber damageNumber = damagePool.GetObject();
 
         Debug.Log($"This is Obj{damage} ", damageNumber);
-      pos = new Vector3(pos.x, pos.y + 60);
+        pos = new Vector3(pos.x, pos.y + 60);
 
         damageNumber.SetDamage(damage, pos);
-    yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1f);
 
       
 
         damagePool.ReturnObject(damageNumber);
 
     }
+
+  
 
 }

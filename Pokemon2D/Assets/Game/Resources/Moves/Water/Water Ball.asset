@@ -12,20 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32f7c1acf39961b4c87ed5306a63ca8f, type: 3}
   m_Name: Water Ball
   m_EditorClassIdentifier: 
-  name: Water Ball
+  moveName: Water Ball
   description: 
-  type: 3
-  power: 90
-  mpCost: 0
+  type: 2
+  power: 30
+  mpCost: 30
   accuracy: 0
-  speed: 3
+  speed: 0
   alwaysHits: 1
   isSpecial: 0
-  catagory: 1
+  isMultiHit: 1
+  catagory: 0
   effects:
     boosts: []
     status: 0
     volitileStatus: 0
-  attackVisualEffect: {fileID: 9143562759913173222, guid: 0a2a7704e2353f34ca0b12542fbb2a23, type: 3}
+  attackVisualEffect: {fileID: 5467814604054399722, guid: 35abd47fc65fb4f48bc2eaabc706b136, type: 3}
+  sound: {fileID: 0}
   secondaries: []
   target: 0

@@ -46,7 +46,7 @@ public class CreatureBase : ScriptableObject
 
     [SerializeField] int catchRate = 255;
 
-    public const int maxMoves = 10;
+    public const int maxMoves = 5;
 
     [SerializeField] List<LearnableMoves> learnableMoves;
     [SerializeField] List<MoveBase> learnableByItems;

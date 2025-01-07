@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32f7c1acf39961b4c87ed5306a63ca8f, type: 3}
   m_Name: Moves
   m_EditorClassIdentifier: 
-  moveName: 
+  moveName: Sand Wall
   description: 
   type: 0
   power: 0
