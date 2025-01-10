@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32f7c1acf39961b4c87ed5306a63ca8f, type: 3}
+  m_Name: Cyclone
+  m_EditorClassIdentifier: 
+  moveName: Cyclone
+  description: 
+  type: 0
+  power: 25
+  mpCost: 20
+  accuracy: 0
+  speed: 0
+  alwaysHits: 1
+  isSpecial: 0
+  isMultiHit: 1
+  catagory: 0
+  effects:
+    boosts: []
+    status: 0
+    volitileStatus: 0
+  attackVisualEffect: {fileID: 5935504127790974179, guid: f9595c73a2e3dd040b35db40e6cde429, type: 3}
+  sound: {fileID: 0}
+  secondaries: []
+  target: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dabf1c56c37cb194ca730c448f7fff0c
+guid: 3d83dc37a9dc79d4cac3d51cc12fd200
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -116,106 +116,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Water Spout_0
+      name: Geyser_5
       rect:
         serializedVersion: 2
-        x: 253
-        y: 79
-        width: 44
-        height: 71
+        x: 375
+        y: 75
+        width: 17
+        height: 47
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b30b3f5475e245409310c211360e95e
-      internalID: -1737709391
+      spriteID: 4df1ae97ec5a6354eb09a995b216b3cc
+      internalID: 343383847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Spout_1
+      name: Geyser_0
       rect:
         serializedVersion: 2
-        x: 96
-        y: 79
-        width: 44
-        height: 71
+        x: 300
+        y: 75
+        width: 17
+        height: 47
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a45eba2a18124242ad85fce43fad903
-      internalID: -900626916
+      spriteID: 8f05033797a255446a0922fa44249f6f
+      internalID: 726169611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Spout_2
+      name: Geyser_1
       rect:
         serializedVersion: 2
-        x: 23
-        y: 78
-        width: 44
-        height: 71
+        x: 225
+        y: 75
+        width: 17
+        height: 47
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f990207b2d434d94197ed171c7e3cbd1
-      internalID: -578936624
+      spriteID: 324c6069ffeee204baa5a39314f32363
+      internalID: 1023867030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Spout_6
+      name: Geyser_2
       rect:
         serializedVersion: 2
-        x: 327
-        y: 79
-        width: 44
-        height: 71
+        x: 150
+        y: 75
+        width: 18
+        height: 47
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05dda4fb95042a842ad7c34ca99b7f8f
-      internalID: -1742158671
+      spriteID: d6b4534aaf0f2b94c8e6ba09bcc5dc0b
+      internalID: -862019628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Spout_4
+      name: Geyser_3
       rect:
         serializedVersion: 2
-        x: 177
-        y: 80
-        width: 44
-        height: 70
+        x: 75
+        y: 75
+        width: 18
+        height: 47
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 617ba9ed9d2fb7444a25c89223e8f1ca
-      internalID: -1856660706
+      spriteID: 31838d1fd3a8af544aefc78ffb5bc5fb
+      internalID: -1285732207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Geyser_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85177d7e95ceacc4682dbe727cf61583
+      internalID: -206818072
       vertices: []
       indices: 
       edges: []
@@ -231,15 +252,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Water Spout_4: -1856660706
-      Water Spout_1: -900626916
-      Water Spout_6: -1742158671
-      Water Spout_8: -1751363857
-      Water Spout_3: -1800659613
-      Water Spout_2: -578936624
-      Water Spout_7: 892474835
-      Water Spout_5: 1749168740
-      Water Spout_0: -1737709391
+      Geyser_1: 1023867030
+      Geyser_2: -862019628
+      Geyser_3: -1285732207
+      Geyser_5: 343383847
+      Geyser_4: -206818072
+      Geyser_0: 726169611
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

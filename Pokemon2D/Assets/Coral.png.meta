@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dabf1c56c37cb194ca730c448f7fff0c
+guid: 7ab1fbdd98a9a8f4bacc7149e894f8e9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,106 +116,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Water Spout_0
+      name: Coral_0
       rect:
         serializedVersion: 2
-        x: 253
-        y: 79
-        width: 44
-        height: 71
+        x: 398
+        y: 75
+        width: 52
+        height: 59
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b30b3f5475e245409310c211360e95e
-      internalID: -1737709391
+      spriteID: 6ab98bb26758c6040ae1c028b8a71119
+      internalID: 849353011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Spout_1
+      name: Coral_1
       rect:
         serializedVersion: 2
-        x: 96
-        y: 79
-        width: 44
-        height: 71
+        x: 324
+        y: 75
+        width: 52
+        height: 59
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a45eba2a18124242ad85fce43fad903
-      internalID: -900626916
+      spriteID: 47406b305482a554a9a8a0507fbc81a7
+      internalID: -1766287172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Spout_2
+      name: Coral_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 75
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35442eb24e9f71845979df96bdda7162
+      internalID: -1632176287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coral_3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 75
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d94c37fbaf73d14bbeecc2647da6dab
+      internalID: 1454498280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coral_4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 75
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca6d7bf1305ff7489c5eb998d546936
+      internalID: -1475500871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coral_5
       rect:
         serializedVersion: 2
         x: 23
-        y: 78
-        width: 44
-        height: 71
+        y: 75
+        width: 52
+        height: 59
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f990207b2d434d94197ed171c7e3cbd1
-      internalID: -578936624
+      spriteID: bb0420af8672a2d4b8d57a38763c9ddd
+      internalID: -1165911481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Spout_6
+      name: Coral_6
       rect:
         serializedVersion: 2
-        x: 327
-        y: 79
-        width: 44
-        height: 71
+        x: 23
+        y: 0
+        width: 52
+        height: 59
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05dda4fb95042a842ad7c34ca99b7f8f
-      internalID: -1742158671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Water Spout_4
-      rect:
-        serializedVersion: 2
-        x: 177
-        y: 80
-        width: 44
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 617ba9ed9d2fb7444a25c89223e8f1ca
-      internalID: -1856660706
+      spriteID: 65f59eed31c7d40468ab9f3e36f71ab2
+      internalID: 1346359488
       vertices: []
       indices: 
       edges: []
@@ -231,15 +273,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Water Spout_4: -1856660706
-      Water Spout_1: -900626916
-      Water Spout_6: -1742158671
-      Water Spout_8: -1751363857
-      Water Spout_3: -1800659613
-      Water Spout_2: -578936624
-      Water Spout_7: 892474835
-      Water Spout_5: 1749168740
-      Water Spout_0: -1737709391
+      Coral_2: -2021134387
+      Coral_1: -1766287172
+      Coral_4: 1454498280
+      Coral_5: -1475500871
+      Coral_0: 849353011
+      Coral_3: -1632176287
+      Coral_6: -1165911481
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

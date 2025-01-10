@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dabf1c56c37cb194ca730c448f7fff0c
+guid: ea33b27d867326c4d9a4d10b3cc51e02
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -116,106 +116,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Water Spout_0
+      name: Cyclone_0
       rect:
         serializedVersion: 2
-        x: 253
-        y: 79
-        width: 44
-        height: 71
+        x: 0
+        y: 75
+        width: 28
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b30b3f5475e245409310c211360e95e
-      internalID: -1737709391
+      spriteID: fcfa09ccb16c5094cab0b07c6b3f3785
+      internalID: 1524242994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Spout_1
+      name: Cyclone_1
       rect:
         serializedVersion: 2
-        x: 96
-        y: 79
-        width: 44
-        height: 71
+        x: 75
+        y: 75
+        width: 25
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a45eba2a18124242ad85fce43fad903
-      internalID: -900626916
+      spriteID: d0a3c28897f11614cb50c22542ae40fb
+      internalID: -748392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Water Spout_2
+      name: Cyclone_2
       rect:
         serializedVersion: 2
-        x: 23
-        y: 78
-        width: 44
-        height: 71
+        x: 150
+        y: 75
+        width: 28
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f990207b2d434d94197ed171c7e3cbd1
-      internalID: -578936624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Water Spout_6
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 79
-        width: 44
-        height: 71
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05dda4fb95042a842ad7c34ca99b7f8f
-      internalID: -1742158671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Water Spout_4
-      rect:
-        serializedVersion: 2
-        x: 177
-        y: 80
-        width: 44
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 617ba9ed9d2fb7444a25c89223e8f1ca
-      internalID: -1856660706
+      spriteID: 42700d90f5f29cb43aa3e54927e5150d
+      internalID: 1888442446
       vertices: []
       indices: 
       edges: []
@@ -231,15 +189,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Water Spout_4: -1856660706
-      Water Spout_1: -900626916
-      Water Spout_6: -1742158671
-      Water Spout_8: -1751363857
-      Water Spout_3: -1800659613
-      Water Spout_2: -578936624
-      Water Spout_7: 892474835
-      Water Spout_5: 1749168740
-      Water Spout_0: -1737709391
+      Cyclone_1: -748392
+      Cyclone_2: 1888442446
+      Cyclone_0: 1524242994
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

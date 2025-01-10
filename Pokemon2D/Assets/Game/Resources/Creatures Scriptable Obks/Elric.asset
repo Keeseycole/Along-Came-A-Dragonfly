@@ -32,9 +32,9 @@ MonoBehaviour:
     level: 0
   - moveBase: {fileID: 11400000, guid: 9e59c5d1327b1f544825422f412991e2, type: 2}
     level: 0
-  - moveBase: {fileID: 11400000, guid: 5506d9bdfd952c5439914d7fe78ca709, type: 2}
+  - moveBase: {fileID: 11400000, guid: a06e0c1e6db48b9459da1fffb93a1cd9, type: 2}
     level: 0
-  - moveBase: {fileID: 11400000, guid: c3c5d918edd437b4388cb9085d486f66, type: 2}
+  - moveBase: {fileID: 11400000, guid: 0f427bf95e535954384fc1ef5af1d275, type: 2}
     level: 0
   - moveBase: {fileID: 11400000, guid: 535002e61df091842b7c1004c69a070c, type: 2}
     level: 0
