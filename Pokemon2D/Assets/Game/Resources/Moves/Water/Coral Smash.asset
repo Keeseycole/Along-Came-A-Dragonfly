@@ -10,21 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 32f7c1acf39961b4c87ed5306a63ca8f, type: 3}
-  m_Name: Surf
+  m_Name: Coral Smash
   m_EditorClassIdentifier: 
-  name: Surf
+  moveName: Coral Smash
   description: 
-  type: 3
-  power: 10
-  mpCost: 6
+  type: 0
+  power: 20
+  mpCost: 15
   accuracy: 0
   speed: 0
-  alwaysHits: 0
+  alwaysHits: 1
   isSpecial: 0
-  catagory: 1
+  isMultiHit: 1
+  catagory: 0
   effects:
     boosts: []
     status: 0
     volitileStatus: 0
+  attackVisualEffect: {fileID: 4100371569043134117, guid: 48116f55f1af86747b549be4104e84e5, type: 3}
+  sound: {fileID: 0}
   secondaries: []
   target: 0

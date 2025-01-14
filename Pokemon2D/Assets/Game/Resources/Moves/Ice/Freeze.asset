@@ -19,21 +19,20 @@ MonoBehaviour:
   mpCost: 0
   accuracy: 100
   speed: 0
-  alwaysHits: 1
+  alwaysHits: 0
   isSpecial: 0
-  isBeam: 0
   isMultiHit: 1
   catagory: 1
   effects:
     boosts: []
     status: 5
     volitileStatus: 0
-  attackVisualEffect: {fileID: 3692440891427730871, guid: 0c64a1f7495ab754a9cbf2626205c146, type: 3}
+  attackVisualEffect: {fileID: 8283907682369395761, guid: 750a19be62086e3448da468a8f6161ee, type: 3}
   sound: {fileID: 0}
   secondaries:
   - boosts: []
     status: 5
     volitileStatus: 0
-    chance: 80
+    chance: 25
     moveTar: 0
   target: 0

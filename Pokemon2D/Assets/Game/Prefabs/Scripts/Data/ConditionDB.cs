@@ -46,7 +46,7 @@ public class ConditionDB : MonoBehaviour
                 Name = "Paralize",
                OnBeforeMove = (Creature creature) =>
                {
-                  if ( Random.Range(0, 5) == 1)
+                  if ( Random.Range(0, 3) == 1)
                    {
                        return false;
                    }
@@ -61,7 +61,7 @@ public class ConditionDB : MonoBehaviour
                 Name = "Freeze",
                OnBeforeMove = (Creature creature) =>
                {
-                  if ( Random.Range(0, 3) == 1)
+                  if ( Random.Range(0, 2) == 1)
                    {
                        creature.CureStatus();
                        return false;
@@ -77,7 +77,7 @@ public class ConditionDB : MonoBehaviour
                 Name = "Sleep",
                  OnStart = (Creature creature) =>
                  {
-                     creature.StatusTime = Random.Range(1,2);
+                     creature.StatusTime = Random.Range(0,1);
                  },
                OnBeforeMove = (Creature creature) =>
                {

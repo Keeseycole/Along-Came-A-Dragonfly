@@ -12,19 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32f7c1acf39961b4c87ed5306a63ca8f, type: 3}
   m_Name: Paralize
   m_EditorClassIdentifier: 
-  name: 
+  moveName: Paralize
   description: 
   type: 0
   power: 0
-  mpCost: 45
+  mpCost: 40
   accuracy: 0
   speed: 0
-  alwaysHits: 0
+  alwaysHits: 1
   isSpecial: 0
+  isMultiHit: 1
   catagory: 2
   effects:
     boosts: []
     status: 4
-    volitileStatus: 4
+    volitileStatus: 0
+  attackVisualEffect: {fileID: 8283907682369395761, guid: 750a19be62086e3448da468a8f6161ee, type: 3}
+  sound: {fileID: 0}
   secondaries: []
   target: 0

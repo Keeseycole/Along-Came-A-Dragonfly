@@ -30,6 +30,14 @@ MonoBehaviour:
   learnableMoves:
   - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
     level: 0
+  - moveBase: {fileID: 11400000, guid: 4fabcf4b41ea73248b6a7e1b16e98529, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 0b1a99297c7567440b7b7f558f55d523, type: 2}
+    level: 60
+  - moveBase: {fileID: 11400000, guid: 5506d9bdfd952c5439914d7fe78ca709, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: 087a27db387c4804e8a49335b7a5c013, type: 2}
+    level: 40
   learnableByItems: []
   evolutions: []
   instance: {fileID: 11400000}

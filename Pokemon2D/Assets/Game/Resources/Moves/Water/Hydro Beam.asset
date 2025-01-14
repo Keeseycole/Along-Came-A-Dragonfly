@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 32f7c1acf39961b4c87ed5306a63ca8f, type: 3}
-  m_Name: Hydro Beam 2
+  m_Name: Hydro Beam
   m_EditorClassIdentifier: 
   moveName: Hydro Beam
   description: 
