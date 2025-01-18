@@ -104,7 +104,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dungeons/Water Dungeon/WaterTemple2.unity
     guid: 38ac19101aec86b46a0aa15023afa6f9
-  - enabled: 0
+  - enabled: 1
     path: Assets/Grasslands.unity
     guid: e63b84a2808a72d49886fef6df3242f1
   m_configObjects: {}

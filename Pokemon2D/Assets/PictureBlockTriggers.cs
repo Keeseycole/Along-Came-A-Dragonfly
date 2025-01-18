@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security;
 using UnityEngine;
 
 public class PictureBlockTriggers : MonoBehaviour
@@ -10,13 +11,16 @@ public class PictureBlockTriggers : MonoBehaviour
 
     PictureDoor pictureDoor;
 
+    BlockResetSwitch resetSwitch;
+
+
     private void Start()
     {
         pictureDoor = FindObjectOfType<PictureDoor>();
 
-       // triggers[0] = blockTrigger.transform.GetChild(1).gameObject;
-
         blockTrigger = FindObjectOfType<PictureBlockTriggers>();
+
+        resetSwitch = FindObjectOfType<BlockResetSwitch>();
     }
     private void Update()
     {
@@ -26,6 +30,7 @@ public class PictureBlockTriggers : MonoBehaviour
             !triggers[6].activeInHierarchy)
         {
             pictureDoor.gameObject.SetActive(false);
+            resetSwitch.gameObject.SetActive(false);
         }
     }
 }

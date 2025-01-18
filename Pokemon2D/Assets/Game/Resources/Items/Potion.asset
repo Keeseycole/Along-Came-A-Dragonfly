@@ -19,7 +19,7 @@ MonoBehaviour:
   price: 100
   canSell: 1
   dropChance: 30
-  hpAmount: 20
+  hpAmount: 100
   restoreMaxHP: 0
   mpAmount: 0
   restoreMaxMP: 0

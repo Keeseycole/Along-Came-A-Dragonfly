@@ -22,6 +22,10 @@ public class WaterTempleEndCutsceneManager : TRiggerableEvent
 
     public GameObject Robe;
 
+    BeachTownSecondMeetingManager beachTownSecondMeeting;
+
+    public GameObject beachSecondMeetingTrigger;
+
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +44,10 @@ public class WaterTempleEndCutsceneManager : TRiggerableEvent
         cutscene = FindObjectOfType<cutsceneManagerr>();
 
         triggerCutscene = cutscene.cutscenes[77].gameObject;
+
+        beachTownSecondMeeting = FindObjectOfType<BeachTownSecondMeetingManager>();
+
+        beachSecondMeetingTrigger = beachTownSecondMeeting.gameObject.transform.GetChild(0).gameObject;
 
     }
 
@@ -95,8 +103,9 @@ public class WaterTempleEndCutsceneManager : TRiggerableEvent
        
        
         thePlayer.blocker.SetActive(false);
+        beachSecondMeetingTrigger.SetActive(true);
         this.gameObject.SetActive(false);
-
+        
 
     }
 }

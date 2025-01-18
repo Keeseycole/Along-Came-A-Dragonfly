@@ -22,7 +22,7 @@ public class IceHouseSecondEncounter : TRiggerableEvent
 
     public GameObject IceWater;
 
-
+   
 
 
     // Start is called before the first frame update

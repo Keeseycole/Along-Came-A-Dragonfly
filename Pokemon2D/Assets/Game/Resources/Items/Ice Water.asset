@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Ice Water
   description: An ice cold glass of water
-  icon: {fileID: 21300184, guid: 3f51af3ade8505048a57a9928a2d2971, type: 3}
+  icon: {fileID: 938043873, guid: bed51de98f1650c478f54b2d71f965d7, type: 3}
   itemType: 0
-  price: 0
+  price: 50
   canSell: 0
   dropChance: 0
-  hpAmount: 10
+  hpAmount: 50
   restoreMaxHP: 0
   mpAmount: 0
   restoreMaxMP: 0
