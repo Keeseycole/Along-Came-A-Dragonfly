@@ -18,14 +18,12 @@ MonoBehaviour:
   leftSprite: {fileID: 1067411716, guid: 9a69f5661ebf2504b869f1e2abd7bcf8, type: 3}
   rightSprite: {fileID: -1186398400, guid: 9a69f5661ebf2504b869f1e2abd7bcf8, type: 3}
   type1: 0
-  type2: 0
   creatureHabitates: 0
   attack: 9
   defense: 9
   maxhp: 572
   speed: 0
   maxMp: 78
-  currentmp: 0
   expGain: 126
   growthRate: 0
   catchRate: 255

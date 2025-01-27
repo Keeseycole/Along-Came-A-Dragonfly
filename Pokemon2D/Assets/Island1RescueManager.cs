@@ -58,6 +58,7 @@ public class Island1RescueManager : TRiggerableEvent
 
     public override IEnumerator PlayCutscene()
     {
+        thePlayer.blocker.SetActive(true);
         yield return fader.FadeIn(1f);
 
         thePlayer.gameObject.SetActive(false);
@@ -77,8 +78,9 @@ public class Island1RescueManager : TRiggerableEvent
         npc2.SetActive(true);
 
         yield return fader.FadeOut(2f);
-    
-      
+        thePlayer.blocker.SetActive(false);
+
+
         this.gameObject.SetActive(false);
     }
 }

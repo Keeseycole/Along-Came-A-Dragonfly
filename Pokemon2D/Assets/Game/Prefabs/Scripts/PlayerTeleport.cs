@@ -15,11 +15,12 @@ public class PlayerTeleport : MonoBehaviour
     private void Awake()
     {
         fader = FindObjectOfType<Fader>();
+        player = FindObjectOfType<PlayerController>();
     }
 
     IEnumerator Teleport()
     {
-        PlayerController player = GetComponent<PlayerController>();
+       
 
         if (player == null) 
         {
@@ -27,6 +28,7 @@ public class PlayerTeleport : MonoBehaviour
             yield break;
         }
         player.ignoreInput = true;
+        player.blocker.SetActive(true);
         yield return fader.FadeIn(1f);
 
         buddy.DeActivateBuddy();
@@ -37,6 +39,7 @@ public class PlayerTeleport : MonoBehaviour
         
        
         yield return fader.FadeOut(1f);
+        player.blocker.SetActive(false);
         buddy.ActivateBuddy();
         player.ignoreInput = false;
     }

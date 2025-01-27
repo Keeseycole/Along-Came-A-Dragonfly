@@ -24,7 +24,7 @@ MonoBehaviour:
   maxhp: 800
   speed: 0
   maxMp: 350
-  expGain: 290
+  expGain: 150
   growthRate: 0
   catchRate: 255
   learnableMoves:

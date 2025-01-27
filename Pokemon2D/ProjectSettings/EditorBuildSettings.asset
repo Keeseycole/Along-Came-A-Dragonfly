@@ -107,4 +107,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Grasslands.unity
     guid: e63b84a2808a72d49886fef6df3242f1
+  - enabled: 1
+    path: Assets/Scenes/Havensgaurd Castle Present.unity
+    guid: 9bd639a441a43024eb1de4fe7cbf93e7
+  - enabled: 1
+    path: Assets/Scenes/RoyalLibrary.unity
+    guid: 1011b9d795dcd0045b9d477b7a9eeaf6
+  - enabled: 1
+    path: Assets/Scenes/Havensgaurd Castle.unity
+    guid: 6ff2a2ba8234a3d498b6a020284aba59
+  - enabled: 1
+    path: Assets/Scenes/LostForest.unity
+    guid: c4715d26f92cd654aaf7c716de1e6457
+  - enabled: 1
+    path: Assets/Scenes/Dungeons/ForestDungeon.unity
+    guid: 4c7fdea9829165549ace2991b9aa329b
+  - enabled: 1
+    path: Assets/Scenes/Dungeon.unity
+    guid: 7af9ad801c1169c44804b08a7f4dda85
+  - enabled: 1
+    path: Assets/Scenes/Grasslands/GrasslandsCave.unity
+    guid: 68439a7c8f86e6444b08ca697ed59bc0
+  - enabled: 1
+    path: Assets/Scenes/Lava Area/LavaArea.unity
+    guid: 8aec5db9d6142d54bb7d9131f349de12
   m_configObjects: {}

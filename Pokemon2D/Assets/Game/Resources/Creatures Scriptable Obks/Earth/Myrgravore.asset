@@ -12,20 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
   m_Name: Myrgravore
   m_EditorClassIdentifier: 
-  name: Myrgravore
+  name: Mygravore
   ID: 10
   description: 
   leftSprite: {fileID: -750683629, guid: a559f07c92750e942ba884c4701bf024, type: 3}
   rightSprite: {fileID: 1132373118, guid: a559f07c92750e942ba884c4701bf024, type: 3}
   type1: 0
-  type2: 0
   creatureHabitates: 0
   attack: 12
   defense: 11
   maxhp: 620
   speed: 0
   maxMp: 120
-  currentmp: 0
   expGain: 137
   growthRate: 0
   catchRate: 255
@@ -37,7 +35,7 @@ MonoBehaviour:
   learnableByItems: []
   evolutions: []
   instance: {fileID: 11400000}
-  creatureSize: {x: 3, y: 3}
+  creatureSize: {x: 1.5, y: 1.5}
   isDefeted: 0
   isEarth: 1
   isFire: 0

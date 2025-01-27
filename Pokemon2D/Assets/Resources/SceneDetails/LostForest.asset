@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   connectedScenes:
   - {fileID: 11400000, guid: 55b40d35a64d6b24e91eaf88e97d2f30, type: 2}
+  - {fileID: 11400000, guid: c7ef7793faea4de4eaa5c59ce145c7df, type: 2}
   sceneName: LostForest
+  battleBackround: {fileID: 0}

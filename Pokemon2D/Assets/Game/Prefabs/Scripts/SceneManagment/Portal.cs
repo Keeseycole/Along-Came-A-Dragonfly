@@ -81,6 +81,14 @@ public enum DesID
     x,
     y,
     z,
+    gPres1,
+    gPres2,
+    gPres3,
+    gPres4,
+    gPres5,
+    gpres6,
+    gpresForest,
+    gPrison
     
 }
    

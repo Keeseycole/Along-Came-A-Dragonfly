@@ -140,17 +140,17 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 508338283
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1535069798, guid: a374826707ea9374abfb1a82c05b301f, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 0.5625, y: 1.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &3210032876227069429
@@ -191,8 +191,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.75, y: 1.25}
-    newSize: {x: 2, y: 2}
+    oldSize: {x: 0.5625, y: 1.25}
+    newSize: {x: 0.5625, y: 1.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -246,16 +246,65 @@ MonoBehaviour:
   - {fileID: -1089264545, guid: a374826707ea9374abfb1a82c05b301f, type: 3}
   - {fileID: 847358937, guid: a374826707ea9374abfb1a82c05b301f, type: 3}
   - {fileID: 1604931239, guid: a374826707ea9374abfb1a82c05b301f, type: 3}
+  swimDownSprites: []
+  swimUpSprites: []
+  swimRightSprites: []
+  swimLeftSprites: []
   torchDownSprites: []
   torchUpSprites: []
   torchRightSprites: []
   torchLeftSprites: []
+  holdRockDownSprites: []
+  holdRockUpSprites: []
+  holdRockRightSprites: []
+  holdRockLeftSprites: []
   attackDownSprites: []
   attackUpSprites: []
   attackRightSprites: []
   attackLeftSprites: []
+  well1DownSprites: []
+  well1UpSprites: []
+  well1RightSprites: []
+  well1LeftSprites: []
+  well2DownSprites: []
+  well2UpSprites: []
+  well2RightSprites: []
+  well2LeftSprites: []
+  well3DownSprites: []
+  well3UpSprites: []
+  well3RightSprites: []
+  well3LeftSprites: []
+  well4DownSprites: []
+  well4UpSprites: []
+  well4RightSprites: []
+  well4LeftSprites: []
+  well5DownSprites: []
+  well5UpSprites: []
+  well5RightSprites: []
+  well5LeftSprites: []
+  well6DownSprites: []
+  well6UpSprites: []
+  well6RightSprites: []
+  well6LeftSprites: []
+  well7DownSprites: []
+  well7UpSprites: []
+  well7RightSprites: []
+  well7LeftSprites: []
+  well8DownSprites: []
+  well8UpSprites: []
+  well8RightSprites: []
+  well8LeftSprites: []
+  well9DownSprites: []
+  well9UpSprites: []
+  well9RightSprites: []
+  well9LeftSprites: []
+  FishDownSprites: []
+  FishUpSprites: []
+  FishRightSprites: []
+  FishLeftSprites: []
   surfSprites: []
   defaultDir: 2
+  isPlayer: 0
 --- !u!114 &3210032876227069430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,13 +393,74 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objToRemove: {fileID: 0}
   killQuest: {fileID: 0}
-  enemyPuzzle: {fileID: 0}
+  enemyWaterPuzzle: {fileID: 0}
   cannon: {fileID: 0}
   cannonManager: {fileID: 0}
   lavaTile: {fileID: 0}
   lightningTrigger: {fileID: 0}
   battleManagerenemies1: {fileID: 0}
   wave2Enemies: {fileID: 0}
+  rescue1Enemies: {fileID: 0}
+  rescue2Enemies: {fileID: 0}
+  rescue3Enemies: {fileID: 0}
+  rescue4Enemies: {fileID: 0}
+  soliderfightEnemies: {fileID: 0}
+  thetriggers: {fileID: 0}
+  trigger: {fileID: 0}
+  marianaFoodCutscenetrigger: {fileID: 0}
+  meetKingJastusCutsceneManager: {fileID: 0}
+  dragonflySceneMan: {fileID: 0}
+  meetMarianaCotscene: {fileID: 0}
+  openingCutscene: {fileID: 0}
+  reptileIceDung: {fileID: 0}
+  marcRescueCutscene: {fileID: 0}
+  marcReturnCutscene: {fileID: 0}
+  asheriansAttackCutscene: {fileID: 0}
+  marianaDeathCutscene: {fileID: 0}
+  castleOnFireCutsceneManager: {fileID: 0}
+  kingJastusFire: {fileID: 0}
+  ophinusFlashback: {fileID: 0}
+  ophinusCrystelCutscene: {fileID: 0}
+  arrivePastCutscene: {fileID: 0}
+  reptilCrystelManager: {fileID: 0}
+  reptileDefeatManager: {fileID: 0}
+  hiddenCastleCutscene: {fileID: 0}
+  FishStatueCutscene1: {fileID: 0}
+  FishStatueCutscene2: {fileID: 0}
+  FishStatueCutscene3: {fileID: 0}
+  FishStatueCutscene4: {fileID: 0}
+  FishStatueCutscene5: {fileID: 0}
+  intoThePortalCutscene: {fileID: 0}
+  otherworldPortalCutscene: {fileID: 0}
+  arriveFutureCutscene: {fileID: 0}
+  statueManager: {fileID: 0}
+  darkCarfishManager: {fileID: 0}
+  darkCatfishDefeat: {fileID: 0}
+  darkEarthTurtleDefeat: {fileID: 0}
+  wellRebuiltPuzzleMan: {fileID: 0}
+  darkIceSnailCutscene: {fileID: 0}
+  darkIceSnailDefeatCutscene: {fileID: 0}
+  iceSnailEnemies: {fileID: 0}
+  ballnHoleman: {fileID: 0}
+  fireLionMan: {fileID: 0}
+  fireLionDefeat: {fileID: 0}
+  elricFoundCutsceneMan: {fileID: 0}
+  elricImprisonedMan: {fileID: 0}
+  foundBigKey: {fileID: 0}
+  elricEscapeMan: {fileID: 0}
+  elricLeaveMan: {fileID: 0}
+  darkElricHideMan: {fileID: 0}
+  darkElricDefeatMan: {fileID: 0}
+  elricDarkMan: {fileID: 0}
+  portalFutureMan: {fileID: 0}
+  intoPortalFutureMan: {fileID: 0}
+  iceSnaiRescued: {fileID: 0}
+  pipeCutsceneManager: {fileID: 0}
+  pipeSwitch: {fileID: 0}
+  island1Rescue: {fileID: 0}
+  island2Rescue: {fileID: 0}
+  island3Rescue: {fileID: 0}
+  island4Rescue: {fileID: 0}
 --- !u!1 &3210032876901701483
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,7 +532,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -606808797
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 372066926, guid: 6dcb1eb4562a65148931fea6691976d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -432,6 +542,6 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0

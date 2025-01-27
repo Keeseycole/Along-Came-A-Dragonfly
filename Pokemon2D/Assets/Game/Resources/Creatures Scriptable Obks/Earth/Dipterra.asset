@@ -18,14 +18,12 @@ MonoBehaviour:
   leftSprite: {fileID: -1229844876, guid: 7657fb817bff57142ad9f85da61cec0d, type: 3}
   rightSprite: {fileID: -561649990, guid: 7657fb817bff57142ad9f85da61cec0d, type: 3}
   type1: 0
-  type2: 0
   creatureHabitates: 0
   attack: 2
   defense: 0
   maxhp: 380
   speed: 0
   maxMp: 30
-  currentmp: 30
   expGain: 47
   growthRate: 1
   catchRate: 200
@@ -37,7 +35,7 @@ MonoBehaviour:
   learnableByItems: []
   evolutions: []
   instance: {fileID: 11400000}
-  creatureSize: {x: 1.2, y: 1.2}
+  creatureSize: {x: 1.5, y: 1.5}
   isDefeted: 0
   isEarth: 1
   isFire: 0

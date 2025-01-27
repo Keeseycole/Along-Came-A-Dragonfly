@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9681d50d0ccf63a419e3b58d4c897199
+guid: 7c3aaf265996edb448f26feb91cc47bb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -116,12 +116,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Metadillo_0
+      name: Spear head animal_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 265
-        width: 61
+        x: 0
+        y: 84
+        width: 75
         height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -130,8 +130,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5288e68757ba59346b9b1234ac7ad167
-      internalID: 906914752
+      spriteID: d1ef81d7146f2fa469d0c1bf6bb43766
+      internalID: 2112454848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spear head animal_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 75
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faaca4cefe5f53046931a8bdead732eb
+      internalID: -1633320532
       vertices: []
       indices: 
       edges: []
@@ -147,7 +168,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Metadillo_0: 906914752
+      Spear head animal_0: 2112454848
+      Spear head animal_1: -1633320532
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

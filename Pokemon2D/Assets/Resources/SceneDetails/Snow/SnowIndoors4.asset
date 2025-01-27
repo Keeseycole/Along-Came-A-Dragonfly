@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   connectedScenes:
   - {fileID: 11400000, guid: d2450197a9706244ca08aa47ea384c66, type: 2}
+  - {fileID: 11400000, guid: a29fced05f5d7664fb3abd256632a78e, type: 2}
   sceneName: 
+  battleBackround: {fileID: 0}

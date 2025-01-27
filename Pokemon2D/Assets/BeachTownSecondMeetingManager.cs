@@ -71,6 +71,7 @@ public class BeachTownSecondMeetingManager : TRiggerableEvent
 
     public override IEnumerator PlayCutscene()
     {
+        thePlayer.blocker.SetActive(true);
         yield return fader.FadeIn(1f);
 
         yield return new WaitForSeconds(.2f);
@@ -89,6 +90,7 @@ public class BeachTownSecondMeetingManager : TRiggerableEvent
         buddy.SetActive(true);
 
         yield return fader.FadeOut(2f);
+        thePlayer.blocker.SetActive(false);
 
         this.gameObject.SetActive(false);
     }

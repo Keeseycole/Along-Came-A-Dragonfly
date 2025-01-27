@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6fad7397e3f62140a39cedb075df987, type: 3}
   m_Name: ForestDungeon
   m_EditorClassIdentifier: 
-  connectedScenes: []
+  connectedScenes:
+  - {fileID: 11400000, guid: c7ef7793faea4de4eaa5c59ce145c7df, type: 2}
   sceneName: 
+  battleBackround: {fileID: 0}
