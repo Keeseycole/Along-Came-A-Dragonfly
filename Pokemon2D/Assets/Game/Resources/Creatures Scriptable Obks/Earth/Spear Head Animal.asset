@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
   m_Name: Spear Head Animal
   m_EditorClassIdentifier: 
-  name: 
+  name: Perizard
   ID: 0
   description: 
   leftSprite: {fileID: -1633320532, guid: 7c3aaf265996edb448f26feb91cc47bb, type: 3}

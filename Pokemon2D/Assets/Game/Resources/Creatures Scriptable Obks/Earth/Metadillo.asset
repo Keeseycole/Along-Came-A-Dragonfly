@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
   m_Name: Metadillo
   m_EditorClassIdentifier: 
-  name: 
+  name: Metadillo
   ID: 0
   description: 
   leftSprite: {fileID: -1845589157, guid: 5d272ded449586142ac5e5cd09fb9446, type: 3}

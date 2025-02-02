@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Cut
   m_EditorClassIdentifier: 
   name: Cut
-  description: Cut Tree
+  description: 
   icon: {fileID: -2085963865, guid: 6dcb1eb4562a65148931fea6691976d0, type: 3}
+  itemType: 0
   price: 250
   canSell: 1
+  dropChance: 0
   move: {fileID: 0}
   isHM: 1

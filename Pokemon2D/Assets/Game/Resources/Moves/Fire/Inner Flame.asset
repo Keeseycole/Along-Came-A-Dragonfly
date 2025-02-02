@@ -12,22 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32f7c1acf39961b4c87ed5306a63ca8f, type: 3}
   m_Name: Inner Flame
   m_EditorClassIdentifier: 
-  name: Inner Flame
+  moveName: Inner Flame
   description: Boost Attack by 25%
-  type: 2
+  type: 1
   power: 0
-  mpCost: 20
+  mpCost: 0
   accuracy: 0
   speed: 0
   alwaysHits: 1
-  isSpecial: 1
-  catagory: 1
+  isMultiHit: 1
+  catagory: 2
   effects:
     boosts:
     - stat: 0
-      boost: 25
-    status: 0
+      boost: 5
+    status: 7
     volitileStatus: 0
   attackVisualEffect: {fileID: 3528754412870217544, guid: c81186c5bd58e864dba74694905a53ed, type: 3}
+  sound: {fileID: 0}
   secondaries: []
   target: 1

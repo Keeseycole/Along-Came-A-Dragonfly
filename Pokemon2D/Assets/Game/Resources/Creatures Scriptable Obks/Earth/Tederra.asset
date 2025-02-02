@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
+  m_Name: Tederra
+  m_EditorClassIdentifier: 
+  name: Tederra
+  ID: 25
+  description: 
+  leftSprite: {fileID: -200543531, guid: 35ccadc0aae62004c8bae1a3b36ab3c8, type: 3}
+  rightSprite: {fileID: 1977779732, guid: 35ccadc0aae62004c8bae1a3b36ab3c8, type: 3}
+  type1: 5
+  creatureHabitates: 2
+  attack: 20
+  defense: 15
+  maxhp: 490
+  speed: 0
+  maxMp: 250
+  expGain: 100
+  growthRate: 0
+  catchRate: 255
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 22d6196b7a2f11b4e91f55e8a6ae651d, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 67613a0bf82eaf648bd88089a8324913, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 7873b2cfb5b426f4e9ab9fe05e6b08ba, type: 2}
+    level: 0
+  learnableByItems: []
+  evolutions: []
+  instance: {fileID: 11400000}
+  creatureSize: {x: 1.7, y: 1.7}
+  isDefeted: 0
+  isEarth: 1
+  isFire: 0
+  isWater: 0
+  isIce: 0
+  isDarkness: 0
+  isEthareal: 0

@@ -16,7 +16,7 @@ public class MoveBase : ScriptableObject
     [SerializeField] int accuracy;
     [SerializeField] int speed;
     [SerializeField] bool alwaysHits;
-    [SerializeField] bool isSpecial;
+    //[SerializeField] bool isSpecial;
     [SerializeField] public int isMultiHit = 1;
     [SerializeField] MoveCatagory catagory;
     [SerializeField] MoveEffects effects;

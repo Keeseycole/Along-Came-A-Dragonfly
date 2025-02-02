@@ -12,19 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32f7c1acf39961b4c87ed5306a63ca8f, type: 3}
   m_Name: Confusion
   m_EditorClassIdentifier: 
-  name: Confusion
+  moveName: Confusion
   description: Enemy Attacks Self
   type: 0
   power: 0
   mpCost: 3
   accuracy: 25
   speed: 0
-  alwaysHits: 0
-  isSpecial: 0
+  alwaysHits: 1
+  isMultiHit: 1
   catagory: 2
   effects:
     boosts: []
     status: 0
     volitileStatus: 6
+  attackVisualEffect: {fileID: 3528754412870217544, guid: c81186c5bd58e864dba74694905a53ed, type: 3}
+  sound: {fileID: 0}
   secondaries: []
   target: 0

@@ -404,10 +404,6 @@ public class Creature
         return savedata;
     }
 
-    public void Flip()
-    {
-        
-    }
 
 }
 

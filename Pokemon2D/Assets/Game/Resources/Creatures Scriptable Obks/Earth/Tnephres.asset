@@ -17,8 +17,8 @@ MonoBehaviour:
   description: 
   leftSprite: {fileID: 927408835, guid: a5a21fe1b3def11439b64af3c0b06f25, type: 3}
   rightSprite: {fileID: 573632909, guid: a5a21fe1b3def11439b64af3c0b06f25, type: 3}
-  type1: 0
-  creatureHabitates: 0
+  type1: 5
+  creatureHabitates: 2
   attack: 15
   defense: 24
   maxhp: 480
