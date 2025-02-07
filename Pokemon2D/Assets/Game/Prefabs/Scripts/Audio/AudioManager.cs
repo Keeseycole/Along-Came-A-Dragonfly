@@ -9,6 +9,8 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     [SerializeField] List<AudioData> sfxList;
+
+    [SerializeField] public List<MusicData> musicList;
     [SerializeField] AudioSource musicPlayer;
     [SerializeField] AudioSource sfxPlayer;
 
@@ -18,7 +20,7 @@ public class AudioManager : MonoBehaviour
 
     Dictionary<AudioID,AudioData> sfxLookup;
 
-    AudioClip currentMusic;
+    public MusicData currentMusic;
     public static AudioManager i { get; private set; }
 
     private void Awake()
@@ -34,7 +36,7 @@ public class AudioManager : MonoBehaviour
 
        sfxLookup = sfxList.ToDictionary(x => x.audioid);
     }
-    public void PlayMusic(AudioClip clip, bool loop = true, bool fade = false)
+    public void PlayMusic(MusicData clip, bool loop = true, bool fade = false)
     {
         //Debug.Log($"clip playing {clip}\n {loop} " );
         if(clip == null || clip == currentMusic) 
@@ -82,7 +84,7 @@ public class AudioManager : MonoBehaviour
 
     }
 
-    IEnumerator PlayMusicAsync(AudioClip clip, bool loop, bool fade) 
+    IEnumerator PlayMusicAsync(MusicData clip, bool loop, bool fade) 
     {
        
         if (fade)
@@ -92,13 +94,34 @@ public class AudioManager : MonoBehaviour
           Debug.Log($"Dofade finish");
         }
 
+        if (musicList.Contains(clip) == false)
+        {
+            musicList.Add(clip);
+        }
       
+        if(clip.intro!= null)
+        {
+            musicPlayer.clip = clip.intro;
+            musicPlayer.loop = false;
+            musicPlayer.Play();
+            yield return musicPlayer.DOFade(1, fadeDuration).WaitForCompletion();
+            yield return new WaitForSeconds(clip.intro.length - 1);
 
-        musicPlayer.clip = clip;
-        musicPlayer.loop = loop;
-        musicPlayer.Play();
-        yield return musicPlayer.DOFade(1, fadeDuration).WaitForCompletion();
+            musicPlayer.clip = clip.loop;
+            musicPlayer.loop = loop;
+            musicPlayer.Play();
+        } else
+        {
+          
+            musicPlayer.clip = clip.loop;
+            musicPlayer.loop = loop;
+            musicPlayer.Play();
 
+            yield return musicPlayer.DOFade(1, fadeDuration).WaitForCompletion();
+          
+        }
+    
+       
     }
 
     public void UnMute()
@@ -117,4 +140,15 @@ public enum AudioID { hit, levelup}
 {
     public AudioID audioid;
     public AudioClip clip;
+}
+
+
+[System.Serializable]
+
+public class MusicData
+{   
+    public AudioClip intro;
+    public AudioClip loop;
+
+
 }

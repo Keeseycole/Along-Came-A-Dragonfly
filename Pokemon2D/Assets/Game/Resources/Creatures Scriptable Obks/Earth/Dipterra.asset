@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dipterra
   m_EditorClassIdentifier: 
   name: Dipterra
-  ID: 2
+  ID: 12
   description: 
   leftSprite: {fileID: -1229844876, guid: 7657fb817bff57142ad9f85da61cec0d, type: 3}
   rightSprite: {fileID: -561649990, guid: 7657fb817bff57142ad9f85da61cec0d, type: 3}

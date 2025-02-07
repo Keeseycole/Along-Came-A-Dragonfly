@@ -120,7 +120,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 240
+        y: 236
         width: 16
         height: 16
       alignment: 0
@@ -141,7 +141,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 240
+        y: 236
         width: 16
         height: 16
       alignment: 0
@@ -162,7 +162,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 240
+        y: 236
         width: 16
         height: 16
       alignment: 0
@@ -183,7 +183,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 240
+        y: 236
         width: 16
         height: 16
       alignment: 0
@@ -204,7 +204,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 240
+        y: 236
         width: 16
         height: 16
       alignment: 0
@@ -225,7 +225,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 240
+        y: 236
         width: 16
         height: 16
       alignment: 0
@@ -246,7 +246,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 240
+        y: 236
         width: 16
         height: 16
       alignment: 0
@@ -267,7 +267,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 224
+        y: 220
         width: 16
         height: 16
       alignment: 0
@@ -288,7 +288,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 224
+        y: 220
         width: 16
         height: 16
       alignment: 0
@@ -309,7 +309,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 224
+        y: 220
         width: 16
         height: 16
       alignment: 0
@@ -330,7 +330,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 224
+        y: 220
         width: 16
         height: 16
       alignment: 0
@@ -351,7 +351,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 224
+        y: 220
         width: 16
         height: 16
       alignment: 0
@@ -372,7 +372,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 224
+        y: 220
         width: 16
         height: 16
       alignment: 0
@@ -393,7 +393,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 224
+        y: 220
         width: 16
         height: 16
       alignment: 0
@@ -414,7 +414,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 224
+        y: 220
         width: 16
         height: 16
       alignment: 0
@@ -435,7 +435,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 208
+        y: 204
         width: 16
         height: 16
       alignment: 0
@@ -456,7 +456,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 208
+        y: 204
         width: 16
         height: 16
       alignment: 0
@@ -477,7 +477,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 208
+        y: 204
         width: 16
         height: 16
       alignment: 0
@@ -498,7 +498,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 208
+        y: 204
         width: 16
         height: 16
       alignment: 0
@@ -519,7 +519,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 208
+        y: 204
         width: 16
         height: 16
       alignment: 0
@@ -540,7 +540,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 208
+        y: 204
         width: 16
         height: 16
       alignment: 0
@@ -561,7 +561,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 208
+        y: 204
         width: 16
         height: 16
       alignment: 0
@@ -582,7 +582,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 224
+        y: 220
         width: 16
         height: 16
       alignment: 0
@@ -603,7 +603,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 224
+        y: 220
         width: 16
         height: 16
       alignment: 0
@@ -624,7 +624,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 192
+        y: 188
         width: 16
         height: 16
       alignment: 0
@@ -645,7 +645,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 192
+        y: 188
         width: 16
         height: 16
       alignment: 0
@@ -666,7 +666,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 208
+        y: 204
         width: 16
         height: 16
       alignment: 0
@@ -687,7 +687,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 208
+        y: 204
         width: 16
         height: 16
       alignment: 0
@@ -704,53 +704,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoors_28
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c56344af6ebc2cf43b12f4a3d1d90369
-      internalID: 1424635424
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: indoors_29
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 192
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d680e79235e9f424e94eb66737759d05
-      internalID: 516809711
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: indoors_30
       rect:
         serializedVersion: 2
         x: 96
-        y: 176
+        y: 172
         width: 16
         height: 16
       alignment: 0
@@ -771,7 +729,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 176
+        y: 172
         width: 16
         height: 16
       alignment: 0
@@ -792,7 +750,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 192
+        y: 188
         width: 16
         height: 16
       alignment: 0
@@ -813,7 +771,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 192
+        y: 188
         width: 16
         height: 16
       alignment: 0
@@ -834,7 +792,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 176
+        y: 172
         width: 16
         height: 16
       alignment: 0
@@ -855,7 +813,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 176
+        y: 172
         width: 16
         height: 16
       alignment: 0
@@ -876,7 +834,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 160
+        y: 156
         width: 16
         height: 16
       alignment: 0
@@ -897,7 +855,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 160
+        y: 156
         width: 16
         height: 16
       alignment: 0
@@ -918,7 +876,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 176
+        y: 172
         width: 16
         height: 16
       alignment: 0
@@ -939,7 +897,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 176
+        y: 172
         width: 16
         height: 16
       alignment: 0
@@ -960,7 +918,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 160
+        y: 156
         width: 16
         height: 16
       alignment: 0
@@ -981,7 +939,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 160
+        y: 156
         width: 16
         height: 16
       alignment: 0
@@ -1002,7 +960,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 144
+        y: 140
         width: 16
         height: 16
       alignment: 0
@@ -1023,7 +981,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 144
+        y: 140
         width: 16
         height: 16
       alignment: 0
@@ -1086,7 +1044,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 144
+        y: 140
         width: 16
         height: 16
       alignment: 0
@@ -1107,7 +1065,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 144
+        y: 140
         width: 16
         height: 16
       alignment: 0
@@ -1128,7 +1086,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 128
+        y: 124
         width: 16
         height: 16
       alignment: 0
@@ -1149,7 +1107,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 128
+        y: 124
         width: 16
         height: 16
       alignment: 0
@@ -1212,7 +1170,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 128
+        y: 124
         width: 16
         height: 16
       alignment: 0
@@ -1233,7 +1191,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 128
+        y: 124
         width: 16
         height: 16
       alignment: 0
@@ -1296,7 +1254,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 112
+        y: 108
         width: 16
         height: 16
       alignment: 0
@@ -1317,7 +1275,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 112
+        y: 108
         width: 16
         height: 16
       alignment: 0
@@ -1464,7 +1422,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 80
+        y: 79
         width: 16
         height: 16
       alignment: 0
@@ -1485,7 +1443,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 80
+        y: 79
         width: 16
         height: 16
       alignment: 0
@@ -1505,8 +1463,8 @@ TextureImporter:
       name: indoors_67
       rect:
         serializedVersion: 2
-        x: 16
-        y: 45
+        x: 112
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -1632,7 +1590,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 80
+        y: 79
         width: 16
         height: 16
       alignment: 0
@@ -1758,7 +1716,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 16
+        y: 15
         width: 16
         height: 16
       alignment: 0
@@ -1884,7 +1842,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 208
+        y: 204
         width: 16
         height: 16
       alignment: 0
@@ -2094,7 +2052,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 48
+        y: 47
         width: 16
         height: 16
       alignment: 0
@@ -2115,7 +2073,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 48
+        y: 47
         width: 16
         height: 16
       alignment: 0
@@ -2136,7 +2094,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 48
+        y: 47
         width: 16
         height: 16
       alignment: 0
@@ -2157,7 +2115,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 160
+        y: 156
         width: 16
         height: 16
       alignment: 0
@@ -2178,7 +2136,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 160
+        y: 156
         width: 16
         height: 16
       alignment: 0
@@ -2199,7 +2157,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 144
+        y: 133
         width: 16
         height: 16
       alignment: 0
@@ -2219,8 +2177,8 @@ TextureImporter:
       name: indoors_116
       rect:
         serializedVersion: 2
-        x: 48
-        y: 112
+        x: 32
+        y: 92
         width: 16
         height: 16
       alignment: 0
@@ -2240,8 +2198,8 @@ TextureImporter:
       name: indoors_117
       rect:
         serializedVersion: 2
-        x: 64
-        y: 112
+        x: 48
+        y: 92
         width: 16
         height: 16
       alignment: 0
@@ -2304,7 +2262,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 208
+        y: 204
         width: 16
         height: 16
       alignment: 0
@@ -2325,7 +2283,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 272
-        y: 208
+        y: 204
         width: 16
         height: 16
       alignment: 0
@@ -2346,7 +2304,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 192
+        y: 188
         width: 16
         height: 16
       alignment: 0
@@ -2367,7 +2325,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 192
+        y: 188
         width: 16
         height: 16
       alignment: 0
@@ -2388,7 +2346,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 272
-        y: 192
+        y: 188
         width: 16
         height: 16
       alignment: 0
@@ -2409,7 +2367,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 176
+        y: 172
         width: 16
         height: 16
       alignment: 0
@@ -2426,32 +2384,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: indoors_107
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 128
-        width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 401db68ac35b13c4fb7228def67f11b8
-      internalID: 1945563243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: indoors_115
       rect:
         serializedVersion: 2
         x: 192
-        y: 64
+        y: 63
         width: 16
         height: 16
       alignment: 0
@@ -2472,7 +2409,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 64
+        y: 63
         width: 16
         height: 16
       alignment: 0
@@ -2493,7 +2430,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 224
-        y: 64
+        y: 63
         width: 16
         height: 16
       alignment: 0
@@ -2514,7 +2451,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 48
+        y: 44
         width: 16
         height: 17
       alignment: 0
@@ -2556,7 +2493,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 16
+        y: 12
         width: 16
         height: 17
       alignment: 0
@@ -2614,6 +2551,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: indoors_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 126
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d63e9e9915de3c46ad254d394608a13
+      internalID: 1424635424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indoors_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 84
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a28b5ec23129143983a91757ac00b7
+      internalID: 516809711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -2625,8 +2604,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      indoors_59: 1925129421
-      indoors_73: -1629633867
+      indoors_96: -1188513228
+      indoors_27: 999942465
       indoors_83: 1979603026
       indoors_69: -1323130861
       indoors_118: 1486521367
@@ -2752,8 +2731,8 @@ TextureImporter:
       indoors_99: 942548154
       indoors_74: -1793359711
       indoors_1: 95499343
-      indoors_27: 999942465
-      indoors_96: -1188513228
+      indoors_73: -1629633867
+      indoors_59: 1925129421
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

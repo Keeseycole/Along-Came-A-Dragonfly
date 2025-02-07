@@ -88,7 +88,9 @@ public enum DesID
     gPres5,
     gpres6,
     gpresForest,
-    gPrison
+    gPrison, 
+    gInn,
+    gTavern
     
 }
    

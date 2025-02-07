@@ -29,7 +29,11 @@ public class NPCController : MonoBehaviour, Interactable, ISavable
     CreatureGiver creatureGiver;
 
     Healer healer;
+    NoHealer nohealer;
     Merchant merchant;
+    Innkeeper innKeeper;
+
+    PianoPlayer pianoGuy;
 
     private void Awake()
     {
@@ -37,6 +41,7 @@ public class NPCController : MonoBehaviour, Interactable, ISavable
         itemGiver = GetComponent<ItemGiver>();
         creatureGiver = GetComponent<CreatureGiver>();
         healer = GetComponent<Healer>();
+        nohealer = GetComponent<NoHealer>();
         merchant = GetComponent<Merchant>();
     }
 
@@ -99,21 +104,27 @@ public class NPCController : MonoBehaviour, Interactable, ISavable
                     yield return DialogueManager.Instance.ShowDialogue(activeQuest.Base.InprogressDialogue);
                 }
             }
-            else if (healer != null)
-            {
-               yield return healer.Heal(initer,dialogue);
-            }
+           
             else if (merchant != null)
             {
                yield return merchant.Trade();
-            }
-            else
+            } else 
             {
                 yield return DialogueManager.Instance.ShowDialogue(dialogue);
             }
 
+            if (nohealer != null)
+            {
+                yield return nohealer.Heal(initer, dialogue);
+            }
 
-            
+            if (healer != null)
+            {
+                yield return healer.Heal(initer, dialogue);
+            }
+
+           
+
             idleTimer = 0;
             state = NPCState.Idle;
         }

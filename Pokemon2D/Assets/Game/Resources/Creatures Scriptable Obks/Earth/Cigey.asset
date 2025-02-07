@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Cigey
   m_EditorClassIdentifier: 
   name: 
-  ID: 0
+  ID: 10
   description: 
   leftSprite: {fileID: -253338261, guid: ecc0cd879b5503d4e9504cb8a73f8e13, type: 3}
   rightSprite: {fileID: -746555468, guid: c36b7c40bb5695d4a9a17e319449daaf, type: 3}

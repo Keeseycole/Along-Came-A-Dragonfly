@@ -108,6 +108,9 @@ EditorBuildSettings:
     path: Assets/Grasslands.unity
     guid: e63b84a2808a72d49886fef6df3242f1
   - enabled: 1
+    path: Assets/Scenes/Inn.unity
+    guid: 12047e1077c3b764d981cd575d53ed7a
+  - enabled: 1
     path: Assets/Scenes/Havensgaurd Castle Present.unity
     guid: 9bd639a441a43024eb1de4fe7cbf93e7
   - enabled: 1

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Catapia
   m_EditorClassIdentifier: 
   name: Catapia
-  ID: 1
+  ID: 2
   description: 
   leftSprite: {fileID: 248062428, guid: d806dfafa5e34aa4bbdb6a8c737dea7f, type: 3}
   rightSprite: {fileID: -1892232742, guid: d806dfafa5e34aa4bbdb6a8c737dea7f, type: 3}

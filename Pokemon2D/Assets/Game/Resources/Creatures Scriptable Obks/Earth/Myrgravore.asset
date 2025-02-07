@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Myrgravore
   m_EditorClassIdentifier: 
   name: Mygravore
-  ID: 10
+  ID: 16
   description: 
   leftSprite: {fileID: -750683629, guid: a559f07c92750e942ba884c4701bf024, type: 3}
   rightSprite: {fileID: 1132373118, guid: a559f07c92750e942ba884c4701bf024, type: 3}

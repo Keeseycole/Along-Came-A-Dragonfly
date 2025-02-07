@@ -11,6 +11,8 @@ public class LevelManager : MonoBehaviour
 
     [SerializeField] Sprite backround;
 
+    public BoxCollider2D boxCollider;
+
     public Sprite GetBackround
     {
         get { return backround; }
@@ -20,7 +22,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] List<CreatureEncounterRecord> creaturesInWater;
     [SerializeField] List<CreatureEncounterRecord> creaturesInSnow;
     [SerializeField] List<FishingEncounterRecord> fishInArea;
-    [SerializeField] AudioClip musicToPlay;
+    [SerializeField] public MusicData musicToPlay;
 
     public cutsceneManagerr cutscene;
 

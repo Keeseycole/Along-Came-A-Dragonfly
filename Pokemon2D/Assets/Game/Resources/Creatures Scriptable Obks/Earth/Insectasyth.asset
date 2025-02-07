@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Insectasyth
   m_EditorClassIdentifier: 
   name: Insectasyth
-  ID: 0
+  ID: 13
   description: 
   leftSprite: {fileID: -2009629429, guid: 138526e737dc13e4baa87976db54824d, type: 3}
   rightSprite: {fileID: 682077069, guid: 138526e737dc13e4baa87976db54824d, type: 3}

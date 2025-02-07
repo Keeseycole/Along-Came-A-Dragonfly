@@ -35,7 +35,7 @@ MonoBehaviour:
   instance: {fileID: 11400000}
   creatureSize: {x: 0, y: 0}
   isDefeted: 0
-  isEarth: 0
+  isEarth: 1
   isFire: 0
   isWater: 0
   isIce: 0
