@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Spear Head Animal
   m_EditorClassIdentifier: 
   name: Perizard
-  ID: 0
+  ID: 19
   description: 
   leftSprite: {fileID: -1633320532, guid: 7c3aaf265996edb448f26feb91cc47bb, type: 3}
   rightSprite: {fileID: 2112454848, guid: 7c3aaf265996edb448f26feb91cc47bb, type: 3}
@@ -30,6 +30,14 @@ MonoBehaviour:
   learnableMoves:
   - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
     level: 0
+  - moveBase: {fileID: 11400000, guid: 8ee47df529a17574cbe728d219a6d2bf, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: d94fb015d141a4f4f880afa802d28076, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: bfc6f0e265e9ddb4492a23890153d31b, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: edc6a3b7634cf98478a69dff6b5f850e, type: 2}
+    level: 40
   learnableByItems: []
   evolutions: []
   instance: {fileID: 11400000}

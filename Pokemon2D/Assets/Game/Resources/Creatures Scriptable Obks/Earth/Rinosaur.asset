@@ -30,12 +30,18 @@ MonoBehaviour:
   learnableMoves:
   - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
     level: 0
-  - moveBase: {fileID: 11400000, guid: 9f554fef45c23ec44a4ed12eec7ff467, type: 2}
-    level: 0
+  - moveBase: {fileID: 11400000, guid: 8ee47df529a17574cbe728d219a6d2bf, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 22d6196b7a2f11b4e91f55e8a6ae651d, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: d7201c2b4f227eb4ab6bd1408ae5f50b, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: e0a21d0912ef5004bac62349b1f40074, type: 2}
+    level: 15
   learnableByItems: []
   evolutions: []
   instance: {fileID: 11400000}
-  creatureSize: {x: 1.5, y: 1.5}
+  creatureSize: {x: 2, y: 2}
   isDefeted: 0
   isEarth: 1
   isFire: 0

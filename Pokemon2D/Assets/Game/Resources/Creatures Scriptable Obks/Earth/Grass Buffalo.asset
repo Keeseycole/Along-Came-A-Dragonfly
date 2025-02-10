@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
   m_Name: Grass Buffalo
   m_EditorClassIdentifier: 
-  name: 
-  ID: 0
+  name: Grabalus
+  ID: 20
   description: 
   leftSprite: {fileID: -77561560, guid: ea30ecaee40bdf8479b24dab02832885, type: 3}
   rightSprite: {fileID: 393655550, guid: ea30ecaee40bdf8479b24dab02832885, type: 3}
@@ -30,10 +30,18 @@ MonoBehaviour:
   learnableMoves:
   - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
     level: 0
+  - moveBase: {fileID: 11400000, guid: 8ee47df529a17574cbe728d219a6d2bf, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 60e43abdc5103114ba8c68e28b5d9753, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: d7201c2b4f227eb4ab6bd1408ae5f50b, type: 2}
+    level: 50
+  - moveBase: {fileID: 11400000, guid: 67613a0bf82eaf648bd88089a8324913, type: 2}
+    level: 30
   learnableByItems: []
   evolutions: []
   instance: {fileID: 11400000}
-  creatureSize: {x: 0, y: 0}
+  creatureSize: {x: 2, y: 2}
   isDefeted: 0
   isEarth: 1
   isFire: 0

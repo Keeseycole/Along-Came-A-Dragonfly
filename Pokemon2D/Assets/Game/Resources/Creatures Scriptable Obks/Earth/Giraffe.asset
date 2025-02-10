@@ -31,23 +31,15 @@ MonoBehaviour:
   - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
     level: 0
   - moveBase: {fileID: 11400000, guid: 9f554fef45c23ec44a4ed12eec7ff467, type: 2}
-    level: 5
-  - moveBase: {fileID: 11400000, guid: 9f554fef45c23ec44a4ed12eec7ff467, type: 2}
-    level: 5
+    level: 10
+  - moveBase: {fileID: 11400000, guid: d7201c2b4f227eb4ab6bd1408ae5f50b, type: 2}
+    level: 40
+  - moveBase: {fileID: 11400000, guid: 8ee47df529a17574cbe728d219a6d2bf, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 7873b2cfb5b426f4e9ab9fe05e6b08ba, type: 2}
+    level: 50
   learnableByItems: []
-  evolutions:
-  - evolveInto: {fileID: 11400000, guid: 5dbff6c054ba46242a554e71b126ebc6, type: 2}
-    requiredLevel: 0
-    requiredItem: {fileID: 11400000, guid: 924becdb7c2e3554c981c91b75bf215e, type: 2}
-  - evolveInto: {fileID: 11400000, guid: b05ff0bb9fa36a84c9ef9d763a30512f, type: 2}
-    requiredLevel: 0
-    requiredItem: {fileID: 11400000, guid: d6d0f6a2f63008e4db9c2049ce2c16b9, type: 2}
-  - evolveInto: {fileID: 11400000, guid: f8b500c88f373bd46aac2f33ab523959, type: 2}
-    requiredLevel: 0
-    requiredItem: {fileID: 11400000, guid: 40379601959249e4f9d4fdd561d7312b, type: 2}
-  - evolveInto: {fileID: 11400000, guid: 5dbff6c054ba46242a554e71b126ebc6, type: 2}
-    requiredLevel: 0
-    requiredItem: {fileID: 11400000, guid: 924becdb7c2e3554c981c91b75bf215e, type: 2}
+  evolutions: []
   instance: {fileID: 11400000}
   creatureSize: {x: 1.5, y: 1.5}
   isDefeted: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Trapjaw Ant
   m_EditorClassIdentifier: 
   name: Formiblade
-  ID: 0
+  ID: 18
   description: 
   leftSprite: {fileID: -143811245, guid: 83030c5510b3e124ea66cd6c45a98b87, type: 3}
   rightSprite: {fileID: 883103538, guid: 83030c5510b3e124ea66cd6c45a98b87, type: 3}
@@ -30,14 +30,14 @@ MonoBehaviour:
   learnableMoves:
   - moveBase: {fileID: 11400000, guid: 22d6196b7a2f11b4e91f55e8a6ae651d, type: 2}
     level: 0
-  - moveBase: {fileID: 11400000, guid: bfc6f0e265e9ddb4492a23890153d31b, type: 2}
-    level: 0
+  - moveBase: {fileID: 11400000, guid: 528fdd268683a8a44bf57868debac2d0, type: 2}
+    level: 10
   - moveBase: {fileID: 11400000, guid: 9f554fef45c23ec44a4ed12eec7ff467, type: 2}
-    level: 0
+    level: 25
+  - moveBase: {fileID: 11400000, guid: bfc6f0e265e9ddb4492a23890153d31b, type: 2}
+    level: 40
   - moveBase: {fileID: 11400000, guid: be2d0f10dd4ee2648b625dc097df2853, type: 2}
-    level: 0
-  - moveBase: {fileID: 11400000, guid: 67613a0bf82eaf648bd88089a8324913, type: 2}
-    level: 0
+    level: 50
   learnableByItems: []
   evolutions: []
   instance: {fileID: 11400000}

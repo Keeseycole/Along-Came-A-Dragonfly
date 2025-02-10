@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
   m_Name: Earth Moth
   m_EditorClassIdentifier: 
-  name: Motonoto
-  ID: 0
+  name: Lepiterra
+  ID: 22
   description: 
   leftSprite: {fileID: 1561707038, guid: 5c61bfa8c863d2e49b486b44ba263208, type: 3}
   rightSprite: {fileID: -1614233363, guid: 5c61bfa8c863d2e49b486b44ba263208, type: 3}
@@ -30,10 +30,18 @@ MonoBehaviour:
   learnableMoves:
   - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
     level: 0
+  - moveBase: {fileID: 11400000, guid: 67613a0bf82eaf648bd88089a8324913, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 9fa2a3dc6feb8ce46888a03dd5994a07, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 5cf1eadb25f8e674b87a84397502705b, type: 2}
+    level: 35
+  - moveBase: {fileID: 11400000, guid: be2d0f10dd4ee2648b625dc097df2853, type: 2}
+    level: 50
   learnableByItems: []
   evolutions: []
   instance: {fileID: 11400000}
-  creatureSize: {x: 0, y: 0}
+  creatureSize: {x: 1.5, y: 1.5}
   isDefeted: 0
   isEarth: 1
   isFire: 0

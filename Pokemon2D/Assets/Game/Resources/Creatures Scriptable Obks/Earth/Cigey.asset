@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
   m_Name: Cigey
   m_EditorClassIdentifier: 
-  name: 
+  name: Spaigia
   ID: 10
   description: 
   leftSprite: {fileID: -253338261, guid: ecc0cd879b5503d4e9504cb8a73f8e13, type: 3}
@@ -30,6 +30,14 @@ MonoBehaviour:
   learnableMoves:
   - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
     level: 0
+  - moveBase: {fileID: 11400000, guid: fcf1c9a631819514eb4bd098711753b2, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: d94fb015d141a4f4f880afa802d28076, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: be2d0f10dd4ee2648b625dc097df2853, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 528fdd268683a8a44bf57868debac2d0, type: 2}
+    level: 50
   learnableByItems: []
   evolutions: []
   instance: {fileID: 11400000}

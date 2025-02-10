@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tnephres
   m_EditorClassIdentifier: 
   name: Tnephres
-  ID: 0
+  ID: 15
   description: 
   leftSprite: {fileID: 927408835, guid: a5a21fe1b3def11439b64af3c0b06f25, type: 3}
   rightSprite: {fileID: 573632909, guid: a5a21fe1b3def11439b64af3c0b06f25, type: 3}
@@ -30,6 +30,14 @@ MonoBehaviour:
   learnableMoves:
   - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
     level: 0
+  - moveBase: {fileID: 11400000, guid: fcf1c9a631819514eb4bd098711753b2, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: be2d0f10dd4ee2648b625dc097df2853, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 60e43abdc5103114ba8c68e28b5d9753, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 7ccf71e359abc9346be019dd31dad24d, type: 2}
+    level: 40
   learnableByItems: []
   evolutions: []
   instance: {fileID: 11400000}

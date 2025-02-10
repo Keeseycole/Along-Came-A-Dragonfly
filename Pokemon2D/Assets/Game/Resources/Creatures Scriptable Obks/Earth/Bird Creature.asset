@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
   m_Name: Bird Creature
   m_EditorClassIdentifier: 
-  name: 
-  ID: 0
+  name: Avedrill
+  ID: 1
   description: 
   leftSprite: {fileID: 628338621, guid: cdc9bbf525171f44b8180f338ad3b892, type: 3}
   rightSprite: {fileID: 1985055565, guid: cdc9bbf525171f44b8180f338ad3b892, type: 3}
@@ -27,9 +27,18 @@ MonoBehaviour:
   expGain: 100
   growthRate: 0
   catchRate: 255
-  learnableMoves: []
-  learnableByItems:
-  - {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 22d6196b7a2f11b4e91f55e8a6ae651d, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 9fa2a3dc6feb8ce46888a03dd5994a07, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 67613a0bf82eaf648bd88089a8324913, type: 2}
+    level: 25
+  - moveBase: {fileID: 11400000, guid: 9f554fef45c23ec44a4ed12eec7ff467, type: 2}
+    level: 40
+  learnableByItems: []
   evolutions: []
   instance: {fileID: 11400000}
   creatureSize: {x: 1.5, y: 1.5}

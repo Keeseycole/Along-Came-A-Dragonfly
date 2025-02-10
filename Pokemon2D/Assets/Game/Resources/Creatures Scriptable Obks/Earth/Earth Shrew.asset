@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6ed3a8a2404674f9a38f2a818aa0e0, type: 3}
   m_Name: Earth Shrew
   m_EditorClassIdentifier: 
-  name: 
-  ID: 0
+  name: Soriterra
+  ID: 21
   description: 
-  leftSprite: {fileID: -1666152926, guid: dba7c580301cea048bf9c2df5f91ff36, type: 3}
-  rightSprite: {fileID: -399164627, guid: dba7c580301cea048bf9c2df5f91ff36, type: 3}
+  leftSprite: {fileID: -399164627, guid: dba7c580301cea048bf9c2df5f91ff36, type: 3}
+  rightSprite: {fileID: -1666152926, guid: dba7c580301cea048bf9c2df5f91ff36, type: 3}
   type1: 5
   creatureHabitates: 2
   attack: 20
@@ -30,10 +30,18 @@ MonoBehaviour:
   learnableMoves:
   - moveBase: {fileID: 11400000, guid: 1833ccb57ad40fe44b82e6443db36d73, type: 2}
     level: 0
+  - moveBase: {fileID: 11400000, guid: fcf1c9a631819514eb4bd098711753b2, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: bfc6f0e265e9ddb4492a23890153d31b, type: 2}
+    level: 20
+  - moveBase: {fileID: 11400000, guid: 22d6196b7a2f11b4e91f55e8a6ae651d, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: 7873b2cfb5b426f4e9ab9fe05e6b08ba, type: 2}
+    level: 50
   learnableByItems: []
   evolutions: []
   instance: {fileID: 11400000}
-  creatureSize: {x: 0, y: 0}
+  creatureSize: {x: 1.3, y: 1.3}
   isDefeted: 0
   isEarth: 1
   isFire: 0

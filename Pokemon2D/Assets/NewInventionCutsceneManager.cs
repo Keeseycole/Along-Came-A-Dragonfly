@@ -20,6 +20,8 @@ public class NewInventionCutsceneManager : TRiggerableEvent
 
     public GameObject buddy;
 
+    public GameObject forestBlocker;
+
 
 
 
@@ -91,6 +93,8 @@ public class NewInventionCutsceneManager : TRiggerableEvent
 
         yield return fader.FadeOut(2f);
         thePlayer.blocker.SetActive(false);
+
+        forestBlocker.SetActive(false);
 
         this.gameObject.SetActive(false);
     }

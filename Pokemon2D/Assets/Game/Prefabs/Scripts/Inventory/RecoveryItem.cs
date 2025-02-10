@@ -79,17 +79,17 @@ public class RecoveryItem : ItemBase
         }
 
         // restoreMP
-        if(restoreMaxMP)
+        if (restoreMaxMP || mpAmount > 0)
         {
-            creature.IncreaseMP(mpAmount);
+            if (creature.MP == creature.MaxMP)
+                return false;
+
+            if (restoreMaxMP)
+                creature.IncreaseHP(creature.MaxMP);
+            else
+                creature.IncreaseHP(mpAmount);
         }
-        else
-        {
-            if(mpAmount > 0)
-            {
-                creature.IncreaseMP(mpAmount);
-            }
-        }
+
 
         return true;
     }
